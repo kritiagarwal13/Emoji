@@ -3,7 +3,7 @@
 This is an application for Emoji meanings. It contains all the emojis and there meanings for better use. 
 
 
-**Thought behind the app**
+## Thought behind the app
 
 
 One fine day I was texting with my mum, she is relatively new to social media world. She kept using '😂' while we were talking about something sensitive. I realised it and told her what it actually means. 
