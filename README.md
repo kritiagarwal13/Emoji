@@ -2,7 +2,10 @@
 
 This is an application for Emoji meanings. It contains all the emojis and there meanings for better use. 
 
+
 **Thought behind the app**
+
+
 One fine day I was texting with my mum, she is relatively new to social media world. She kept using '😂' while we were talking about something sensitive. I realised it and told her what it actually means. 
 This gave me an idea about how many people, especially elders are not fully aware about the emojis and are excited to learn and try it out. This app aims to educate people about what each emoji stands for and also help one to not make a fool out of themselves. 
 
