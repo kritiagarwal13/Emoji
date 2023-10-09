@@ -35,7 +35,7 @@ class HomeViewController: UIViewController {
 
 //MARK: - Extensions
 extension HomeViewController: UICollectionViewDelegate {
-    
+    //
     
     
 }
