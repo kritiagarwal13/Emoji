@@ -13,6 +13,9 @@
 		D60DF0EF2ACF23A0007EC803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DF0ED2ACF23A0007EC803 /* Main.storyboard */; };
 		D60DF0F12ACF23A0007EC803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60DF0F02ACF23A0007EC803 /* Assets.xcassets */; };
 		D60DF0F42ACF23A0007EC803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DF0F22ACF23A0007EC803 /* LaunchScreen.storyboard */; };
+		D61418392AD566180001BFB1 /* EmojiDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61418382AD566180001BFB1 /* EmojiDataModel.swift */; };
+		D614183B2AD56F000001BFB1 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D614183A2AD56F000001BFB1 /* ErrorResponse.swift */; };
+		D614183E2AD576E30001BFB1 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D614183D2AD576E30001BFB1 /* CategoryCollectionViewCell.swift */; };
 		D61E78D62AD365E3002A6B2C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E78D52AD365E3002A6B2C /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		D60DF0F02ACF23A0007EC803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D60DF0F32ACF23A0007EC803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D60DF0F52ACF23A0007EC803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61418382AD566180001BFB1 /* EmojiDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDataModel.swift; sourceTree = "<group>"; };
+		D614183A2AD56F000001BFB1 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		D614183D2AD576E30001BFB1 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		D61E78D52AD365E3002A6B2C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,18 +66,32 @@
 			children = (
 				D60DF0E72ACF23A0007EC803 /* AppDelegate.swift */,
 				D60DF0E92ACF23A0007EC803 /* SceneDelegate.swift */,
+				D614183C2AD576C00001BFB1 /* View */,
+				D61418372AD5660A0001BFB1 /* Model */,
 				D61E78C72AD21092002A6B2C /* Network */,
-				D61E78C42AD21050002A6B2C /* Model */,
-				D61E78C52AD21059002A6B2C /* View */,
-				D61E78C62AD2105E002A6B2C /* View Model */,
 				D61E78C32AD21030002A6B2C /* Controller */,
-				D61E78C82AD2109A002A6B2C /* Resources */,
 				D60DF0ED2ACF23A0007EC803 /* Main.storyboard */,
 				D60DF0F02ACF23A0007EC803 /* Assets.xcassets */,
 				D60DF0F22ACF23A0007EC803 /* LaunchScreen.storyboard */,
 				D60DF0F52ACF23A0007EC803 /* Info.plist */,
 			);
 			path = "Emoji Meaning";
+			sourceTree = "<group>";
+		};
+		D61418372AD5660A0001BFB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D61418382AD566180001BFB1 /* EmojiDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D614183C2AD576C00001BFB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D614183D2AD576E30001BFB1 /* CategoryCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D61E78C32AD21030002A6B2C /* Controller */ = {
@@ -83,39 +103,12 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D61E78C42AD21050002A6B2C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D61E78C52AD21059002A6B2C /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D61E78C62AD2105E002A6B2C /* View Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View Model";
-			sourceTree = "<group>";
-		};
 		D61E78C72AD21092002A6B2C /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				D614183A2AD56F000001BFB1 /* ErrorResponse.swift */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		D61E78C82AD2109A002A6B2C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +185,10 @@
 				D60DF0EC2ACF23A0007EC803 /* HomeViewController.swift in Sources */,
 				D60DF0E82ACF23A0007EC803 /* AppDelegate.swift in Sources */,
 				D61E78D62AD365E3002A6B2C /* SearchViewController.swift in Sources */,
+				D614183B2AD56F000001BFB1 /* ErrorResponse.swift in Sources */,
 				D60DF0EA2ACF23A0007EC803 /* SceneDelegate.swift in Sources */,
+				D614183E2AD576E30001BFB1 /* CategoryCollectionViewCell.swift in Sources */,
+				D61418392AD566180001BFB1 /* EmojiDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
