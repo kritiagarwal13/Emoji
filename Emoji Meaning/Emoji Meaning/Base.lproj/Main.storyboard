@@ -51,9 +51,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="145" height="168"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mg0-dk-ceY">
-                                                    <rect key="frame" x="48.666666666666657" y="72" width="48" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mg0-dk-ceY">
+                                                    <rect key="frame" x="44.333333333333343" y="70.333333333333329" width="56.666666666666657" height="27.666666666666671"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -63,7 +63,7 @@
                                                 <constraint firstItem="mg0-dk-ceY" firstAttribute="centerX" secondItem="bfe-B4-4zU" secondAttribute="centerX" id="xoU-q9-qBO"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" red="0.99697238210000005" green="0.89014559950000005" blue="0.4923015543" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.99697238210000005" green="0.89014559950000005" blue="0.4923015543" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                                         <size key="customSize" width="145" height="168"/>
                                         <connections>
                                             <outlet property="lblTitle" destination="mg0-dk-ceY" id="vUi-AJ-uXF"/>

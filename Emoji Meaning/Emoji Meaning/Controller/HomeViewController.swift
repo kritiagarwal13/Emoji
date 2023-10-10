@@ -15,6 +15,7 @@ class HomeViewController: UIViewController {
     
     //MARK: - Properties
     var categoryData: [CategoryDataModel]?
+    var emojiData: [EmojiDataModel]?
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -43,7 +44,37 @@ class HomeViewController: UIViewController {
     
     //MARK: - @IBActions
     @IBAction func segmentControlDidTap(_ sender: UISegmentedControl) {
-        
+        if sender.selectedSegmentIndex == 0 {
+            Task {
+                do {
+                    self.categoryData = try await getCategories()
+                } catch GHError.invalidURL{
+                    print("invalidURL")
+                } catch GHError.invalidData{
+                    print("invalidData")
+                } catch GHError.invalidResponse{
+                    print("invalidResponse")
+                } catch {
+                    print("unexpected error")
+                }
+                self.collectionView.reloadData()
+            }
+        } else {
+            Task {
+                do {
+                    self.emojiData = try await getEmojis()
+                } catch GHError.invalidURL{
+                    print("invalidURL")
+                } catch GHError.invalidData{
+                    print("invalidData")
+                } catch GHError.invalidResponse{
+                    print("invalidResponse")
+                } catch {
+                    print("unexpected error")
+                }
+                self.collectionView.reloadData()
+            }
+        }
     }
     
     
@@ -66,18 +97,45 @@ class HomeViewController: UIViewController {
             throw GHError.invalidData
         }
     }
+    
+    func getEmojis() async throws -> [EmojiDataModel] {
+        let endpoint = "https://emoji-api.com/emojis?access_key=3abee5a084b4391501f4ee86b7e9f2de2383f2a2"
+        guard let url = URL(string: endpoint) else {
+            throw GHError.invalidURL
+        }
+        let (data, response) = try await URLSession.shared.data(from:url)
+        guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+            throw GHError.invalidResponse
+        }
+        
+        do{
+            let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
+            return try decoder.decode([EmojiDataModel].self, from: data)
+        } catch {
+            throw GHError.invalidData
+        }
+    }
 }
 
 //MARK: - Extensions
 
 extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.categoryData?.count ?? 1
+        if self.segmentControl.selectedSegmentIndex == 0 {
+            return self.categoryData?.count ?? 1
+        } else {
+            return self.emojiData?.count ?? 1
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoryCollectionViewCell", for: indexPath) as! CategoryCollectionViewCell
-        cell.configCellData(titleString: self.categoryData?[indexPath.row].slug ?? "")
+        if self.segmentControl.selectedSegmentIndex == 0 {
+            cell.configCellData(titleString: self.categoryData?[indexPath.row].slug ?? "", fontHeight: CGFloat(18))
+        } else {
+            cell.configCellData(titleString: self.emojiData?[indexPath.row].character ?? "", fontHeight: CGFloat(100))
+        }
         return cell
     }
     
