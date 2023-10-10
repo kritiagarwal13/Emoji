@@ -17,7 +17,7 @@ class CategoryCollectionViewCell: UICollectionViewCell {
     }
     
     func configCellData(titleString: String, fontHeight: CGFloat) {
-        self.lblTitle.font = UIFont.systemFont(ofSize: fontHeight)
+        self.lblTitle.font = UIFont.boldSystemFont(ofSize: fontHeight)
         self.lblTitle.text = titleString
     }
 }
