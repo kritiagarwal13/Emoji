@@ -17,6 +17,7 @@ class HomeViewController: UIViewController {
     var categoryData: [CategoryDataModel]?
     var emojiData: [EmojiDataModel]?
     var apiService = APIService()
+    private var viewModel : HomeViewModel!
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -24,7 +25,7 @@ class HomeViewController: UIViewController {
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         self.collectionView.collectionViewLayout = UICollectionViewFlowLayout()
-
+        
         // API Call
         getCategories()
         
@@ -41,6 +42,7 @@ class HomeViewController: UIViewController {
     
     
     //MARK: - Extra Methods
+    
     func getCategories() {
         self.apiService.apiToGetCategoriesData { dataSet in
             self.categoryData = dataSet
