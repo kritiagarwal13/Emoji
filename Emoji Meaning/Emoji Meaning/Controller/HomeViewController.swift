@@ -16,6 +16,7 @@ class HomeViewController: UIViewController {
     //MARK: - Properties
     var categoryData: [CategoryDataModel]?
     var emojiData: [EmojiDataModel]?
+    var apiService = APIService()
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -23,97 +24,38 @@ class HomeViewController: UIViewController {
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         self.collectionView.collectionViewLayout = UICollectionViewFlowLayout()
-        
+
         // API Call
-        Task {
-            do {
-                self.categoryData = try await getCategories()
-            } catch GHError.invalidURL{
-                print("invalidURL")
-            } catch GHError.invalidData{
-                print("invalidData")
-            } catch GHError.invalidResponse{
-                print("invalidResponse")
-            } catch {
-                print("unexpected error")
-            }
-            self.collectionView.reloadData()
-        }
+        getCategories()
         
     }
     
     //MARK: - @IBActions
     @IBAction func segmentControlDidTap(_ sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
-            Task {
-                do {
-                    self.categoryData = try await getCategories()
-                } catch GHError.invalidURL{
-                    print("invalidURL")
-                } catch GHError.invalidData{
-                    print("invalidData")
-                } catch GHError.invalidResponse{
-                    print("invalidResponse")
-                } catch {
-                    print("unexpected error")
-                }
-                self.collectionView.reloadData()
-            }
+            getCategories()
         } else {
-            Task {
-                do {
-                    self.emojiData = try await getEmojis()
-                } catch GHError.invalidURL{
-                    print("invalidURL")
-                } catch GHError.invalidData{
-                    print("invalidData")
-                } catch GHError.invalidResponse{
-                    print("invalidResponse")
-                } catch {
-                    print("unexpected error")
-                }
-                self.collectionView.reloadData()
-            }
+            getEmojis()
         }
     }
     
     
     //MARK: - Extra Methods
-    func getCategories() async throws -> [CategoryDataModel] {
-        let endpoint = "https://emoji-api.com/categories?access_key=3abee5a084b4391501f4ee86b7e9f2de2383f2a2"
-        guard let url = URL(string: endpoint) else {
-            throw GHError.invalidURL
-        }
-        let (data, response) = try await URLSession.shared.data(from:url)
-        guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
-            throw GHError.invalidResponse
-        }
-        
-        do{
-            let decoder = JSONDecoder()
-            decoder.keyDecodingStrategy = .convertFromSnakeCase
-            return try decoder.decode([CategoryDataModel].self, from: data)
-        } catch {
-            throw GHError.invalidData
+    func getCategories() {
+        self.apiService.apiToGetCategoriesData { dataSet in
+            self.categoryData = dataSet
+            DispatchQueue.main.async {
+                self.collectionView.reloadData()
+            }
         }
     }
     
-    func getEmojis() async throws -> [EmojiDataModel] {
-        let endpoint = "https://emoji-api.com/emojis?access_key=3abee5a084b4391501f4ee86b7e9f2de2383f2a2"
-        guard let url = URL(string: endpoint) else {
-            throw GHError.invalidURL
-        }
-        let (data, response) = try await URLSession.shared.data(from:url)
-        guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
-            throw GHError.invalidResponse
-        }
-        
-        do{
-            let decoder = JSONDecoder()
-            decoder.keyDecodingStrategy = .convertFromSnakeCase
-            return try decoder.decode([EmojiDataModel].self, from: data)
-        } catch {
-            throw GHError.invalidData
+    func getEmojis() {
+        self.apiService.apiToGetEmojiData { dataSet in
+            self.emojiData = dataSet
+            DispatchQueue.main.async {
+                self.collectionView.reloadData()
+            }
         }
     }
 }
