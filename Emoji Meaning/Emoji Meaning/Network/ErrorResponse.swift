@@ -24,3 +24,7 @@ enum UrlEndpoint: String {
     case emojis = "/emojis"
     case categories = "/categories"
 }
+
+struct NetworkResponse<Wrapped: Decodable>: Decodable {
+    var result: Wrapped
+}

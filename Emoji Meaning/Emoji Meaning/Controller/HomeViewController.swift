@@ -17,7 +17,6 @@ class HomeViewController: UIViewController {
     var categoryData: [CategoryDataModel]?
     var emojiData: [EmojiDataModel]?
     var apiService = APIService()
-    private var viewModel : HomeViewModel!
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
