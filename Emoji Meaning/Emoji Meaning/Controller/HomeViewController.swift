@@ -37,27 +37,45 @@ class HomeViewController: UIViewController {
         } else {
             getEmojis()
         }
+        self.collectionView.reloadData()
     }
     
     
     //MARK: - Extra Methods
     
     func getCategories() {
-        self.apiService.apiToGetCategoriesData { dataSet in
-            self.categoryData = dataSet
-            DispatchQueue.main.async {
-                self.collectionView.reloadData()
+        let urlString = NetworkParams.path.rawValue + UrlEndpoint.categories.rawValue + apiService.privateAccessKey
+        self.apiService.fetchData(for: [CategoryDataModel].self, from: URL(string: urlString)!) { result in
+            switch result {
+            case .success(let categoryData):
+                // Handle emojiData
+                self.categoryData = categoryData
+                DispatchQueue.main.async {
+                    self.collectionView.reloadData()
+                }
+            case .failure(let error):
+                // Handle error
+                print(error.localizedDescription)
             }
         }
     }
     
     func getEmojis() {
-        self.apiService.apiToGetEmojiData { dataSet in
-            self.emojiData = dataSet
-            DispatchQueue.main.async {
-                self.collectionView.reloadData()
+        let urlString = NetworkParams.path.rawValue + UrlEndpoint.emojis.rawValue + apiService.privateAccessKey
+        self.apiService.fetchData(for: [EmojiDataModel].self, from: URL(string: urlString)!) { result in
+            switch result {
+            case .success(let emojiData):
+                // Handle emojiData
+                self.emojiData = emojiData
+                DispatchQueue.main.async {
+                    self.collectionView.reloadData()
+                }
+            case .failure(let error):
+                // Handle error
+                print(error.localizedDescription)
             }
         }
+        
     }
 }
 

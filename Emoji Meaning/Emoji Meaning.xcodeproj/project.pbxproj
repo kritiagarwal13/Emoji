@@ -18,6 +18,7 @@
 		D614183E2AD576E30001BFB1 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D614183D2AD576E30001BFB1 /* CategoryCollectionViewCell.swift */; };
 		D61418432AD5ECE00001BFB1 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61418422AD5ECE00001BFB1 /* ApiService.swift */; };
 		D61E78D62AD365E3002A6B2C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E78D52AD365E3002A6B2C /* SearchViewController.swift */; };
+		D646D7F02AD8AEF1003E26B0 /* NetworkParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646D7EF2AD8AEF1003E26B0 /* NetworkParams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D614183D2AD576E30001BFB1 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		D61418422AD5ECE00001BFB1 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		D61E78D52AD365E3002A6B2C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D646D7EF2AD8AEF1003E26B0 /* NetworkParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				D61418422AD5ECE00001BFB1 /* ApiService.swift */,
 				D614183A2AD56F000001BFB1 /* ErrorResponse.swift */,
+				D646D7EF2AD8AEF1003E26B0 /* NetworkParams.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				D60DF0EA2ACF23A0007EC803 /* SceneDelegate.swift in Sources */,
 				D614183E2AD576E30001BFB1 /* CategoryCollectionViewCell.swift in Sources */,
 				D61418392AD566180001BFB1 /* EmojiDataModel.swift in Sources */,
+				D646D7F02AD8AEF1003E26B0 /* NetworkParams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

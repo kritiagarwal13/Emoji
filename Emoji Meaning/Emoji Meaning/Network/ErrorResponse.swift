@@ -12,19 +12,3 @@ enum GHError: Error {
     case invalidResponse
     case invalidData
 }
-
-enum HttpMethod: String {
-    case get
-    case post
-    
-    var method: String { rawValue.uppercased() }
-}
-
-enum UrlEndpoint: String {
-    case emojis = "/emojis"
-    case categories = "/categories"
-}
-
-struct NetworkResponse<Wrapped: Decodable>: Decodable {
-    var result: Wrapped
-}
