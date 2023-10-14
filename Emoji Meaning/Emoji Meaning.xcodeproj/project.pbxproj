@@ -35,8 +35,15 @@
 		D614183D2AD576E30001BFB1 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		D61418422AD5ECE00001BFB1 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		D61E78D52AD365E3002A6B2C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		D626F5932ADADD49004D897F /* Dataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Dataset.json; sourceTree = "<group>"; };
+		D626F5932ADADD49004D897F /* Smiley-and-PeopleDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Smiley-and-PeopleDataset.json"; sourceTree = "<group>"; };
 		D646D7EF2AD8AEF1003E26B0 /* NetworkParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParams.swift; sourceTree = "<group>"; };
+		D65A0A6A2ADB41AE002C309C /* Animal-and-NatureDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animal-and-NatureDataset.json"; sourceTree = "<group>"; };
+		D65A0A6B2ADB41E3002C309C /* Food-and-DrinkDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Food-and-DrinkDataset.json"; sourceTree = "<group>"; };
+		D65A0A6C2ADB41F1002C309C /* ActivityDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ActivityDataset.json; sourceTree = "<group>"; };
+		D65A0A6D2ADB421E002C309C /* Travel-and-PlacesDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Travel-and-PlacesDataset.json"; sourceTree = "<group>"; };
+		D65A0A6E2ADB422C002C309C /* ObjectsDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ObjectsDataset.json; sourceTree = "<group>"; };
+		D65A0A6F2ADB423F002C309C /* SymbolsDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SymbolsDataset.json; sourceTree = "<group>"; };
+		D65A0A702ADB424C002C309C /* FlagsDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FlagsDataset.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +129,14 @@
 		D626F5902ADADBE9004D897F /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				D626F5932ADADD49004D897F /* Dataset.json */,
+				D626F5932ADADD49004D897F /* Smiley-and-PeopleDataset.json */,
+				D65A0A6A2ADB41AE002C309C /* Animal-and-NatureDataset.json */,
+				D65A0A6B2ADB41E3002C309C /* Food-and-DrinkDataset.json */,
+				D65A0A6C2ADB41F1002C309C /* ActivityDataset.json */,
+				D65A0A6D2ADB421E002C309C /* Travel-and-PlacesDataset.json */,
+				D65A0A6E2ADB422C002C309C /* ObjectsDataset.json */,
+				D65A0A6F2ADB423F002C309C /* SymbolsDataset.json */,
+				D65A0A702ADB424C002C309C /* FlagsDataset.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
