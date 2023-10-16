@@ -239,7 +239,7 @@
                     "example": "Sending a friendly wink to someone. 😉😄"
                 }
             ]
-        }
+        },
         {
             "emoji": "😌",
             "name": "Relieved Face",
@@ -599,7 +599,7 @@
                     "example": "Sharing concerns with friends. 😟😥"
                 }
             ]
-        }
+        },
         {
             "emoji": "😕",
             "name": "Confused Face",
@@ -959,7 +959,7 @@
                     "example": "Expressing stress or discomfort. 😓😥"
                 }
             ]
-        }
+        },
         {
             "emoji": "🤗",
             "name": "Hugging Face",
@@ -1439,7 +1439,7 @@
                     "example": "Expressing nausea or discomfort. 🤢😷"
                 }
             ]
-        }
+        },
         {
             "emoji": "🤮",
             "name": "Face Vomiting",
@@ -1859,7 +1859,7 @@
                     "example": "Expressing love or affection with a heart gesture. 🫶❤️"
                 }
             ]
-        }
+        },
         {
             "emoji": "🫶🏻",
             "name": "Heart Hands (Light Skin Tone)",
@@ -3029,8 +3029,7 @@
                     "example": "Requesting a break with a raised hand 🫸🏿⏸"
                 }
             ]
-        }
-        }
+        },
         {
             "emoji":"🤞",
             "name": "Crossed Fingers",
@@ -3480,8 +3479,7 @@
                     "example": "Rocking out with a dark-hearted attitude 🤘🏿🤟🏿🤘🏿🎸"
                 }
             ]
-        }
-        }
+        },
         {
             "emoji": "👌",
             "name": "OK Hand",
@@ -4921,7 +4919,7 @@
                     "example": "Inviting friends to connect with the call me hand emoji and dark skin tone 🤙🏿🤙🏿"
                 }
             ]
-        }
+        },
         {
             "emoji":"🫲",
             "name": "Feather",
@@ -5671,7 +5669,7 @@
                     "example": "Promoting inclusivity and accessibility for people with mobility challenges. 🦿♿"
                 }
             ]
-        }
+        },
         {
             "emoji":"💄",
             "name": "Lipstick",
@@ -6181,7 +6179,7 @@
                     "example": "Offering comfort and solace through a virtual hug. 🫂❤️"
                 }
             ]
-        }
+        },
         {
             "emoji": "👶",
             "name": "Baby",
@@ -7081,8 +7079,7 @@
                     "example": "Expressing pride in having curly hair with dark skin tone as an adult man. 🦱🏿❤️"
                 }
             ]
-        }
-        }
+        },
         
         {
             "emoji": "👩‍🦰",
@@ -8523,7 +8520,7 @@
                     "example": "Expressing pride in having white or gray hair with dark skin tone as an adult woman. 👩🏿👩‍🦳❤️"
                 }
             ]
-        }
+        },
         {
             "emoji":"🧔‍♀️",
             "name": "Woman: Beard",
@@ -9249,8 +9246,7 @@
                     "example": "Celebrating the dedication and service of male police officers with dark skin tone. Your work is invaluable! 👮🏿🏆👮‍♀️"
                 }
             ]
-        }
-        
+        },
         {
             "emoji": "👮",
             "name": "Man Police Officer",
@@ -9691,15 +9687,17 @@
                 }
             ]
         },
-        "👩‍🌾": {
-            "name": "Woman Farmer",
-            "meaning": "A female farmer, symbolizing agriculture, farming, and female representation in farming roles.",
-            "usage": [
-                {
-                    "context": "Agriculture",
-                    "example": "Celebrating the hard work of female farmers who contribute to our food supply. 🚜🌾👩‍🌾🍎"
-                }
-            ]
+        {
+            "emoji":"👩‍🌾": {
+                "name": "Woman Farmer",
+                "meaning": "A female farmer, symbolizing agriculture, farming, and female representation in farming roles.",
+                "usage": [
+                    {
+                        "context": "Agriculture",
+                        "example": "Celebrating the hard work of female farmers who contribute to our food supply. 🚜🌾👩‍🌾🍎"
+                    }
+                ]
+            }
         },
         {
             "emoji":"🧑‍🌾",
