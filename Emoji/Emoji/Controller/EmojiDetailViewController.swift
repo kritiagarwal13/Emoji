@@ -28,28 +28,22 @@ class EmojiDetailViewController: UIViewController {
     //MARK: - Extra Methods
     
     func getEmojis() {
-        let fileName = "Data/ActivityDataset"
-
-        if let path = Bundle.main.path(forResource: fileName, ofType: "json") {
+        if let fileURL = Bundle.main.url(forResource: "ActivityDataset", withExtension: "json") {
             do {
-                // Read the JSON file as Data
-                let data = try Data(contentsOf: URL(fileURLWithPath: path))
-
-                // Parse the JSON data
-                if let jsonArray = try JSONSerialization.jsonObject(with: data, options: []) as? [[String: Any]] {
-                    // You now have an array of dictionaries (JSON objects)
-                    for item in jsonArray {
-                        // Access data from each JSON object
-                        if let value = item["key"] as? String {
-                            print("Value from JSON: \(value)")
-                        }
-                    }
+                let data = try Data(contentsOf: fileURL)
+                let decoder = JSONDecoder()
+                do {
+                    let jsonData = try JSONSerialization.data(withJSONObject: mockJSON, options: .prettyPrinted)
+                    let jsonString = String(data: jsonData, encoding: .utf8)
+                    print(jsonString ?? "Could not convert to JSON string")
+                } catch {
+                    print("Error converting to JSON: \(error)")
                 }
             } catch {
-                print("Error reading or parsing the JSON file: \(error)")
+                print("error")
             }
         } else {
-            print("did not find the file")
+            print("JSON file not found")
         }
     }
 

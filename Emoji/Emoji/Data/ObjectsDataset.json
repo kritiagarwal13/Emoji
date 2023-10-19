@@ -1,2336 +1,2336 @@
 {
-    "objects_emojis": [
-        {
-            "emoji": "⌚️",
-            "name": "Watch",
-            "meaning": "A wristwatch, symbolizing timekeeping, scheduling, and being punctual.",
-            "usage": [
-                {
-                    "context": "Time Management",
-                    "example": "Setting a reminder on your watch to stay organized and on time. ⌚️📆⏰"
-                }
-            ]
-        },
-        {
-            "emoji": "📱",
-            "name": "Mobile Phone",
-            "meaning": "A mobile phone, symbolizing communication, calls, and modern technology.",
-            "usage": [
-                {
-                    "context": "Phone Call",
-                    "example": "Having a meaningful conversation with a friend over the phone. 📱📞🗣️"
-                }
-            ]
-        },
-        {
-            "emoji": "📲",
-            "name": "Mobile Phone with Arrow",
-            "meaning": "A mobile phone with an arrow pointing to it, symbolizing receiving a phone call or notification.",
-            "usage": [
-                {
-                    "context": "Incoming Call",
-                    "example": "Receiving an important call and being alerted by your phone. 📲📞🔔"
-                }
-            ]
-        },
-        {
-            "emoji": "💻",
-            "name": "Laptop Computer",
-            "meaning": "A laptop computer, symbolizing work, productivity, and online activities.",
-            "usage": [
-                {
-                    "context": "Remote Work",
-                    "example": "Working from your laptop computer to stay connected and productive from anywhere. 💻🏡💼"
-                }
-            ]
-        },
-        {
-            "emoji": "⌨️",
-            "name": "Keyboard",
-            "meaning": "A computer keyboard, symbolizing typing, writing, and text input.",
-            "usage": [
-                {
-                    "context": "Writing",
-                    "example": "Typing a heartfelt message to a loved one on your keyboard. ⌨️❤️📝"
-                }
-            ]
-        },
-        {
-            "emoji": "🖥️",
-            "name": "Desktop Computer",
-            "meaning": "A desktop computer, symbolizing workstations, home office, and computing power.",
-            "usage": [
-                {
-                    "context": "Workstation",
-                    "example": "Creating a comfortable and efficient home office with a desktop computer. 🖥️🏢💼"
-                }
-            ]
-        },
-        {
-            "emoji": "🖨️",
-            "name": "Printer",
-            "meaning": "A printer, symbolizing document printing, hard copies, and paperwork.",
-            "usage": [
-                {
-                    "context": "Printing Documents",
-                    "example": "Using the printer to produce important documents and reports. 🖨️📄📊"
-                }
-            ]
-        },
-        {
-            "emoji": "🖱️",
-            "name": "Computer Mouse",
-            "meaning": "A computer mouse, symbolizing navigation, pointer devices, and digital interaction.",
-            "usage": [
-                {
-                    "context": "Digital Navigation",
-                    "example": "Effortlessly scrolling through web pages and clicking with a computer mouse. 🖱️🖥️👆"
-                }
-            ]
-        },
-        {
-            "emoji": "🖲️",
-            "name": "Trackball",
-            "meaning": "A trackball, symbolizing input devices, alternative controls, and precision."
-            "usage": [
-                {
-                    "context": "Precise Control",
-                    "example": "Using a trackball for precise control in design and gaming. 🖲️🎮🎨"
-                }
-            ]
-        },
-        {
-            "emoji": "🕹️",
-            "name": "Joystick",
-            "meaning": "A joystick, symbolizing gaming, arcade games, and control input."
-            "usage": [
-                {
-                    "context": "Gaming Experience",
-                    "example": "Mastering your gaming skills with a joystick in hand. 🕹️🎮🕹️"
-                }
-            ]
-        },
-        {
-            "emoji": "🗜️",
-            "name": "Compression",
-            "meaning": "A clamp symbol, indicating data compression, file size reduction, and data management."
-            "usage": [
-                {
-                    "context": "Data Compression",
-                    "example": "Using compression techniques to reduce file sizes and optimize data storage. 🗜️💽💾"
-                }
-            ]
-        },
-        {
-            "emoji": "💽",
-            "name": "Floppy Disk",
-            "meaning": "A floppy disk, symbolizing legacy data storage, technology, and data backup."
-            "usage": [
-                {
-                    "context": "Data Backup",
-                    "example": "Creating a backup of important files on a floppy disk for safekeeping. 💽📂🔒"
-                }
-            ]
-        },
-        {
-            "emoji": "💾",
-            "name": "Floppy Diskette",
-            "meaning": "A floppy diskette, symbolizing data storage, save icons, and digital preservation."
-            "usage": [
-                {
-                    "context": "Digital Preservation",
-                    "example": "Using vintage floppy diskettes as symbols of digital nostalgia and history. 💾🕰️📷"
-                }
-            ]
-        },
-        {
-            "emoji": "💿",
-            "name": "Optical Disk",
-            "meaning": "An optical disk, symbolizing CDs, DVDs, and data storage media."
-            "usage": [
-                {
-                    "context": "Media Playback",
-                    "example": "Enjoying music and movies from optical disks for a nostalgic experience. 💿🎵🎥"
-                }
-            ]
-        },
-        {
-            "emoji": "📀",
-            "name": "DVD",
-            "meaning": "A DVD, symbolizing digital video discs, movies, and multimedia content."
-            "usage": [
-                {
-                    "context": "Movie Night",
-                    "example": "Organizing a movie night with friends and enjoying classic films on DVD. 📀🎬🍿"
-                }
-            ]
-        },
-        {
-            "emoji": "📼",
-            "name": "Videocassette",
-            "meaning": "A videocassette, symbolizing VHS tapes, video recording, and retro technology."
-            "usage": [
-                {
-                    "context": "Retro Tech",
-                    "example": "Nostalgically revisiting old family videos stored on videocassettes. 📼📺📹"
-                }
-            ]
-        },
-        {
-            "emoji": "📷",
-            "name": "Camera",
-            "meaning": "A camera, symbolizing photography, snapshots, and capturing moments."
-            "usage": [
-                {
-                    "context": "Photography",
-                    "example": "Taking stunning photos with your camera to preserve memories. 📷📸📷"
-                }
-            ]
-        },
-        {
-            "emoji": "📸",
-            "name": "Camera with Flash",
-            "meaning": "A camera with a flash, symbolizing taking pictures, photography, and documenting moments."
-            "usage": [
-                {
-                    "context": "Photography",
-                    "example": "Capturing beautiful moments with your camera and its flash. 📸🌟📸"
-                }
-            ]
-        },
-        {
-            "emoji": "📹",
-            "name": "Video Camera",
-            "meaning": "A video camera, symbolizing videography, recording, and filmmaking."
-            "usage": [
-                {
-                    "context": "Filmmaking",
-                    "example": "Creating and editing videos with your video camera for artistic expression. 📹🎥🎬"
-                }
-            ]
-        },
-        {
-            "emoji": "🎥",
-            "name": "Movie Camera",
-            "meaning": "A movie camera, symbolizing cinematography, films, and movie production."
-            "usage": [
-                {
-                    "context": "Movie Night",
-                    "example": "Appreciating the art of filmmaking and watching classic movies. 🎥🎬🍿"
-                }
-            ]
-        },
-        {
-            "emoji": "📽️",
-            "name": "Film Projector",
-            "meaning": "A film projector, symbolizing movie screenings, cinema, and film presentations."
-            "usage": [
-                {
-                    "context": "Movie Night",
-                    "example": "Hosting a movie night with friends and projecting films on a big screen. 📽️🎞️🍿"
-                }
-            ]
-        },
-        {
-            "emoji": "🎞️",
-            "name": "Film Frames",
-            "meaning": "Film frames, symbolizing cinema, storytelling, and motion pictures."
-            "usage": [
-                {
-                    "context": "Cinema Lover",
-                    "example": "Admiring the beauty of film frames and their role in storytelling. 🎞️📽️🎬"
-                }
-            ]
-        },
-        {
-            "emoji": "📞",
-            "name": "Telephone Receiver",
-            "meaning": "A telephone receiver, symbolizing phone calls, communication, and conversations."
-            "usage": [
-                {
-                    "context": "Phone Call",
-                    "example": "Having a pleasant conversation with a friend using your telephone. 📞🗣️📞"
-                }
-            ]
-        },
-        {
-            "emoji": "☎️",
-            "name": "Telephone",
-            "meaning": "A classic telephone, symbolizing vintage communication, landlines, and dialing."
-            "usage": [
-                {
-                    "context": "Vintage Tech",
-                    "example": "Exploring vintage telephones and their historical significance. ☎️🕰️📷"
-                }
-            ]
-        },
-        {
-            "emoji": "📟",
-            "name": "Pager",
-            "meaning": "A pager, symbolizing paging, urgent messages, and early mobile communication."
-            "usage": [
-                {
-                    "context": "Retro Tech",
-                    "example": "Nostalgically remembering the days of pagers and instant messages. 📟📱✉️"
-                }
-            ]
-        },
-        {
-            "emoji": "📠",
-            "name": "Fax Machine",
-            "meaning": "A fax machine, symbolizing faxing documents, business communication, and office equipment."
-            "usage": [
-                {
-                    "context": "Business Communication",
-                    "example": "Sending important documents via fax for efficient business communication. 📠📄📈"
-                }
-            ]
-        },
-        {
-            "emoji": "📺",
-            "name": "Television",
-            "meaning": "A television, symbolizing entertainment, TV shows, and screen time."
-            "usage": [
-                {
-                    "context": "TV Time",
-                    "example": "Gathering with family to watch your favorite shows on television. 📺🍿👨‍👩‍👦"
-                }
-            ]
-        },
-        {
-            "emoji": "📻",
-            "name": "Radio",
-            "meaning": "A radio, symbolizing audio broadcasting, music, and news updates."
-            "usage": [
-                {
-                    "context": "Radio Music",
-                    "example": "Tuning in to your favorite radio station to enjoy music and the latest hits. 📻🎵🎙️"
-                }
-            ]
-        },
-        {
-            "emoji": "🎙️",
-            "name": "Studio Microphone",
-            "meaning": "A studio microphone, symbolizing singing, recording, and podcasting."
-            "usage": [
-                {
-                    "context": "Podcast Recording",
-                    "example": "Recording a podcast episode with a high-quality studio microphone. 🎙️🎤🎧"
-                }
-            ]
-        },
-        {
-            "emoji": "🎚️",
-            "name": "Level Slider",
-            "meaning": "A level slider, symbolizing audio mixing, sound adjustments, and volume control."
-            "usage": [
-                {
-                    "context": "Sound Mixing",
-                    "example": "Fine-tuning audio levels for the perfect sound quality using level sliders. 🎚️🎛️🎧"
-                }
-            ]
-        },
-        {
-            "emoji": "🎛️",
-            "name": "Control Knobs",
-            "meaning": "Control knobs, symbolizing sound engineering, audio equipment, and adjustments."
-            "usage": [
-                {
-                    "context": "Sound Engineering",
-                    "example": "Working with control knobs to create the perfect sound mix in the studio. 🎛️🎚️🎧"
-                }
-            ]
-        },
-        {
-            "emoji": "🧭",
-            "name": "Compass",
-            "meaning": "A compass, symbolizing direction, navigation, and finding your way."
-            "usage": [
-                {
-                    "context": "Navigation",
-                    "example": "Using a compass for orienteering and finding your path in the wilderness. 🧭🌲🌄"
-                }
-            ]
-        },
-        {
-            "emoji": "⏱️",
-            "name": "Stopwatch",
-            "meaning": "A stopwatch, symbolizing timing, sports events, and precision measurement."
-            "usage": [
-                {
-                    "context": "Sports Timing",
-                    "example": "Measuring the performance of athletes using a stopwatch at a race. ⏱️🏃‍♂️🥇"
-                }
-            ]
-        },
-        {
-            "emoji": "⏲️",
-            "name": "Timer Clock",
-            "meaning": "A timer clock, symbolizing countdowns, alarms, and tracking time intervals."
-            "usage": [
-                {
-                    "context": "Cooking Timer",
-                    "example": "Setting a timer for baking to ensure your cookies come out perfectly. ⏲️🍪👩‍🍳"
-                }
-            ]
-        },
-        {
-            "emoji": "⏰",
-            "name": "Alarm Clock",
-            "meaning": "An alarm clock, symbolizing waking up, time management, and schedules."
-            "usage": [
-                {
-                    "context": "Morning Routine",
-                    "example": "Starting your day with the sound of an alarm clock and a smile. ⏰☀️🛏️"
-                }
-            ]
-        },
-        {
-            "emoji": "🕰️",
-            "name": "Mantelpiece Clock",
-            "meaning": "A mantelpiece clock, symbolizing home decor, antique timepieces, and nostalgia."
-            "usage": [
-                {
-                    "context": "Home Decor",
-                    "example": "Adorning your home with an elegant mantelpiece clock for a touch of class. 🕰️🏡🌟"
-                }
-            ]
-        },
-        {
-            "emoji": "⌛️",
-            "name": "Hourglass",
-            "meaning": "An hourglass, symbolizing time passing, patience, and waiting."
-            "usage": [
-                {
-                    "context": "Waiting Game",
-                    "example": "Watching the grains of sand fall as you play the waiting game with patience. ⌛️⏳⌛️"
-                }
-            ]
-        },
-        {
-            "emoji": "⏳",
-            "name": "Hourglass with Flowing Sand",
-            "meaning": "An hourglass with flowing sand, symbolizing time running out, deadlines, and urgency."
-            "usage": [
-                {
-                    "context": "Deadline Approaching",
-                    "example": "Feeling the pressure as time is running out to meet a critical deadline. ⏳📅🕒"
-                }
-            ]
-        },
-        {
-            "emoji": "📡",
-            "name": "Satellite Antenna",
-            "meaning": "A satellite antenna, symbolizing communication, broadcasting, and connectivity."
-            "usage": [
-                {
-                    "context": "Global Communication",
-                    "example": "Ensuring global communication with the help of satellite antennas. 📡🌍🌐"
-                }
-            ]
-        },
-        {
-            "emoji": "🔋",
-            "name": "Battery",
-            "meaning": "A battery, symbolizing power, energy, and the state of charge."
-            "usage": [
-                {
-                    "context": "Charging Devices",
-                    "example": "Plugging in your phone to charge its battery for the day. 🔋📱🔌"
-                }
-            ]
-        },
-        {
-            "emoji": "🪫",
-            "name": "Broom",
-            "meaning": "A broom, symbolizing cleaning, sweeping, and tidying up."
-            "usage": [
-                {
-                    "context": "Cleaning House",
-                    "example": "Using a broom to sweep and clean the house until it shines. 🪫🏡✨"
-                }
-            ]
-        },
-        {
-            "emoji": "🔌",
-            "name": "Electric Plug",
-            "meaning": "An electric plug, symbolizing electrical power, connectivity, and energy sources."
-            "usage": [
-                {
-                    "context": "Plugging In",
-                    "example": "Connecting devices to a power source by inserting the electric plug. 🔌🔋💻"
-                }
-            ]
-        },
-        {
-            "emoji": "💡",
-            "name": "Light Bulb",
-            "meaning": "A light bulb, symbolizing ideas, inspiration, and illumination."
-            "usage": [
-                {
-                    "context": "Bright Idea",
-                    "example": "Having a bright idea that lights up your creativity and imagination. 💡💡✨"
-                }
-            ]
-        },
-        {
-            "emoji": "🔦",
-            "name": "Flashlight",
-            "meaning": "A flashlight, symbolizing light in the dark, guidance, and visibility."
-            "usage": [
-                {
-                    "context": "Exploring the Dark",
-                    "example": "Using a flashlight to navigate through dark spaces and find your way. 🔦🌌🚶"
-                }
-            ]
-        },
-        {
-            "emoji": "🕯️",
-            "name": "Candle",
-            "meaning": "A candle, symbolizing light, remembrance, and creating a cozy atmosphere."
-            "usage": [
-                {
-                    "context": "Candlelit Dinner",
-                    example": "Setting the mood for a romantic candlelit dinner with your loved one. 🕯️🍽️❤️"
-                }
-            ]
-        },
-        {
-            "emoji": "🪔",
-            "name": "Diya Lamp",
-            "meaning": "A diya lamp, symbolizing light, cultural traditions, and festivals."
-            "usage": [
-                {
-                    "context": "Festival of Lights",
-                    example": "Celebrating a festival of lights by lighting a beautiful diya lamp. 🪔🎉✨"
-                }
-            ]
-        },
-        {
-            "emoji": "🧯",
-            "name": "Fire Extinguisher",
-            "meaning": "A fire extinguisher, symbolizing fire safety, emergency response, and prevention."
-            "usage": [
-                {
-                    "context": "Fire Safety",
-                    example": "Ensuring fire safety by keeping a fire extinguisher in your home or workplace. 🧯🚒🔥"
-                }
-            ]
-        },
-        {
-            "emoji": "🛢️",
-            "name": "Oil Drum",
-            "meaning": "An oil drum, symbolizing fuel, energy resources, and storage."
-            "usage": [
-                {
-                    "context": "Energy Resources",
-                    example": "Storing and managing oil drums as part of the energy industry. 🛢️⚙️🛢️"
-                }
-            ]
-        },
-        {
-            "emoji": "💸",
-            "name": "Money with Wings",
-            "meaning": "Money with wings, symbolizing spending, wealth, and the flow of money."
-            "usage": [
-                {
-                    "context": "Spending Money",
-                    example": "Treating yourself to something special and watching your money take flight. 💸💰✈️"
-                }
-            ]
-        },
-        {
-            "emoji": "💵",
-            "name": "Dollar Banknote",
-            "meaning": "A dollar banknote, symbolizing cash, currency, and financial transactions."
-            "usage": [
-                {
-                    "context": "Financial Transactions",
-                    example": "Exchanging dollar banknotes for goods and services in daily life. 💵💳🛒"
-                }
-            ]
-        },
-        {
-            "emoji": "💴",
-            "name": "Yen Banknote",
-            "meaning": "A yen banknote, symbolizing Japanese currency, trade, and financial dealings."
-            "usage": [
-                {
-                    "context": "Currency Exchange",
-                    example": "Converting yen banknotes to other currencies for international travel. 💴💱✈️"
-                }
-            ]
-        },
-        {
-            "emoji": "💶",
-            "name": "Euro Banknote",
-            "meaning": "A euro banknote, symbolizing the Euro currency, trade, and the European Union."
-            "usage": [
-                {
-                    "context": "European Union",
-                    example": "Using euro banknotes for transactions within the European Union. 💶🇪🇺🛒"
-                }
-            ]
-        },
-        {
-            "emoji": "💷",
-            "name": "Pound Banknote",
-            "meaning": "A pound banknote, symbolizing British currency, commerce, and trade."
-            "usage": [
-                {
-                    "context": "British Commerce",
-                    example": "Shopping in the UK and paying with pound banknotes for local goods. 💷🇬🇧🛒"
-                }
-            ]
-        },
-        {
-            "emoji": "🪙",
-            "name": "Coin",
-            "meaning": "A coin, symbolizing small change, transactions, and monetary value."
-            "usage": [
-                {
-                    "context": "Pocket Change",
-                    example": "Receiving a coin as change after a small purchase and adding it to your collection. 🪙💰💫"
-                }
-            ]
-        },
-        {
-            "emoji": "💰",
-            "name": "Money Bag",
-            "meaning": "A money bag, symbolizing wealth, savings, and financial success."
-            "usage": [
-                {
-                    "context": "Financial Success",
-                    example": "Celebrating financial success with a money bag full of wealth. 💰📈💼"
-                }
-            ]
-        },
-        {
-            "emoji": "💳",
-            "name": "Credit Card",
-            "meaning": "A credit card, symbolizing electronic payments, credit lines, and cashless transactions."
-            "usage": [
-                {
-                    "context": "Cashless Payment",
-                    example": "Making quick and secure payments using your credit card for convenience. 💳💳💸"
-                }
-            ]
-        },
-        {
-            "emoji": "🪪",
-            "name": "Firecracker",
-            "meaning": "A firecracker, symbolizing celebrations, festive occasions, and fireworks."
-            "usage": [
-                {
-                    "context": "Celebrations",
-                    example": "Lighting up firecrackers to celebrate special occasions and bring joy. 🪪🎆🎉"
-                }
-            ]
-        },
-        {
-            "emoji": "💎",
-            "name": "Gem Stone",
-            "meaning": "A gemstone, symbolizing precious stones, jewelry, and beauty."
-            "usage": [
-                {
-                    "context": "Jewelry Collection",
-                    example": "Admiring the brilliance of a stunning gemstone in your jewelry collection. 💎💍✨"
-                }
-            ]
-        },
-        {
-            "emoji": "⚖️",
-            "name": "Balance Scale",
-            "meaning": "A balance scale, symbolizing justice, fairness, and the weighing of decisions."
-            "usage": [
-                {
-                    "context": "Legal Matters",
-                    example": "Representing justice and fairness with a balance scale in legal contexts. ⚖️⚖️📜"
-                }
-            ]
-        },
-        {
-            "emoji": "🪜",
-            "name": "Ladder",
-            "meaning": "A ladder, symbolizing progress, ascent, and reaching new heights."
-            "usage": [
-                {
-                    "context": "Achieving Goals",
-                    example": "Climbing the ladder of success one step at a time to achieve your goals. 🪜🏆🚀"
-                }
-            ]
-        },
-        {
-            "emoji": "🪛",
-            "name": "Hook",
-            "meaning": "A hook, symbolizing attaching, connecting, and hanging items."
-            "usage": [
-                {
-                    "context": "Hanging Decorations",
-                    example": "Using hooks to hang up decorations and add charm to your space. 🪛🎉✨"
-                }
-            ]
-        },
-        {
-            "emoji": "🔧",
-            "name": "Wrench",
-            "meaning": "A wrench, symbolizing repairs, fixing, and maintenance."
-            "usage": [
-                {
-                    "context": "DIY Repairs",
-                    "example": "Using a wrench to perform DIY repairs and keep things in working order. 🔧🏡🔨"
-                }
-            ]
-        },
-        {
-            "emoji": "⚒️",
-            "name": "Hammer and Pick",
-            "meaning": "A crossed hammer and pick, symbolizing mining, construction, and labor.",
-            "usage": [
-                {
-                    "context": "Construction Work",
-                    "example": "Hard at work in the construction site with a hammer and pick. ⚒️🏗️👷"
-                }
-            ]
-        },
-        {
-            "emoji": "🛠️",
-            "name": "Hammer and Wrench",
-            "meaning": "A crossed hammer and wrench, symbolizing building, repairs, and DIY projects.",
-            "usage": [
-                {
-                    "context": "DIY Repairs",
-                    "example": "Taking on DIY repairs with a trusty hammer and wrench. 🛠️🔧🏡"
-                }
-            ]
-        },
-        {
-            "emoji": "⛏️",
-            "name": "Pick",
-            "meaning": "A pick, symbolizing digging, excavation, and hard labor.",
-            "usage": [
-                {
-                    "context": "Mining",
-                    "example": "Mining valuable resources with a sturdy pick. ⛏️💎⛰️"
-                }
-            ]
-        },
-        {
-            "emoji": "🪚",
-            "name": "Carpentry Saw",
-            "meaning": "A carpentry saw, symbolizing woodworking, crafting, and cutting.",
-            "usage": [
-                {
-                    "context": "Woodworking",
-                    "example": "Creating beautiful wooden crafts with a carpentry saw. 🪚🪛🪵"
-                }
-            ]
-        },
-        {
-            "emoji": "🔩",
-            "name": "Nut and Bolt",
-            "meaning": "A nut and bolt, symbolizing fastening, engineering, and hardware.",
-            "usage": [
-                {
-                    "context": "Engineering",
-                    "example": "Working on engineering projects that require nuts and bolts. 🔩🔧🛠️"
-                }
-            ]
-        },
-        {
-            "emoji": "⚙️",
-            "name": "Gear",
-            "meaning": "A gear, symbolizing mechanics, machinery, and interconnected parts.",
-            "usage": [
-                {
-                    "context": "Mechanical Engineering",
-                    "example": "Understanding the intricate workings of machines and gears. ⚙️🔧🏭"
-                }
-            ]
-        },
-        {
-            "emoji": "🪤",
-            "name": "Mouse Trap",
-            "meaning": "A mouse trap, symbolizing pest control and catching rodents.",
-            "usage": [
-                {
-                    "context": "Pest Control",
-                    "example": "Setting up a mouse trap to catch unwanted intruders. 🪤🐭🏡"
-                }
-            ]
-        },
-        {
-            "emoji": "🧱",
-            "name": "Brick",
-            "meaning": "A brick, symbolizing construction, building materials, and solidity.",
-            "usage": [
-                {
-                    "context": "Building a Wall",
-                    "example": "Laying bricks to build a strong and solid wall. 🧱🏗️🏰"
-                }
-            ]
-        },
-        {
-            "emoji": "⛓️",
-            "name": "Chains",
-            "meaning": "Chains, symbolizing restraint, connections, and links.",
-            "usage": [
-                {
-                    "context": "Chained Together",
-                    "example": "The chains of friendship that bind us together. ⛓️🤝❤️"
-                }
-            ]
-        },
-        {
-            "emoji": "🧲",
-            "name": "Magnet",
-            "meaning": "A magnet, symbolizing attraction, science, and magnetic forces.",
-            "usage": [
-                {
-                    "context": "Magnetic Attraction",
-                    "example": "The magnetic pull of two hearts drawn together. 🧲❤️💑"
-                }
-            ]
-        },
-        {
-            "emoji": "🔫",
-            "name": "Pistol",
-            "meaning": "A pistol, symbolizing firearms, danger, and law enforcement.",
-            "usage": [
-                {
-                    "context": "Law Enforcement",
-                    "example": "Holding the line as a member of the law enforcement with a pistol. 🔫👮🚔"
-                }
-            ]
-        },
-        {
-            "emoji": "💣",
-            "name": "Bomb",
-            "meaning": "A bomb, symbolizing explosions, danger, and critical situations.",
-            "usage": [
-                {
-                    "context": "Emergency Situation",
-                    "example": "Dealing with a critical emergency situation and diffusing the bomb. 💣🚨🚒"
-                }
-            ]
-        },
-        {
-            "emoji": "🧨",
-            "name": "Firecracker",
-            "meaning": "A firecracker, symbolizing celebrations, festive events, and fireworks.",
-            "usage": [
-                {
-                    "context": "New Year's Eve",
-                    "example": "Lighting up firecrackers to ring in the New Year with a bang! 🧨🎆🎉"
-                }
-            ]
-        },
-        {
-            "emoji": "🪓",
-            "name": "Axe",
-            "meaning": "An axe, symbolizing chopping, woodcutting, and forestry work.",
-            "usage": [
-                {
-                    "context": "Forestry",
-                    "example": "Chopping wood for a cozy night by the fireplace with an axe. 🪓🌲🔥"
-                }
-            ]
-        },
-        {
-            "emoji": "🔪",
-            "name": "Kitchen Knife",
-            "meaning": "A kitchen knife, symbolizing cooking, food preparation, and cutting.",
-            "usage": [
-                {
-                    "context": "Cooking Dinner",
-                    "example": "Slicing ingredients with a sharp kitchen knife to prepare dinner. 🔪🍽️🍳"
-                }
-            ]
-        },
-        {
-            "emoji": "🗡️",
-            "name": "Dagger",
-            "meaning": "A dagger, symbolizing weapons, combat, and historical weaponry.",
-            "usage": [
-                {
-                    "context": "Historical Reenactment",
-                    "example": "Participating in a historical reenactment with a ceremonial dagger. 🗡️🛡️🏹"
-                }
-            ]
-        },
-        {
-            "emoji": "⚔️",
-            "name": "Crossed Swords",
-            "meaning": "Crossed swords, symbolizing battle, conflict, and duels.",
-            "usage": [
-                {
-                    "context": "Epic Duel",
-                    "example": "Engaging in an epic sword duel with crossed swords. ⚔️👑🤺"
-                }
-            ]
-        },
-        {
-            "emoji": "🛡️",
-            "name": "Shield",
-            "meaning": "A shield, symbolizing protection, defense, and security.",
-            "usage": [
-                {
-                    "context": "Security",
-                    "example": "Standing strong as a shield to protect loved ones. 🛡️👨‍👩‍👧‍👦❤️"
-                }
-            ]
-        },
-        {
-            "emoji": "🚬",
-            "name": "Cigarette",
-            "meaning": "A cigarette, symbolizing smoking and tobacco use.",
-            "usage": [
-                {
-                    "context": "Smoking Break",
-                    "example": "Taking a break and enjoying a cigarette. 🚬☕🤔"
-                }
-            ]
-        },
-        {
-            "emoji": "⚰️",
-            "name": "Coffin",
-            "meaning": "A coffin, symbolizing funerals, death, and mourning.",
-            "usage": [
-                {
-                    "context": "Funeral Service",
-                    "example": "Paying respects at a funeral service with a heavy heart. ⚰️🌹😢"
-                }
-            ]
-        },
-        {
-            "emoji": "🪦",
-            "name": "Headstone",
-            "meaning": "A headstone, symbolizing graveyards, memorials, and remembrance.",
-            "usage": [
-                {
-                    "context": "Remembrance",
-                    "example": "Visiting a loved one's headstone to honor their memory. 🪦🌼🙏"
-                }
-            ]
-        },
-        {
-            "emoji": "⚱️",
-            "name": "Funeral Urn",
-            "meaning": "A funeral urn, symbolizing cremation and ashes.",
-            "usage": [
-                {
-                    "context": "Cremation Ceremony",
-                    "example": "Holding a ceremony to honor a loved one's ashes in a funeral urn. ⚱️🕯️🌅"
-                }
-            ]
-        },
-        {
-            "emoji": "🏺",
-            "name": "Amphora",
-            "meaning": "An amphora, symbolizing ancient vessels, pottery, and art.",
-            "usage": [
-                {
-                    "context": "Ancient Artifacts",
-                    "example": "Admiring the intricate design of an ancient amphora. 🏺🏛️🖼️"
-                }
-            ]
-        },
-        {
-            "emoji": "🔮",
-            "name": "Crystal Ball",
-            "meaning": "A crystal ball, symbolizing fortune-telling, magic, and mysticism.",
-            "usage": [
-                {
-                    "context": "Fortune Telling",
-                    "example": "Seeking answers to the future with a mystical crystal ball. 🔮🔍🔮"
-                }
-            ]
-        },
-        {
-            "emoji": "📿",
-            "name": "Prayer Beads",
-            "meaning": "Prayer beads, symbolizing meditation, spirituality, and prayer.",
-            "usage": [
-                {
-                    "context": "Meditation",
-                    "example": "Finding inner peace through meditation with prayer beads. 📿🧘‍♂️🧘‍♀️"
-                }
-            ]
-        },
-        {
-            "emoji": "🧿",
-            "name": "Nazar Amulet",
-            "meaning": "A Nazar amulet, symbolizing protection from the evil eye and negative energy.",
-            "usage": [
-                {
-                    "context": "Protection",
-                    "example": "Wearing a Nazar amulet for protection from negative energy. 🧿🌟🛡️"
-                }
-            ]
-        },
-        {
-            "emoji": "🪬",
-            "name": "Barber Pole",
-            "meaning": "A barber pole, symbolizing barbershops, grooming, and haircuts.",
-            "usage": [
-                {
-                    "context": "Haircut Appointment",
-                    "example": "Getting a fresh haircut at the local barbershop. 🪬✂️💈"
-                }
-            ]
-        },
-        {
-            "emoji": "⚗️",
-            "name": "Alembic",
-            "meaning": "An alembic, symbolizing alchemy, chemistry, and experimentation.",
-            "usage": [
-                {
-                    "context": "Alchemy Studies",
-                    "example": "Delving into the mysteries of alchemy and chemistry with an alembic. ⚗️🔬🔍"
-                }
-            ]
-        },
-        {
-            "emoji": "🔭",
-            "name": "Telescope",
-            "meaning": "A telescope, symbolizing stargazing, astronomy, and exploration.",
-            "usage": [
-                {
-                    "context": "Stargazing",
-                    "example": "Exploring distant galaxies through a powerful telescope. 🔭🌌🌠"
-                }
-            ]
-        },
-        {
-            "emoji": "🔬",
-            "name": "Microscope",
-            "meaning": "A microscope, symbolizing scientific research, biology, and discoveries.",
-            "usage": [
-                {
-                    "context": "Biological Research",
-                    "example": "Examining microorganisms under a high-powered microscope. 🔬🦠🧫"
-                }
-            ]
-        },
-        {
-            "emoji": "🕳️",
-            "name": "Hole",
-            "meaning": "A hole, symbolizing gaps, mysteries, and unknown depths.",
-            "usage": [
-                {
-                    "context": "Unknown Depths",
-                    "example": "Peering into the dark abyss of an unknown hole. 🕳️🌌🕵️‍♂️"
-                }
-            ]
-        },
-        {
-            "emoji": "🩻",
-            "name": "Thong Sandal",
-            "meaning": "A thong sandal, symbolizing casual footwear and comfort.",
-            "usage": [
-                {
-                    "context": "Beach Vacation",
-                    "example": "Strolling along the sandy beach in comfy thong sandals. 🩻🏖️🌞"
-                }
-            ]
-        },
-        {
-            "emoji": "🩹",
-            "name": "Adhesive Bandage",
-            "meaning": "An adhesive bandage, symbolizing first aid, healing, and injuries.",
-            "usage": [
-                {
-                    "context": "First Aid",
-                    "example": "Applying an adhesive bandage to a small wound for quick healing. 🩹🩺🏥"
-                }
-            ]
-        },
-        {
-            "emoji": "🩺",
-            "name": "Stethoscope",
-            "meaning": "A stethoscope, symbolizing healthcare, examinations, and medical professionals.",
-            "usage": [
-                {
-                    "context": "Medical Checkup",
-                    "example": "The doctor listened to my heartbeat with a stethoscope. 🩺❤️👩‍⚕️"
-                }
-            ]
-        },
-        {
-            "emoji": "💊",
-            "name": "Pill",
-            "meaning": "A pill, symbolizing medicine, prescriptions, and healthcare.",
-            "usage": [
-                {
-                    "context": "Medication Reminder",
-                    "example": "Taking your prescribed pills as part of your daily routine. 💊⏰💡"
-                }
-            ]
-        },
-        {
-            "emoji": "💉",
-            "name": "Syringe",
-            "meaning": "A syringe, symbolizing vaccinations, injections, and medical procedures.",
-            "usage": [
-                {
-                    "context": "Vaccination Day",
-                    "example": "Getting a flu shot with a syringe for a healthier winter. 💉💪❄️"
-                }
-            ]
-        },
-        {
-            "emoji": "🩸",
-            "name": "Drop of Blood",
-            "meaning": "A drop of blood, symbolizing blood donations, testing, and health check-ups.",
-            "usage": [
-                {
-                    "context": "Blood Donation Drive",
-                    "example": "Contributing to a blood donation drive to save lives. 🩸❤️🚑"
-                }
-            ]
-        },
-        {
-            "emoji": "🧬",
-            "name": "DNA Double Helix",
-            "meaning": "A DNA double helix, symbolizing genetics, science, and DNA research.",
-            "usage": [
-                {
-                    "context": "Genetic Research",
-                    "example": "Unraveling the mysteries of genetics through DNA research. 🧬🔍🔬"
-                }
-            ]
-        },
-        {
-            "emoji": "🦠",
-            "name": "Microbe",
-            "meaning": "A microbe, symbolizing microorganisms, germs, and biology.",
-            "usage": [
-                {
-                    "context": "Microbiology Study",
-                    "example": "Studying microorganisms and their impact on health. 🦠🔬🧫"
-                }
-            ]
-        },
-        {
-            "emoji": "🧫",
-            "name": "Petri Dish",
-            "meaning": "A petri dish, symbolizing laboratory experiments, cell culture, and research.",
-            "usage": [
-                {
-                    "context": "Cell Culture",
-                    "example": "Observing cell cultures in a petri dish during a lab experiment. 🧫🔬📊"
-                }
-            ]
-        },
-        {
-            "emoji": "🌡️",
-            "name": "Thermometer",
-            "meaning": "A thermometer, symbolizing temperature measurement, fever, and health monitoring.",
-            "usage": [
-                {
-                    "context": "Health Check",
-                    "example": "Checking your body temperature with a thermometer when feeling unwell. 🌡️🤒🏥"
-                }
-            ]
-        },
-        {
-            "emoji": "🧹",
-            "name": "Broom",
-            "meaning": "A broom, symbolizing cleaning, sweeping, and tidying up.",
-            "usage": [
-                {
-                    "context": "House Cleaning",
-                    "example": "Sweeping and keeping the house clean with a broom. 🧹🏡🧼"
-                }
-            ]
-        },
-        {
-            "emoji": "🪠",
-            "name": "Plunger",
-            "meaning": "A plunger, symbolizing unclogging drains, plumbing, and fixes.",
-            "usage": [
-                {
-                    "context": "Drain Blockage",
-                    "example": "Fixing a drain blockage issue with a trusty plunger. 🪠🚿🛠️"
-                }
-            ]
-        },
-        {
-            "emoji": "🧺",
-            "name": "Basket",
-            "meaning": "A basket, symbolizing storage, picnics, and carrying items.",
-            "usage": [
-                {
-                    "context": "Picnic Time",
-                    "example": "Packing a basket with delicious treats for a fun picnic. 🧺🍉🌞"
-                }
-            ]
-        },
-        {
-            "emoji": "🪒",
-            "name": "Razor",
-            "meaning": "A razor, symbolizing shaving, grooming, and personal care.",
-            "usage": [
-                {
-                    "context": "Shaving Routine",
-                    "example": "Starting the day with a close shave using a sharp razor. 🪒💈🚿"
-                }
-            ]
-        },
-        {
-            "emoji": "🪮",
-            "name": "Lotion Bottle",
-            "meaning": "A lotion bottle, symbolizing skincare, moisturizing, and self-care.",
-            "usage": [
-                {
-                    "context": "Skin Care",
-                    "example": "Applying lotion from a stylish bottle for radiant skin. 🪮🌟💆‍♀️"
-                }
-            ]
-        },
-        {
-            "emoji": "🧽",
-            "name": "Sponge",
-            "meaning": "A sponge, symbolizing cleaning, scrubbing, and household chores.",
-            "usage": [
-                {
-                    "context": "Dishwashing",
-                    "example": "Washing dishes with a soapy sponge for a sparkling clean finish. 🧽🍽️🧼"
-                }
-            ]
-        },
-        {
-            "emoji": "🪣",
-            "name": "Bucket",
-            "meaning": "A bucket, symbolizing carrying liquids, mopping, and cleaning.",
-            "usage": [
-                {
-                    "context": "Mopping Floors",
-                    "example": "Mopping the floors and keeping them spotless with a bucket. 🪣🧽🏡"
-                }
-            ]
-        },
-        {
-            "emoji": "🧴",
-            "name": "Lotion Bottle",
-            "meaning": "A lotion bottle, symbolizing skincare, moisturizing, and self-care.",
-            "usage": [
-                {
-                    "context": "Skin Care",
-                    "example": "Applying lotion from a stylish bottle for radiant skin. 🪮🌟💆‍♀️"
-                }
-            ]
-        },
-        {
-            "emoji": "🛎️",
-            "name": "Bellhop Bell",
-            "meaning": "A bellhop bell, symbolizing hotel service, hospitality, and assistance.",
-            "usage": [
-                {
-                    "context": "Hotel Check-In",
-                    "example": "Arriving at the hotel and ringing the bell for assistance. 🛎️🏨🛏️"
-                }
-            ]
-        },
-        {
-            "emoji": "🔑",
-            "name": "Key",
-            "meaning": "A key, symbolizing access, security, and unlocking doors.",
-            "usage": [
-                {
-                    "context": "Unlocking the Door",
-                    "example": "Using a key to unlock the front door and enter the house. 🔑🚪🏡"
-                }
-            ]
-        },
-        {
-            "emoji": "🗝️",
-            "name": "Old Key",
-            "meaning": "An old key, symbolizing vintage locks, secrets, and hidden treasures.",
-            "usage": [
-                {
-                    "context": "Treasure Hunt",
-                    "example": "Unveiling the mystery of an old key to find hidden treasures. 🗝️🗺️💰"
-                }
-            ]
-        },
-        {
-            "emoji": "🚪",
-            "name": "Door",
-            "meaning": "A door, symbolizing entrances, opportunities, and new beginnings.",
-            "usage": [
-                {
-                    "context": "New Opportunities",
-                    "example": "Opening the door to a world of new opportunities and adventures. 🚪🌍🌟"
-                }
-            ]
-        },
-        {
-            "emoji": "🪑",
-            "name": "Chair",
-            "meaning": "A chair, symbolizing seating, comfort, and relaxation.",
-            "usage": [
-                {
-                    "context": "Relaxing at Home",
-                    "example": "Kicking back and relaxing in a comfortable chair at home. 🪑📺🍿"
-                }
-            ]
-        },
-        {
-            "emoji": "🛋️",
-            "name": "Couch and Lamp",
-            "meaning": "A couch and lamp, symbolizing home comfort, relaxation, and coziness.",
-            "usage": [
-                {
-                    "context": "Cozy Evening",
-                    "example": "Curling up on the couch with a good book and a lamp for a cozy evening. 🛋️📖🌙"
-                }
-            ]
-        },
-        {
-            "emoji": "🛏️",
-            "name": "Bed",
-            "meaning": "A bed, symbolizing rest, sleep, and bedtime.",
-            "usage": [
-                {
-                    "context": "Bedtime Routine",
-                    "example": "Getting a good night's sleep in a comfortable bed. 🛏️😴🌙"
-                }
-            ]
-        },
-        {
-            "emoji": "🛌",
-            "name": "Sleeping Bed",
-            "meaning": "A sleeping bed, symbolizing bedtime, relaxation, and resting.",
-            "usage": [
-                {
-                    "context": "Nap Time",
-                    "example": "Taking a short nap in a cozy sleeping bed. 🛌😴🌞"
-                }
-            ]
-        },
-        {
-            "emoji": "🧸",
-            "name": "Teddy Bear",
-            "meaning": "A teddy bear, symbolizing comfort, childhood, and huggable companions.",
-            "usage": [
-                {
-                    "context": "Childhood Memories",
-                    "example": "Nostalgic about childhood and the cherished teddy bear. 🧸👧🌈"
-                }
-            ]
-        },
-        {
-            "emoji": "🪆",
-            "name": "Nesting Dolls",
-            "meaning": "Nesting dolls, symbolizing Russian culture, matryoshka, and hidden surprises.",
-            "usage": [
-                {
-                    "context": "Cultural Exchange",
-                    "example": "Exploring Russian culture and the beauty of nesting dolls. 🪆🇷🇺❤️"
-                }
-            ]
-        },
-        {
-            "emoji": "🖼️",
-            "name": "Framed Picture",
-            "meaning": "A framed picture, symbolizing art, photography, and memories.",
-            "usage": [
-                {
-                    "context": "Memory Lane",
-                    "example": "Nostalgically looking at a framed picture and recalling cherished memories. 🖼️📸🌟"
-                }
-            ]
-        },
-        {
-            "emoji": "🪞",
-            "name": "Mirror",
-            "meaning": "A mirror, symbolizing reflection, self-assessment, and vanity.",
-            "usage": [
-                {
-                    "context": "Getting Ready",
-                    "example": "Checking your appearance in the mirror before heading out. 🪞💁‍♂️💄"
-                }
-            ]
-        },
-        {
-            "emoji": "🪟",
-            "name": "Window",
-            "meaning": "A window, symbolizing views, opportunities, and a fresh perspective.",
-            "usage": [
-                {
-                    "context": "Scenic Views",
-                    "example": "Admiring scenic views from a window on a relaxing day. 🪟🌄🌿"
-                }
-            ]
-        },
-        {
-            "emoji": "🛍️",
-            "name": "Shopping Bags",
-            "meaning": "Shopping bags, symbolizing retail therapy, purchases, and fashion.",
-            "usage": [
-                {
-                    "context": "Retail Therapy",
-                    "example": "Indulging in some retail therapy and coming home with shopping bags. 🛍️👗👠"
-                }
-            ]
-        },
-        {
-            "emoji": "🛒",
-            "name": "Shopping Cart",
-            "meaning": "A shopping cart, symbolizing grocery shopping, convenience, and selections.",
-            "usage": [
-                {
-                    "context": "Grocery Shopping",
-                    "example": "Filling up the shopping cart with groceries for the week. 🛒🍞🥦"
-                }
-            ]
-        },
-        {
-            "emoji": "🎁",
-            "name": "Wrapped Gift",
-            "meaning": "A wrapped gift, symbolizing surprises, presents, and celebrations.",
-            "usage": [
-                {
-                    "context": "Birthday Surprise",
-                    "example": "Presenting a beautifully wrapped gift as a birthday surprise. 🎁🎉🍰"
-                }
-            ]
-        },
-        {
-            "emoji": "🎈",
-            "name": "Balloon",
-            "meaning": "A balloon, symbolizing celebrations, parties, and happiness.",
-            "usage": [
-                {
-                    "context": "Birthday Party",
-                    "example": "Decorating a room with colorful balloons for a birthday party. 🎈🎂🎉"
-                }
-            ]
-        },
-        {
-            "emoji": "🎏",
-            "name": "Carp Streamer",
-            "meaning": "A carp streamer, symbolizing the Children's Day festival in Japan.",
-            "usage": [
-                {
-                    "context": "Children's Day",
-                    "example": "Celebrating Children's Day with colorful carp streamers. 🎏👶🎉"
-                }
-            ]
-        },
-        {
-            "emoji": "🎀",
-            "name": "Ribbon",
-            "meaning": "A ribbon, symbolizing decoration, bows, and embellishments.",
-            "usage": [
-                {
-                    "context": "Gift Wrapping",
-                    "example": "Tying a beautiful ribbon on a gift for an elegant touch. 🎀🎁🌟"
-                }
-            ]
-        },
-        {
-            "emoji": "🪄",
-            "name": "Magic Wand",
-            "meaning": "A magic wand, symbolizing magic, spells, and enchantment.",
-            "usage": [
-                {
-                    "context": "Magic Show",
-                    "example": "Performing a captivating magic show with a sparkling wand. 🪄✨🎩"
-                }
-            ]
-        },
-        {
-            "emoji": "🎊",
-            "name": "Confetti Ball",
-            "meaning": "A confetti ball, symbolizing celebrations, parties, and festivities.",
-            "usage": [
-                {
-                    "context": "New Year's Eve",
-                    "example": "Throwing confetti at midnight to welcome the New Year. 🎊🎉🍾"
-                }
-            ]
-        },
-        {
-            "emoji": "🎉",
-            "name": "Party Popper",
-            "meaning": "A party popper, symbolizing excitement, joy, and festive occasions.",
-            "usage": [
-                {
-                    "context": "Birthday Party",
-                    "example": "Popping party poppers to celebrate a friend's birthday. 🎉🎂🥳"
-                }
-            ]
-        },
-        {
-            "emoji": "🪅",
-            "name": "Piñata",
-            "meaning": "A piñata, symbolizing fun, surprises, and smashing for treats.",
-            "usage": [
-                {
-                    "context": "Fiesta",
-                    "example": "Kids taking turns to hit the piñata at the fiesta. 🪅🎈🍬"
-                }
-            ]
-        },
-        {
-            "emoji": "🎎",
-            "name": "Japanese Dolls",
-            "meaning": "Japanese dolls, symbolizing Hinamatsuri (Doll's Day) in Japan.",
-            "usage": [
-                {
-                    "context": "Hinamatsuri",
-                    "example": "Displaying Japanese dolls to celebrate Hinamatsuri. 🎎🌸🎌"
-                }
-            ]
-        },
-        {
-            "emoji": "🪭",
-            "name": "Kite",
-            "meaning": "A kite, symbolizing outdoor fun, flying, and high spirits.",
-            "usage": [
-                {
-                    "context": "Kite Flying",
-                    "example": "Flying kites with friends on a sunny day. 🪭🌞🪁"
-                }
-            ]
-        },
-        {
-            "emoji": "🏮",
-            "name": "Red Paper Lantern",
-            "meaning": "A red paper lantern, symbolizing festivals, illumination, and good luck.",
-            "usage": [
-                {
-                    "context": "Chinese New Year",
-                    "example": "Hanging red lanterns for good luck during Chinese New Year. 🏮🧧🎆"
-                }
-            ]
-        },
-        {
-            "emoji": "🎐",
-            "name": "Wind Chime",
-            "meaning": "A wind chime, symbolizing calm, relaxation, and gentle sounds.",
-            "usage": [
-                {
-                    "context": "Zen Garden",
-                    "example": "Enjoying the tranquil sound of wind chimes in a Zen garden. 🎐🌿🕊️"
-                }
-            ]
-        },
-        {
-            "emoji": "🪩",
-            "name": "Kite",
-            "meaning": "A kite, symbolizing outdoor fun, flying, and high spirits.",
-            "usage": [
-                {
-                    "context": "Kite Flying",
-                    "example": "Flying kites with friends on a sunny day. 🪭🌞🪁"
-                }
-            ]
-        },
-        {
-            "emoji": "🧧",
-            "name": "Red Envelope",
-            "meaning": "A red envelope, symbolizing gift-giving, good fortune, and Chinese New Year.",
-            "usage": [
-                {
-                    "context": "Chinese New Year",
-                    "example": "Receiving red envelopes with money for good luck on Chinese New Year. 🧧💰🧨"
-                }
-            ]
-        },
-        {
-            "emoji": "✉️",
-            "name": "Envelope",
-            "meaning": "An envelope, symbolizing letters, messages, and communication.",
-            "usage": [
-                {
-                    "context": "Sending Invitations",
-                    "example": "Mailing invitations in beautifully sealed envelopes. ✉️💌📬"
-                }
-            ]
-        },
-        {
-            "emoji": "📩",
-            "name": "Envelope with Arrow",
-            "meaning": "An envelope with an arrow, symbolizing incoming mail and messages.",
-            "usage": [
-                {
-                    "context": "Inbox",
-                    "example": "Checking the inbox for new messages and notifications. 📩📥📬"
-                }
-            ]
-        },
-        {
-            "emoji": "📨",
-            "name": "Incoming Envelope",
-            "meaning": "An incoming envelope, symbolizing new messages and correspondence.",
-            "usage": [
-                {
-                    "context": "New Email",
-                    "example": "Receiving a new email in the inbox. 📨📥📬"
-                }
-            ]
-        },
-        {
-            "emoji": "📧",
-            "name": "E-Mail",
-            "meaning": "An e-mail symbol, representing electronic communication and messages.",
-            "usage": [
-                {
-                    "context": "Online Conversation",
-                    "example": "Exchanging e-mails for an important online conversation. 📧💻📬"
-                }
-            ]
-        },
-        {
-            "emoji": "💌",
-            "name": "Love Letter",
-            "meaning": "A love letter, symbolizing affection, romance, and heartfelt messages.",
-            "usage": [
-                {
-                    "context": "Romantic Gestures",
-                    "example": "Writing and sending a heartfelt love letter to your partner. 💌❤️📬"
-                }
-            ]
-        },
-        {
-            "emoji": "📥",
-            "name": "Inbox Tray",
-            "meaning": "An inbox tray, symbolizing incoming messages and notifications.",
-            "usage": [
-                {
-                    "context": "Receiving Notifications",
-                    "example": "Checking the inbox tray for new messages and notifications. 📥📩🔔"
-                }
-            ]
-        },
-        {
-            "emoji": "📤",
-            "name": "Outbox Tray",
-            "meaning": "An outbox tray, symbolizing sent messages and completed tasks.",
-            "usage": [
-                {
-                    "context": "Sent Messages",
-                    "example": "Confirming sent messages and tasks in the outbox tray. 📤📩✔️"
-                }
-            ]
-        },
-        {
-            "emoji": "📦",
-            "name": "Package",
-            "meaning": "A package, symbolizing shipments, deliveries, and surprises.",
-            "usage": [
-                {
-                    "context": "Package Delivery",
-                    "example": "Receiving an eagerly awaited package delivery. 📦🚚🎁"
-                }
-            ]
-        },
-        {
-            "emoji": "🏷️",
-            "name": "Label",
-            "meaning": "A label, symbolizing identification, organization, and tagging.",
-            "usage": [
-                {
-                    "context": "Labeling Items",
-                    "example": "Using labels to identify and organize various items. 🏷️📦🗄️"
-                }
-            ]
-        },
-        {
-            "emoji": "🪧",
-            "name": "Placard",
-            "meaning": "A placard, symbolizing protests, demonstrations, and messages.",
-            "usage": [
-                {
-                    "context": "Protest March",
-                    "example": "Holding a placard with a powerful message at a protest march. 🪧📣✊"
-                }
-            ]
-        },
-        {
-            "emoji": "📪",
-            "name": "Mailbox",
-            "meaning": "A mailbox, symbolizing receiving mail and messages.",
-            "usage": [
-                {
-                    "context": "Mail Delivery",
-                    "example": "Checking the mailbox for new mail and messages. 📪📬✉️"
-                }
-            ]
-        },
-        {
-            "emoji": "📫",
-            "name": "Mailbox with Mail",
-            "meaning": "A mailbox with mail, symbolizing delivered messages and correspondence.",
-            "usage": [
-                {
-                    "context": "Mail Delivered",
-                    "example": "Happy to see the mailbox with incoming mail. 📫📬✉️"
-                }
-            ]
-        },
-        {
-            "emoji": "📬",
-            "name": "Open Mailbox with Raised Flag",
-            "meaning": "An open mailbox with a raised flag, symbolizing outgoing mail and communication.",
-            "usage": [
-                {
-                    "context": "Sending Mail",
-                    "example": "Raising the flag on the mailbox to indicate outgoing mail. 📬🚩📝"
-                }
-            ]
-        },
-        {
-            "emoji": "📭",
-            "name": "Open Mailbox with Lowered Flag",
-            "meaning": "An open mailbox with a lowered flag, symbolizing mail received and checked.",
-            "usage": [
-                {
-                    "context": "Checking Mail",
-                    "example": "Lowering the mailbox flag after checking the mail. 📭📬✉️"
-                }
-            ]
-        },
-        {
-            "emoji": "📮",
-            "name": "Postbox",
-            "meaning": "A postbox, symbolizing mailing letters and postal services.",
-            "usage": [
-                {
-                    "context": "Sending Letters",
-                    "example": "Dropping a letter into the postbox for mailing. 📮✉️📬"
-                }
-            ]
-        },
-        {
-            "emoji": "📯",
-            "name": "Postal Horn",
-            "meaning": "A postal horn, symbolizing announcements, proclamations, and fanfare.",
-            "usage": [
-                {
-                    "context": "Official Announcements",
-                    "example": "Announcing important news with the sound of the postal horn. 📯📢📰"
-                }
-            ]
-        },
-        {
-            "emoji": "📜",
-            "name": "Scroll",
-            "meaning": "A scroll, symbolizing ancient documents, history, and wisdom.",
-            "usage": [
-                {
-                    "context": "Historical Research",
-                    "example": "Unrolling the scroll to reveal ancient writings and history. 📜📚🔍"
-                }
-            ]
-        },
-        {
-            "emoji": "📃",
-            "name": "Page with Curl",
-            "meaning": "A page with a curl, symbolizing documents, certificates, and reading.",
-            "usage": [
-                {
-                    "context": "Reading",
-                    "example": "Reading a certificate with a beautiful page curl. 📃📜📖"
-                }
-            ]
-        },
-        {
-            "emoji": "📄",
-            "name": "Page Facing Up",
-            "meaning": "A page facing up, symbolizing documents, files, and paperwork.",
-            "usage": [
-                {
-                    "context": "Filing Documents",
-                    "example": "Placing important documents with the page facing up. 📄🗂️✒️"
-                }
-            ]
-        },
-        {
-            "emoji": "📑",
-            "name": "Bookmark Tabs",
-            "meaning": "Bookmark tabs, symbolizing references, organization, and easy access.",
-            "usage": [
-                {
-                    "context": "Bookmarking Pages",
-                    "example": "Using bookmark tabs to easily find favorite book pages. 📑📖📚"
-                }
-            ]
-        },
-        {
-            "emoji": "🧾",
-            "name": "Receipt",
-            "meaning": "A receipt, symbolizing transactions, payments, and proof of purchase.",
-            "usage": [
-                {
-                    "context": "Expense Tracking",
-                    "example": "Saving a digital copy of the receipt for expense tracking. 🧾💰📊"
-                }
-            ]
-        },
-        {
-            "emoji": "📊",
-            "name": "Bar Chart",
-            "meaning": "A bar chart, symbolizing data, statistics, and graphical representation.",
-            "usage": [
-                {
-                    "context": "Data Analysis",
-                    "example": "Creating a bar chart to visualize sales data. 📊📈📉"
-                }
-            ]
-        },
-        {
-            "emoji": "📈",
-            "name": "Chart Increasing",
-            "meaning": "A chart increasing, symbolizing growth, progress, and positive trends.",
-            "usage": [
-                {
-                    "context": "Business Success",
-                    "example": "Celebrating the chart's upward trend as a sign of success. 📈💼💹"
-                }
-            ]
-        },
-        {
-            "emoji": "📉",
-            "name": "Chart Decreasing",
-            "meaning": "A chart decreasing, symbolizing decline, regression, and negative trends.",
-            "usage": [
-                {
-                    "context": "Market Analysis",
-                    "example": "Analyzing the chart's downward trend for market predictions. 📉📊📉"
-                }
-            ]
-        },
-        {
-            "emoji": "🗒️",
-            "name": "Spiral Notepad",
-            "meaning": "A spiral notepad, symbolizing notes, jotting, and recording information.",
-            "usage": [
-                {
-                    "context": "Taking Notes",
-                    "example": "Using a spiral notepad for keeping important notes. 🗒️✏️🗂️"
-                }
-            ]
-        },
-        {
-            "emoji": "🗓️",
-            "name": "Spiral Calendar",
-            "meaning": "A spiral calendar, symbolizing schedules, dates, and time management.",
-            "usage": [
-                {
-                    "context": "Planning Events",
-                    "example": "Marking important dates on the spiral calendar for event planning. 🗓️📅📆"
-                }
-            ]
-        },
-        {
-            "emoji": "📆",
-            "name": "Tear-Off Calendar",
-            "meaning": "A tear-off calendar, symbolizing daily schedules, countdowns, and events.",
-            "usage": [
-                {
-                    "context": "Daily Planning",
-                    "example": "Tearing off a calendar page to start the new day. 📆⏰📅"
-                }
-            ]
-        },
-        {
-            "emoji": "📅",
-            "name": "Calendar",
-            "meaning": "A calendar, symbolizing dates, appointments, and planning.",
-            "usage": [
-                {
-                    "context": "Scheduling",
-                    "example": "Marking important dates and appointments on the calendar. 📅📆⏰"
-                }
-            ]
-        },
-        {
-            "emoji": "🗑️",
-            "name": "Wastebasket",
-            "meaning": "A wastebasket, symbolizing disposal, discarding, and cleaning.",
-            "usage": [
-                {
-                    "context": "Cleaning Up",
-                    "example": "Emptying the wastebasket to keep the workspace clean. 🗑️🧹🧼"
-                }
-            ]
-        },
-        {
-            "emoji": "📇",
-            "name": "Card Index",
-            "meaning": "A card index, symbolizing cataloging, organization, and reference cards.",
-            "usage": [
-                {
-                    "context": "Organizing Information",
-                    "example": "Creating a card index for easy access to contact information. 📇🗂️📧"
-                }
-            ]
-        },
-        {
-            "emoji": "🗃️",
-            "name": "File Cabinet",
-            "meaning": "A file cabinet, symbolizing filing, storage, and document organization.",
-            "usage": [
-                {
-                    "context": "Storing Files",
-                    "example": "Keeping important files and documents in a secure file cabinet. 🗃️🗂️📁"
-                }
-            ]
-        },
-        {
-            "emoji": "🗳️",
-            "name": "Ballot Box with Ballot",
-            "meaning": "A ballot box with a ballot, symbolizing elections, voting, and democracy.",
-            "usage": [
-                {
-                    "context": "Election Day",
-                    "example": "Casting a vote in the ballot box on election day. 🗳️🇺🇸✅"
-                }
-            ]
-        },
-        {
-            "emoji": "🗄️",
-            "name": "File Cabinet",
-            "meaning": "A file cabinet, symbolizing filing, storage, and document organization.",
-            "usage": [
-                {
-                    "context": "Storing Files",
-                    "example": "Keeping important files and documents in a secure file cabinet. 🗄️🗂️📁"
-                }
-            ]
-        },
-        {
-            "emoji": "📋",
-            "name": "Clipboard",
-            "meaning": "A clipboard, symbolizing notes, tasks, and temporary storage.",
-            "usage": [
-                {
-                    "context": "Taking Notes",
-                    "example": "Using a clipboard to jot down important tasks and notes. 📋📝🗒️"
-                }
-            ]
-        },
-        {
-            "emoji": "📁",
-            "name": "File Folder",
-            "meaning": "A file folder, symbolizing organizing documents, files, and records.",
-            "usage": [
-                {
-                    "context": "Organizing Files",
-                    "example": "Sorting and organizing files in labeled file folders. 📁🗂️📂"
-                }
-            ]
-        },
-        {
-            "emoji": "📂",
-            "name": "Open File Folder",
-            "meaning": "An open file folder, symbolizing access to files, documents, and records.",
-            "usage": [
-                {
-                    "context": "Accessing Documents",
-                    "example": "Opening a file folder to access important documents. 📂🗂️📄"
-                }
-            ]
-        },
-        {
-            "emoji": "🗂️",
-            "name": "File Folder",
-            "meaning": "A file folder, symbolizing organizing documents, files, and records.",
-            "usage": [
-                {
-                    "context": "Organizing Files",
-                    "example": "Sorting and organizing files in labeled file folders. 🗂️📁📂"
-                }
-            ]
-        },
-        {
-            "emoji": "🗞️",
-            "name": "Rolled-Up Newspaper",
-            "meaning": "A rolled-up newspaper, symbolizing news, journalism, and publications.",
-            "usage": [
-                {
-                    "context": "Reading News",
-                    "example": "Unrolling the newspaper to catch up on the latest news. 🗞️📰📃"
-                }
-            ]
-        },
-        {
-            "emoji": "📰",
-            "name": "Newspaper",
-            "meaning": "A newspaper, symbolizing news, journalism, and publications.",
-            "usage": [
-                {
-                    "context": "Reading News",
-                    "example": "Reading the newspaper over breakfast for the latest news. 📰🗞️📃"
-                }
-            ]
-        },
-        {
-            "emoji": "📓",
-            "name": "Notebook",
-            "meaning": "A notebook, symbolizing writing, school, and taking notes.",
-            "usage": [
-                {
-                    "context": "Studying",
-                    "example": "Taking notes during class in a school notebook. 📓📝📚"
-                }
-            ]
-        },
-        {
-            "emoji": "📔",
-            "name": "Notebook with Decorative Cover",
-            "meaning": "A notebook with a decorative cover, symbolizing creativity and journaling.",
-            "usage": [
-                {
-                    "context": "Journaling",
-                    "example": "Expressing creativity by writing in a decorative notebook. 📔🖋️📖"
-                }
-            ]
-        },
-        {
-            "emoji": "📒",
-            "name": "Ledger",
-            "meaning": "A ledger, symbolizing accounting, records, and financial tracking.",
-            "usage": [
-                {
-                    "context": "Financial Records",
-                    "example": "Keeping financial records and accounts in a ledger. 📒💰📈"
-                }
-            ]
-        },
-        {
-            "emoji": "📕",
-            "name": "Closed Book",
-            "meaning": "A closed book, symbolizing completion, reading, and knowledge.",
-            "usage": [
-                {
-                    "context": "Reading",
-                    "example": "Finishing a good book and feeling a sense of completion. 📕📖📚"
-                }
-            ]
-        },
-        {
-            "emoji": "📗",
-            "name": "Green Book",
-            "meaning": "A green book, symbolizing learning, education, and textbooks.",
-            "usage": [
-                {
-                    "context": "Studying",
-                    "example": "Using a green book as a textbook for learning new subjects. 📗📚📖"
-                }
-            ]
-        },
-        {
-            "emoji": "📘",
-            "name": "Blue Book",
-            "meaning": "A blue book, symbolizing exams, testing, and answer sheets.",
-            "usage": [
-                {
-                    "context": "Exams",
-                    "example": "Filling out a blue book during an important exam. 📘📝🧾"
-                }
-            ]
-        },
-        {
-            "emoji": "📙",
-            "name": "Orange Book",
-            "meaning": "An orange book, symbolizing reading, knowledge, and literature.",
-            "usage": [
-                {
-                    "context": "Reading for Pleasure",
-                    "example": "Enjoying a good novel from an orange book. 📙📚📖"
-                }
-            ]
-        },
-        {
-            "emoji": "📚",
-            "name": "Books",
-            "meaning": "A stack of books, symbolizing reading, learning, and knowledge.",
-            "usage": [
-                {
-                    "context": "Library Visit",
-                    "example": "Exploring the library and picking up a stack of books to read. 📚📖📜"
-                }
-            ]
-        },
-        {
-            "emoji": "📖",
-            "name": "Open Book",
-            "meaning": "An open book, symbolizing reading, learning, and literature.",
-            "usage": [
-                {
-                    "context": "Reading",
-                    "example": "Diving into a captivating story in an open book. 📖📚📜"
-                }
-            ]
-        },
-        {
-            "emoji": "🔖",
-            "name": "Bookmark",
-            "meaning": "A bookmark, symbolizing saving your place in a book or document.",
-            "usage": [
-                {
-                    "context": "Reading Progress",
-                    "example": "Using a bookmark to remember where you left off in a book. 🔖📖📜"
-                }
-            ]
-        },
-        {
-            "emoji": "🧷",
-            "name": "Safety Pin",
-            "meaning": "A safety pin, symbolizing securing, fastening, and holding things together.",
-            "usage": [
-                {
-                    "context": "Fixing Clothing",
-                    "example": "Using a safety pin to secure a loose button. 🧷👖🪤"
-                }
-            ]
-        },
-        {
-            "emoji": "🔗",
-            "name": "Link",
-            "meaning": "A link symbol, representing connections, relationships, and hyperlinking.",
-            "usage": [
-                {
-                    "context": "Website Links",
-                    "example": "Sharing a link to an interesting article on the web. 🔗🌐📰"
-                }
-            ]
-        },
-        {
-            "emoji": "📎",
-            "name": "Paperclip",
-            "meaning": "A paperclip, symbolizing attachment, holding papers together, and organization.",
-            "usage": [
-                {
-                    "context": "Paperwork",
-                    "example": "Attaching documents together with a paperclip for filing. 📎📂📝"
-                }
-            ]
-        },
-        {
-            "emoji": "🖇️",
-            "name": "Linked Paperclips",
-            "meaning": "Linked paperclips, symbolizing connections, teamwork, and unity.",
-            "usage": [
-                {
-                    "context": "Teamwork",
-                    "example": "Using linked paperclips to symbolize unity in teamwork. 🖇️🤝👥"
-                }
-            ]
-        },
-        {
-            "emoji": "📐",
-            "name": "Triangular Ruler",
-            "meaning": "A triangular ruler, symbolizing geometry, precision, and measurements.",
-            "usage": [
-                {
-                    "context": "Math Class",
-                    "example": "Using a triangular ruler for precise geometry drawings. 📐📏🧮"
-                }
-            ]
-        },
-        {
-            "emoji": "📏",
-            "name": "Straight Ruler",
-            "meaning": "A straight ruler, symbolizing measurements and straight-edge tasks.",
-            "usage": [
-                {
-                    "context": "Measuring Length",
-                    "example": "Using a straight ruler to measure the length of objects. 📏📐📐"
-                }
-            ]
-        },
-        {
-            "emoji": "🧮",
-            "name": "Abacus",
-            "meaning": "An abacus, symbolizing counting, arithmetic, and calculations.",
-            "usage": [
-                {
-                    "context": "Mathematics",
-                    "example": "Teaching children to count and perform arithmetic on the abacus. 🧮🔢🧑‍🏫"
-                }
-            ]
-        },
-        {
-            "emoji": "📌",
-            "name": "Pushpin",
-            "meaning": "A pushpin, symbolizing marking locations, points of interest, or reminders.",
-            "usage": [
-                {
-                    "context": "Pinning Locations",
-                    "example": "Marking important places on the map with a pushpin. 📌🗺️📍"
-                }
-            ]
-        },
-        {
-            "emoji": "📍",
-            "name": "Round Pushpin",
-            "meaning": "A round pushpin, symbolizing marking locations, points of interest, or reminders.",
-            "usage": [
-                {
-                    "context": "Pinning Locations",
-                    "example": "Using a round pushpin to mark significant locations on a map. 📍🗺️📌"
-                }
-            ]
-        },
-        {
-            "emoji": "✂️",
-            "name": "Scissors",
-            "meaning": "A pair of scissors, symbolizing cutting, trimming, and crafting.",
-            "usage": [
-                {
-                    "context": "Crafting",
-                    "example": "Using scissors to cut paper for crafting projects. ✂️📄✏️"
-                }
-            ]
-        },
-        {
-            "emoji": "🖊️",
-            "name": "Pen",
-            "meaning": "A pen, symbolizing writing, drawing, and creative expression.",
-            "usage": [
-                {
-                    "context": "Taking Notes",
-                    "example": "Writing down important ideas with a pen and notebook. 🖊️📓📝"
-                }
-            ]
-        },
-        {
-            "emoji": "🖋️",
-            "name": "Fountain Pen",
-            "meaning": "A fountain pen, symbolizing elegance, calligraphy, and fine writing.",
-            "usage": [
-                {
-                    "context": "Calligraphy",
-                    "example": "Creating beautiful calligraphy with a fountain pen. 🖋️📜🖼️"
-                }
-            ]
-        },
-        {
-            "emoji": "✒️",
-            "name": "Black Nib Pen",
-            "meaning": "A black nib pen, symbolizing writing, signature, and document signing.",
-            "usage": [
-                {
-                    "context": "Signing Documents",
-                    "example": "Signing important documents with a black nib pen. ✒️📃📝"
-                }
-            ]
-        },
-        {
-            "emoji": "🖌️",
-            "name": "Paintbrush",
-            "meaning": "A paintbrush, symbolizing art, creativity, and painting.",
-            "usage": [
-                {
-                    "context": "Art Class",
-                    "example": "Creating colorful artwork with a paintbrush. 🖌️🎨🖼️"
-                }
-            ]
-        },
-        {
-            "emoji": "🖍️",
-            "name": "Crayon",
-            "meaning": "A crayon, symbolizing drawing, coloring, and children's creativity.",
-            "usage": [
-                {
-                    "context": "Art Activities",
-                    "example": "Kids using crayons to color and draw in coloring books. 🖍️📚🎨"
-                }
-            ]
-        },
-        {
-            "emoji": "📝",
-            "name": "Memo",
-            "meaning": "A memo, symbolizing notes, reminders, and to-do lists.",
-            "usage": [
-                {
-                    "context": "Taking Notes",
-                    "example": "Writing a quick memo to remember important tasks. 📝🗒️📅"
-                }
-            ]
-        },
-        {
-            "emoji": "✏️",
-            "name": "Pencil",
-            "meaning": "A pencil, symbolizing drawing, writing, and creativity.",
-            "usage": [
-                {
-                    "context": "Art Class",
-                    "example": "Sketching beautiful drawings with a pencil and paper. ✏️📝🎨"
-                }
-            ]
-        },
-        {
-            "emoji": "🔍",
-            "name": "Magnifying Glass Tilted Left",
-            "meaning": "A magnifying glass tilted left, symbolizing zooming in, investigating, and search.",
-            "usage": [
-                {
-                    "context": "Searching Information",
-                    "example": "Closely examining documents with a magnifying glass. 🔍📄🔍"
-                }
-            ]
-        },
-        {
-            "emoji": "🔎",
-            "name": "Magnifying Glass Tilted Right",
-            "meaning": "A magnifying glass tilted right, symbolizing zooming in, investigating, and search.",
-            "usage": [
-                {
-                    "context": "Investigation",
-                    "example": "Conducting a detailed investigation with a magnifying glass. 🔎🔍📄"
-                }
-            ]
-        },
-        {
-            "emoji": "🔏",
-            "name": "Lock with Ink Pen",
-            "meaning": "A lock with an ink pen, symbolizing secure documents, and signature required.",
-            "usage": [
-                {
-                    "context": "Secure Documents",
-                    "example": "Securing important documents with a lock and ink pen. 🔏📝📜"
-                }
-            ]
-        },
-        {
-            "emoji": "🔐",
-            "name": "Closed Lock with Key",
-            "meaning": "A closed lock with a key, symbolizing security and protection.",
-            "usage": [
-                {
-                    "context": "Online Privacy",
-                    "example": "Ensuring online privacy with strong security. 🔐🔒💻"
-                }
-            ]
-        },
-        {
-            "emoji": "🔒",
-            "name": "Lock",
-            "meaning": "A lock, symbolizing security, protection, and privacy.",
-            "usage": [
-                {
-                    "context": "Safety",
-                    "example": "Locking the front door for safety and privacy. 🔒🚪🏡"
-                }
-            ]
-        },
-        {
-            "emoji": "🔓",
-            "name": "Unlocked",
-            "meaning": "An unlocked lock, symbolizing open access, freedom, and lack of security.",
-            "usage": [
-                {
-                    "context": "Unlocking Doors",
-                    "example": "Unlocking the gate to grant access to the garden. 🔓🏡🌳"
-                }
-            ]
+  "objects_emojis": [
+    {
+      "emoji": "⌚️",
+      "name": "Watch",
+      "meaning": "A wristwatch, symbolizing timekeeping, scheduling, and being punctual.",
+      "usage": [
+        {
+          "context": "Time Management",
+          "example": "Setting a reminder on your watch to stay organized and on time. ⌚️📆⏰"
         }
-    ]
+      ]
+    },
+    {
+      "emoji": "📱",
+      "name": "Mobile Phone",
+      "meaning": "A mobile phone, symbolizing communication, calls, and modern technology.",
+      "usage": [
+        {
+          "context": "Phone Call",
+          "example": "Having a meaningful conversation with a friend over the phone. 📱📞🗣️"
+        }
+      ]
+    },
+    {
+      "emoji": "📲",
+      "name": "Mobile Phone with Arrow",
+      "meaning": "A mobile phone with an arrow pointing to it, symbolizing receiving a phone call or notification.",
+      "usage": [
+        {
+          "context": "Incoming Call",
+          "example": "Receiving an important call and being alerted by your phone. 📲📞🔔"
+        }
+      ]
+    },
+    {
+      "emoji": "💻",
+      "name": "Laptop Computer",
+      "meaning": "A laptop computer, symbolizing work, productivity, and online activities.",
+      "usage": [
+        {
+          "context": "Remote Work",
+          "example": "Working from your laptop computer to stay connected and productive from anywhere. 💻🏡💼"
+        }
+      ]
+    },
+    {
+      "emoji": "⌨️",
+      "name": "Keyboard",
+      "meaning": "A computer keyboard, symbolizing typing, writing, and text input.",
+      "usage": [
+        {
+          "context": "Writing",
+          "example": "Typing a heartfelt message to a loved one on your keyboard. ⌨️❤️📝"
+        }
+      ]
+    },
+    {
+      "emoji": "🖥️",
+      "name": "Desktop Computer",
+      "meaning": "A desktop computer, symbolizing workstations, home office, and computing power.",
+      "usage": [
+        {
+          "context": "Workstation",
+          "example": "Creating a comfortable and efficient home office with a desktop computer. 🖥️🏢💼"
+        }
+      ]
+    },
+    {
+      "emoji": "🖨️",
+      "name": "Printer",
+      "meaning": "A printer, symbolizing document printing, hard copies, and paperwork.",
+      "usage": [
+        {
+          "context": "Printing Documents",
+          "example": "Using the printer to produce important documents and reports. 🖨️📄📊"
+        }
+      ]
+    },
+    {
+      "emoji": "🖱️",
+      "name": "Computer Mouse",
+      "meaning": "A computer mouse, symbolizing navigation, pointer devices, and digital interaction.",
+      "usage": [
+        {
+          "context": "Digital Navigation",
+          "example": "Effortlessly scrolling through web pages and clicking with a computer mouse. 🖱️🖥️👆"
+        }
+      ]
+    },
+    {
+      "emoji": "🖲️",
+      "name": "Trackball",
+      "meaning": "A trackball, symbolizing input devices, alternative controls, and precision.",
+      "usage": [
+        {
+          "context": "Precise Control",
+          "example": "Using a trackball for precise control in design and gaming. 🖲️🎮🎨"
+        }
+      ]
+    },
+    {
+      "emoji": "🕹️",
+      "name": "Joystick",
+      "meaning": "A joystick, symbolizing gaming, arcade games, and control input.",
+      "usage": [
+        {
+          "context": "Gaming Experience",
+          "example": "Mastering your gaming skills with a joystick in hand. 🕹️🎮🕹️"
+        }
+      ]
+    },
+    {
+      "emoji": "🗜️",
+      "name": "Compression",
+      "meaning": "A clamp symbol, indicating data compression, file size reduction, and data management.",
+      "usage": [
+        {
+          "context": "Data Compression",
+          "example": "Using compression techniques to reduce file sizes and optimize data storage. 🗜️💽💾"
+        }
+      ]
+    },
+    {
+      "emoji": "💽",
+      "name": "Floppy Disk",
+      "meaning": "A floppy disk, symbolizing legacy data storage, technology, and data backup.",
+      "usage": [
+        {
+          "context": "Data Backup",
+          "example": "Creating a backup of important files on a floppy disk for safekeeping. 💽📂🔒"
+        }
+      ]
+    },
+    {
+      "emoji": "💾",
+      "name": "Floppy Diskette",
+      "meaning": "A floppy diskette, symbolizing data storage, save icons, and digital preservation.",
+      "usage": [
+        {
+          "context": "Digital Preservation",
+          "example": "Using vintage floppy diskettes as symbols of digital nostalgia and history. 💾🕰️📷"
+        }
+      ]
+    },
+    {
+      "emoji": "💿",
+      "name": "Optical Disk",
+      "meaning": "An optical disk, symbolizing CDs, DVDs, and data storage media.",
+      "usage": [
+        {
+          "context": "Media Playback",
+          "example": "Enjoying music and movies from optical disks for a nostalgic experience. 💿🎵🎥"
+        }
+      ]
+    },
+    {
+      "emoji": "📀",
+      "name": "DVD",
+      "meaning": "A DVD, symbolizing digital video discs, movies, and multimedia content.",
+      "usage": [
+        {
+          "context": "Movie Night",
+          "example": "Organizing a movie night with friends and enjoying classic films on DVD. 📀🎬🍿"
+        }
+      ]
+    },
+    {
+      "emoji": "📼",
+      "name": "Videocassette",
+      "meaning": "A videocassette, symbolizing VHS tapes, video recording, and retro technology.",
+      "usage": [
+        {
+          "context": "Retro Tech",
+          "example": "Nostalgically revisiting old family videos stored on videocassettes. 📼📺📹"
+        }
+      ]
+    },
+    {
+      "emoji": "📷",
+      "name": "Camera",
+      "meaning": "A camera, symbolizing photography, snapshots, and capturing moments.",
+      "usage": [
+        {
+          "context": "Photography",
+          "example": "Taking stunning photos with your camera to preserve memories. 📷📸📷"
+        }
+      ]
+    },
+    {
+      "emoji": "📸",
+      "name": "Camera with Flash",
+      "meaning": "A camera with a flash, symbolizing taking pictures, photography, and documenting moments.",
+      "usage": [
+        {
+          "context": "Photography",
+          "example": "Capturing beautiful moments with your camera and its flash. 📸🌟📸"
+        }
+      ]
+    },
+    {
+      "emoji": "📹",
+      "name": "Video Camera",
+      "meaning": "A video camera, symbolizing videography, recording, and filmmaking.",
+      "usage": [
+        {
+          "context": "Filmmaking",
+          "example": "Creating and editing videos with your video camera for artistic expression. 📹🎥🎬"
+        }
+      ]
+    },
+    {
+      "emoji": "🎥",
+      "name": "Movie Camera",
+      "meaning": "A movie camera, symbolizing cinematography, films, and movie production.",
+      "usage": [
+        {
+          "context": "Movie Night",
+          "example": "Appreciating the art of filmmaking and watching classic movies. 🎥🎬🍿"
+        }
+      ]
+    },
+    {
+      "emoji": "📽️",
+      "name": "Film Projector",
+      "meaning": "A film projector, symbolizing movie screenings, cinema, and film presentations.",
+      "usage": [
+        {
+          "context": "Movie Night",
+          "example": "Hosting a movie night with friends and projecting films on a big screen. 📽️🎞️🍿"
+        }
+      ]
+    },
+    {
+      "emoji": "🎞️",
+      "name": "Film Frames",
+      "meaning": "Film frames, symbolizing cinema, storytelling, and motion pictures.",
+      "usage": [
+        {
+          "context": "Cinema Lover",
+          "example": "Admiring the beauty of film frames and their role in storytelling. 🎞️📽️🎬"
+        }
+      ]
+    },
+    {
+      "emoji": "📞",
+      "name": "Telephone Receiver",
+      "meaning": "A telephone receiver, symbolizing phone calls, communication, and conversations.",
+      "usage": [
+        {
+          "context": "Phone Call",
+          "example": "Having a pleasant conversation with a friend using your telephone. 📞🗣️📞"
+        }
+      ]
+    },
+    {
+      "emoji": "☎️",
+      "name": "Telephone",
+      "meaning": "A classic telephone, symbolizing vintage communication, landlines, and dialing.",
+      "usage": [
+        {
+          "context": "Vintage Tech",
+          "example": "Exploring vintage telephones and their historical significance. ☎️🕰️📷"
+        }
+      ]
+    },
+    {
+      "emoji": "📟",
+      "name": "Pager",
+      "meaning": "A pager, symbolizing paging, urgent messages, and early mobile communication.",
+      "usage": [
+        {
+          "context": "Retro Tech",
+          "example": "Nostalgically remembering the days of pagers and instant messages. 📟📱✉️"
+        }
+      ]
+    },
+    {
+      "emoji": "📠",
+      "name": "Fax Machine",
+      "meaning": "A fax machine, symbolizing faxing documents, business communication, and office equipment.",
+      "usage": [
+        {
+          "context": "Business Communication",
+          "example": "Sending important documents via fax for efficient business communication. 📠📄📈"
+        }
+      ]
+    },
+    {
+      "emoji": "📺",
+      "name": "Television",
+      "meaning": "A television, symbolizing entertainment, TV shows, and screen time.",
+      "usage": [
+        {
+          "context": "TV Time",
+          "example": "Gathering with family to watch your favorite shows on television. 📺🍿👨‍👩‍👦"
+        }
+      ]
+    },
+    {
+      "emoji": "📻",
+      "name": "Radio",
+      "meaning": "A radio, symbolizing audio broadcasting, music, and news updates.",
+      "usage": [
+        {
+          "context": "Radio Music",
+          "example": "Tuning in to your favorite radio station to enjoy music and the latest hits. 📻🎵🎙️"
+        }
+      ]
+    },
+    {
+      "emoji": "🎙️",
+      "name": "Studio Microphone",
+      "meaning": "A studio microphone, symbolizing singing, recording, and podcasting.",
+      "usage": [
+        {
+          "context": "Podcast Recording",
+          "example": "Recording a podcast episode with a high-quality studio microphone. 🎙️🎤🎧"
+        }
+      ]
+    },
+    {
+      "emoji": "🎚️",
+      "name": "Level Slider",
+      "meaning": "A level slider, symbolizing audio mixing, sound adjustments, and volume control.",
+      "usage": [
+        {
+          "context": "Sound Mixing",
+          "example": "Fine-tuning audio levels for the perfect sound quality using level sliders. 🎚️🎛️🎧"
+        }
+      ]
+    },
+    {
+      "emoji": "🎛️",
+      "name": "Control Knobs",
+      "meaning": "Control knobs, symbolizing sound engineering, audio equipment, and adjustments.",
+      "usage": [
+        {
+          "context": "Sound Engineering",
+          "example": "Working with control knobs to create the perfect sound mix in the studio. 🎛️🎚️🎧"
+        }
+      ]
+    },
+    {
+      "emoji": "🧭",
+      "name": "Compass",
+      "meaning": "A compass, symbolizing direction, navigation, and finding your way.",
+      "usage": [
+        {
+          "context": "Navigation",
+          "example": "Using a compass for orienteering and finding your path in the wilderness. 🧭🌲🌄"
+        }
+      ]
+    },
+    {
+      "emoji": "⏱️",
+      "name": "Stopwatch",
+      "meaning": "A stopwatch, symbolizing timing, sports events, and precision measurement.",
+      "usage": [
+        {
+          "context": "Sports Timing",
+          "example": "Measuring the performance of athletes using a stopwatch at a race. ⏱️🏃‍♂️🥇"
+        }
+      ]
+    },
+    {
+      "emoji": "⏲️",
+      "name": "Timer Clock",
+      "meaning": "A timer clock, symbolizing countdowns, alarms, and tracking time intervals.",
+      "usage": [
+        {
+          "context": "Cooking Timer",
+          "example": "Setting a timer for baking to ensure your cookies come out perfectly. ⏲️🍪👩‍🍳"
+        }
+      ]
+    },
+    {
+      "emoji": "⏰",
+      "name": "Alarm Clock",
+      "meaning": "An alarm clock, symbolizing waking up, time management, and schedules.",
+      "usage": [
+        {
+          "context": "Morning Routine",
+          "example": "Starting your day with the sound of an alarm clock and a smile. ⏰☀️🛏️"
+        }
+      ]
+    },
+    {
+      "emoji": "🕰️",
+      "name": "Mantelpiece Clock",
+      "meaning": "A mantelpiece clock, symbolizing home decor, antique timepieces, and nostalgia.",
+      "usage": [
+        {
+          "context": "Home Decor",
+          "example": "Adorning your home with an elegant mantelpiece clock for a touch of class. 🕰️🏡🌟"
+        }
+      ]
+    },
+    {
+      "emoji": "⌛️",
+      "name": "Hourglass",
+      "meaning": "An hourglass, symbolizing time passing, patience, and waiting.",
+      "usage": [
+        {
+          "context": "Waiting Game",
+          "example": "Watching the grains of sand fall as you play the waiting game with patience. ⌛️⏳⌛️"
+        }
+      ]
+    },
+    {
+      "emoji": "⏳",
+      "name": "Hourglass with Flowing Sand",
+      "meaning": "An hourglass with flowing sand, symbolizing time running out, deadlines, and urgency.",
+      "usage": [
+        {
+          "context": "Deadline Approaching",
+          "example": "Feeling the pressure as time is running out to meet a critical deadline. ⏳📅🕒"
+        }
+      ]
+    },
+    {
+      "emoji": "📡",
+      "name": "Satellite Antenna",
+      "meaning": "A satellite antenna, symbolizing communication, broadcasting, and connectivity.",
+      "usage": [
+        {
+          "context": "Global Communication",
+          "example": "Ensuring global communication with the help of satellite antennas. 📡🌍🌐"
+        }
+      ]
+    },
+    {
+      "emoji": "🔋",
+      "name": "Battery",
+      "meaning": "A battery, symbolizing power, energy, and the state of charge.",
+      "usage": [
+        {
+          "context": "Charging Devices",
+          "example": "Plugging in your phone to charge its battery for the day. 🔋📱🔌"
+        }
+      ]
+    },
+    {
+      "emoji": "🪫",
+      "name": "Broom",
+      "meaning": "A broom, symbolizing cleaning, sweeping, and tidying up.",
+      "usage": [
+        {
+          "context": "Cleaning House",
+          "example": "Using a broom to sweep and clean the house until it shines. 🪫🏡✨"
+        }
+      ]
+    },
+    {
+      "emoji": "🔌",
+      "name": "Electric Plug",
+      "meaning": "An electric plug, symbolizing electrical power, connectivity, and energy sources.",
+      "usage": [
+        {
+          "context": "Plugging In",
+          "example": "Connecting devices to a power source by inserting the electric plug. 🔌🔋💻"
+        }
+      ]
+    },
+    {
+      "emoji": "💡",
+      "name": "Light Bulb",
+      "meaning": "A light bulb, symbolizing ideas, inspiration, and illumination.",
+      "usage": [
+        {
+          "context": "Bright Idea",
+          "example": "Having a bright idea that lights up your creativity and imagination. 💡💡✨"
+        }
+      ]
+    },
+    {
+      "emoji": "🔦",
+      "name": "Flashlight",
+      "meaning": "A flashlight, symbolizing light in the dark, guidance, and visibility.",
+      "usage": [
+        {
+          "context": "Exploring the Dark",
+          "example": "Using a flashlight to navigate through dark spaces and find your way. 🔦🌌🚶"
+        }
+      ]
+    },
+    {
+      "emoji": "🕯️",
+      "name": "Candle",
+      "meaning": "A candle, symbolizing light, remembrance, and creating a cozy atmosphere.",
+      "usage": [
+        {
+          "context": "Candlelit Dinner",
+          "example": "Setting the mood for a romantic candlelit dinner with your loved one. 🕯️🍽️❤️"
+        }
+      ]
+    },
+    {
+      "emoji": "🪔",
+      "name": "Diya Lamp",
+      "meaning": "A diya lamp, symbolizing light, cultural traditions, and festivals.",
+      "usage": [
+        {
+          "context": "Festival of Lights",
+          "example": "Celebrating a festival of lights by lighting a beautiful diya lamp. 🪔🎉✨"
+        }
+      ]
+    },
+    {
+      "emoji": "🧯",
+      "name": "Fire Extinguisher",
+      "meaning": "A fire extinguisher, symbolizing fire safety, emergency response, and prevention.",
+      "usage": [
+        {
+          "context": "Fire Safety",
+          "example": "Ensuring fire safety by keeping a fire extinguisher in your home or workplace. 🧯🚒🔥"
+        }
+      ]
+    },
+    {
+      "emoji": "🛢️",
+      "name": "Oil Drum",
+      "meaning": "An oil drum, symbolizing fuel, energy resources, and storage.",
+      "usage": [
+        {
+          "context": "Energy Resources",
+          "example": "Storing and managing oil drums as part of the energy industry. 🛢️⚙️🛢️"
+        }
+      ]
+    },
+    {
+      "emoji": "💸",
+      "name": "Money with Wings",
+      "meaning": "Money with wings, symbolizing spending, wealth, and the flow of money.",
+      "usage": [
+        {
+          "context": "Spending Money",
+          "example": "Treating yourself to something special and watching your money take flight. 💸💰✈️"
+        }
+      ]
+    },
+    {
+      "emoji": "💵",
+      "name": "Dollar Banknote",
+      "meaning": "A dollar banknote, symbolizing cash, currency, and financial transactions.",
+      "usage": [
+        {
+          "context": "Financial Transactions",
+          "example": "Exchanging dollar banknotes for goods and services in daily life. 💵💳🛒"
+        }
+      ]
+    },
+    {
+      "emoji": "💴",
+      "name": "Yen Banknote",
+      "meaning": "A yen banknote, symbolizing Japanese currency, trade, and financial dealings.",
+      "usage": [
+        {
+          "context": "Currency Exchange",
+          "example": "Converting yen banknotes to other currencies for international travel. 💴💱✈️"
+        }
+      ]
+    },
+    {
+      "emoji": "💶",
+      "name": "Euro Banknote",
+      "meaning": "A euro banknote, symbolizing the Euro currency, trade, and the European Union.",
+      "usage": [
+        {
+          "context": "European Union",
+          "example": "Using euro banknotes for transactions within the European Union. 💶🇪🇺🛒"
+        }
+      ]
+    },
+    {
+      "emoji": "💷",
+      "name": "Pound Banknote",
+      "meaning": "A pound banknote, symbolizing British currency, commerce, and trade.",
+      "usage": [
+        {
+          "context": "British Commerce",
+          "example": "Shopping in the UK and paying with pound banknotes for local goods. 💷🇬🇧🛒"
+        }
+      ]
+    },
+    {
+      "emoji": "🪙",
+      "name": "Coin",
+      "meaning": "A coin, symbolizing small change, transactions, and monetary value.",
+      "usage": [
+        {
+          "context": "Pocket Change",
+          "example": "Receiving a coin as change after a small purchase and adding it to your collection. 🪙💰💫"
+        }
+      ]
+    },
+    {
+      "emoji": "💰",
+      "name": "Money Bag",
+      "meaning": "A money bag, symbolizing wealth, savings, and financial success.",
+      "usage": [
+        {
+          "context": "Financial Success",
+          "example": "Celebrating financial success with a money bag full of wealth. 💰📈💼"
+        }
+      ]
+    },
+    {
+      "emoji": "💳",
+      "name": "Credit Card",
+      "meaning": "A credit card, symbolizing electronic payments, credit lines, and cashless transactions.",
+      "usage": [
+        {
+          "context": "Cashless Payment",
+          "example": "Making quick and secure payments using your credit card for convenience. 💳💳💸"
+        }
+      ]
+    },
+    {
+      "emoji": "🪪",
+      "name": "Firecracker",
+      "meaning": "A firecracker, symbolizing celebrations, festive occasions, and fireworks.",
+      "usage": [
+        {
+          "context": "Celebrations",
+          "example": "Lighting up firecrackers to celebrate special occasions and bring joy. 🪪🎆🎉"
+        }
+      ]
+    },
+    {
+      "emoji": "💎",
+      "name": "Gem Stone",
+      "meaning": "A gemstone, symbolizing precious stones, jewelry, and beauty.",
+      "usage": [
+        {
+          "context": "Jewelry Collection",
+          "example": "Admiring the brilliance of a stunning gemstone in your jewelry collection. 💎💍✨"
+        }
+      ]
+    },
+    {
+      "emoji": "⚖️",
+      "name": "Balance Scale",
+      "meaning": "A balance scale, symbolizing justice, fairness, and the weighing of decisions.",
+      "usage": [
+        {
+          "context": "Legal Matters",
+          "example": "Representing justice and fairness with a balance scale in legal contexts. ⚖️⚖️📜"
+        }
+      ]
+    },
+    {
+      "emoji": "🪜",
+      "name": "Ladder",
+      "meaning": "A ladder, symbolizing progress, ascent, and reaching new heights.",
+      "usage": [
+        {
+          "context": "Achieving Goals",
+          "example": "Climbing the ladder of success one step at a time to achieve your goals. 🪜🏆🚀"
+        }
+      ]
+    },
+    {
+      "emoji": "🪛",
+      "name": "Hook",
+      "meaning": "A hook, symbolizing attaching, connecting, and hanging items.",
+      "usage": [
+        {
+          "context": "Hanging Decorations",
+          "example": "Using hooks to hang up decorations and add charm to your space. 🪛🎉✨"
+        }
+      ]
+    },
+    {
+      "emoji": "🔧",
+      "name": "Wrench",
+      "meaning": "A wrench, symbolizing repairs, fixing, and maintenance.",
+      "usage": [
+        {
+          "context": "DIY Repairs",
+          "example": "Using a wrench to perform DIY repairs and keep things in working order. 🔧🏡🔨"
+        }
+      ]
+    },
+    {
+      "emoji": "⚒️",
+      "name": "Hammer and Pick",
+      "meaning": "A crossed hammer and pick, symbolizing mining, construction, and labor.",
+      "usage": [
+        {
+          "context": "Construction Work",
+          "example": "Hard at work in the construction site with a hammer and pick. ⚒️🏗️👷"
+        }
+      ]
+    },
+    {
+      "emoji": "🛠️",
+      "name": "Hammer and Wrench",
+      "meaning": "A crossed hammer and wrench, symbolizing building, repairs, and DIY projects.",
+      "usage": [
+        {
+          "context": "DIY Repairs",
+          "example": "Taking on DIY repairs with a trusty hammer and wrench. 🛠️🔧🏡"
+        }
+      ]
+    },
+    {
+      "emoji": "⛏️",
+      "name": "Pick",
+      "meaning": "A pick, symbolizing digging, excavation, and hard labor.",
+      "usage": [
+        {
+          "context": "Mining",
+          "example": "Mining valuable resources with a sturdy pick. ⛏️💎⛰️"
+        }
+      ]
+    },
+    {
+      "emoji": "🪚",
+      "name": "Carpentry Saw",
+      "meaning": "A carpentry saw, symbolizing woodworking, crafting, and cutting.",
+      "usage": [
+        {
+          "context": "Woodworking",
+          "example": "Creating beautiful wooden crafts with a carpentry saw. 🪚🪛🪵"
+        }
+      ]
+    },
+    {
+      "emoji": "🔩",
+      "name": "Nut and Bolt",
+      "meaning": "A nut and bolt, symbolizing fastening, engineering, and hardware.",
+      "usage": [
+        {
+          "context": "Engineering",
+          "example": "Working on engineering projects that require nuts and bolts. 🔩🔧🛠️"
+        }
+      ]
+    },
+    {
+      "emoji": "⚙️",
+      "name": "Gear",
+      "meaning": "A gear, symbolizing mechanics, machinery, and interconnected parts.",
+      "usage": [
+        {
+          "context": "Mechanical Engineering",
+          "example": "Understanding the intricate workings of machines and gears. ⚙️🔧🏭"
+        }
+      ]
+    },
+    {
+      "emoji": "🪤",
+      "name": "Mouse Trap",
+      "meaning": "A mouse trap, symbolizing pest control and catching rodents.",
+      "usage": [
+        {
+          "context": "Pest Control",
+          "example": "Setting up a mouse trap to catch unwanted intruders. 🪤🐭🏡"
+        }
+      ]
+    },
+    {
+      "emoji": "🧱",
+      "name": "Brick",
+      "meaning": "A brick, symbolizing construction, building materials, and solidity.",
+      "usage": [
+        {
+          "context": "Building a Wall",
+          "example": "Laying bricks to build a strong and solid wall. 🧱🏗️🏰"
+        }
+      ]
+    },
+    {
+      "emoji": "⛓️",
+      "name": "Chains",
+      "meaning": "Chains, symbolizing restraint, connections, and links.",
+      "usage": [
+        {
+          "context": "Chained Together",
+          "example": "The chains of friendship that bind us together. ⛓️🤝❤️"
+        }
+      ]
+    },
+    {
+      "emoji": "🧲",
+      "name": "Magnet",
+      "meaning": "A magnet, symbolizing attraction, science, and magnetic forces.",
+      "usage": [
+        {
+          "context": "Magnetic Attraction",
+          "example": "The magnetic pull of two hearts drawn together. 🧲❤️💑"
+        }
+      ]
+    },
+    {
+      "emoji": "🔫",
+      "name": "Pistol",
+      "meaning": "A pistol, symbolizing firearms, danger, and law enforcement.",
+      "usage": [
+        {
+          "context": "Law Enforcement",
+          "example": "Holding the line as a member of the law enforcement with a pistol. 🔫👮🚔"
+        }
+      ]
+    },
+    {
+      "emoji": "💣",
+      "name": "Bomb",
+      "meaning": "A bomb, symbolizing explosions, danger, and critical situations.",
+      "usage": [
+        {
+          "context": "Emergency Situation",
+          "example": "Dealing with a critical emergency situation and diffusing the bomb. 💣🚨🚒"
+        }
+      ]
+    },
+    {
+      "emoji": "🧨",
+      "name": "Firecracker",
+      "meaning": "A firecracker, symbolizing celebrations, festive events, and fireworks.",
+      "usage": [
+        {
+          "context": "New Year's Eve",
+          "example": "Lighting up firecrackers to ring in the New Year with a bang! 🧨🎆🎉"
+        }
+      ]
+    },
+    {
+      "emoji": "🪓",
+      "name": "Axe",
+      "meaning": "An axe, symbolizing chopping, woodcutting, and forestry work.",
+      "usage": [
+        {
+          "context": "Forestry",
+          "example": "Chopping wood for a cozy night by the fireplace with an axe. 🪓🌲🔥"
+        }
+      ]
+    },
+    {
+      "emoji": "🔪",
+      "name": "Kitchen Knife",
+      "meaning": "A kitchen knife, symbolizing cooking, food preparation, and cutting.",
+      "usage": [
+        {
+          "context": "Cooking Dinner",
+          "example": "Slicing ingredients with a sharp kitchen knife to prepare dinner. 🔪🍽️🍳"
+        }
+      ]
+    },
+    {
+      "emoji": "🗡️",
+      "name": "Dagger",
+      "meaning": "A dagger, symbolizing weapons, combat, and historical weaponry.",
+      "usage": [
+        {
+          "context": "Historical Reenactment",
+          "example": "Participating in a historical reenactment with a ceremonial dagger. 🗡️🛡️🏹"
+        }
+      ]
+    },
+    {
+      "emoji": "⚔️",
+      "name": "Crossed Swords",
+      "meaning": "Crossed swords, symbolizing battle, conflict, and duels.",
+      "usage": [
+        {
+          "context": "Epic Duel",
+          "example": "Engaging in an epic sword duel with crossed swords. ⚔️👑🤺"
+        }
+      ]
+    },
+    {
+      "emoji": "🛡️",
+      "name": "Shield",
+      "meaning": "A shield, symbolizing protection, defense, and security.",
+      "usage": [
+        {
+          "context": "Security",
+          "example": "Standing strong as a shield to protect loved ones. 🛡️👨‍👩‍👧‍👦❤️"
+        }
+      ]
+    },
+    {
+      "emoji": "🚬",
+      "name": "Cigarette",
+      "meaning": "A cigarette, symbolizing smoking and tobacco use.",
+      "usage": [
+        {
+          "context": "Smoking Break",
+          "example": "Taking a break and enjoying a cigarette. 🚬☕🤔"
+        }
+      ]
+    },
+    {
+      "emoji": "⚰️",
+      "name": "Coffin",
+      "meaning": "A coffin, symbolizing funerals, death, and mourning.",
+      "usage": [
+        {
+          "context": "Funeral Service",
+          "example": "Paying respects at a funeral service with a heavy heart. ⚰️🌹😢"
+        }
+      ]
+    },
+    {
+      "emoji": "🪦",
+      "name": "Headstone",
+      "meaning": "A headstone, symbolizing graveyards, memorials, and remembrance.",
+      "usage": [
+        {
+          "context": "Remembrance",
+          "example": "Visiting a loved one's headstone to honor their memory. 🪦🌼🙏"
+        }
+      ]
+    },
+    {
+      "emoji": "⚱️",
+      "name": "Funeral Urn",
+      "meaning": "A funeral urn, symbolizing cremation and ashes.",
+      "usage": [
+        {
+          "context": "Cremation Ceremony",
+          "example": "Holding a ceremony to honor a loved one's ashes in a funeral urn. ⚱️🕯️🌅"
+        }
+      ]
+    },
+    {
+      "emoji": "🏺",
+      "name": "Amphora",
+      "meaning": "An amphora, symbolizing ancient vessels, pottery, and art.",
+      "usage": [
+        {
+          "context": "Ancient Artifacts",
+          "example": "Admiring the intricate design of an ancient amphora. 🏺🏛️🖼️"
+        }
+      ]
+    },
+    {
+      "emoji": "🔮",
+      "name": "Crystal Ball",
+      "meaning": "A crystal ball, symbolizing fortune-telling, magic, and mysticism.",
+      "usage": [
+        {
+          "context": "Fortune Telling",
+          "example": "Seeking answers to the future with a mystical crystal ball. 🔮🔍🔮"
+        }
+      ]
+    },
+    {
+      "emoji": "📿",
+      "name": "Prayer Beads",
+      "meaning": "Prayer beads, symbolizing meditation, spirituality, and prayer.",
+      "usage": [
+        {
+          "context": "Meditation",
+          "example": "Finding inner peace through meditation with prayer beads. 📿🧘‍♂️🧘‍♀️"
+        }
+      ]
+    },
+    {
+      "emoji": "🧿",
+      "name": "Nazar Amulet",
+      "meaning": "A Nazar amulet, symbolizing protection from the evil eye and negative energy.",
+      "usage": [
+        {
+          "context": "Protection",
+          "example": "Wearing a Nazar amulet for protection from negative energy. 🧿🌟🛡️"
+        }
+      ]
+    },
+    {
+      "emoji": "🪬",
+      "name": "Barber Pole",
+      "meaning": "A barber pole, symbolizing barbershops, grooming, and haircuts.",
+      "usage": [
+        {
+          "context": "Haircut Appointment",
+          "example": "Getting a fresh haircut at the local barbershop. 🪬✂️💈"
+        }
+      ]
+    },
+    {
+      "emoji": "⚗️",
+      "name": "Alembic",
+      "meaning": "An alembic, symbolizing alchemy, chemistry, and experimentation.",
+      "usage": [
+        {
+          "context": "Alchemy Studies",
+          "example": "Delving into the mysteries of alchemy and chemistry with an alembic. ⚗️🔬🔍"
+        }
+      ]
+    },
+    {
+      "emoji": "🔭",
+      "name": "Telescope",
+      "meaning": "A telescope, symbolizing stargazing, astronomy, and exploration.",
+      "usage": [
+        {
+          "context": "Stargazing",
+          "example": "Exploring distant galaxies through a powerful telescope. 🔭🌌🌠"
+        }
+      ]
+    },
+    {
+      "emoji": "🔬",
+      "name": "Microscope",
+      "meaning": "A microscope, symbolizing scientific research, biology, and discoveries.",
+      "usage": [
+        {
+          "context": "Biological Research",
+          "example": "Examining microorganisms under a high-powered microscope. 🔬🦠🧫"
+        }
+      ]
+    },
+    {
+      "emoji": "🕳️",
+      "name": "Hole",
+      "meaning": "A hole, symbolizing gaps, mysteries, and unknown depths.",
+      "usage": [
+        {
+          "context": "Unknown Depths",
+          "example": "Peering into the dark abyss of an unknown hole. 🕳️🌌🕵️‍♂️"
+        }
+      ]
+    },
+    {
+      "emoji": "🩻",
+      "name": "Thong Sandal",
+      "meaning": "A thong sandal, symbolizing casual footwear and comfort.",
+      "usage": [
+        {
+          "context": "Beach Vacation",
+          "example": "Strolling along the sandy beach in comfy thong sandals. 🩻🏖️🌞"
+        }
+      ]
+    },
+    {
+      "emoji": "🩹",
+      "name": "Adhesive Bandage",
+      "meaning": "An adhesive bandage, symbolizing first aid, healing, and injuries.",
+      "usage": [
+        {
+          "context": "First Aid",
+          "example": "Applying an adhesive bandage to a small wound for quick healing. 🩹🩺🏥"
+        }
+      ]
+    },
+    {
+      "emoji": "🩺",
+      "name": "Stethoscope",
+      "meaning": "A stethoscope, symbolizing healthcare, examinations, and medical professionals.",
+      "usage": [
+        {
+          "context": "Medical Checkup",
+          "example": "The doctor listened to my heartbeat with a stethoscope. 🩺❤️👩‍⚕️"
+        }
+      ]
+    },
+    {
+      "emoji": "💊",
+      "name": "Pill",
+      "meaning": "A pill, symbolizing medicine, prescriptions, and healthcare.",
+      "usage": [
+        {
+          "context": "Medication Reminder",
+          "example": "Taking your prescribed pills as part of your daily routine. 💊⏰💡"
+        }
+      ]
+    },
+    {
+      "emoji": "💉",
+      "name": "Syringe",
+      "meaning": "A syringe, symbolizing vaccinations, injections, and medical procedures.",
+      "usage": [
+        {
+          "context": "Vaccination Day",
+          "example": "Getting a flu shot with a syringe for a healthier winter. 💉💪❄️"
+        }
+      ]
+    },
+    {
+      "emoji": "🩸",
+      "name": "Drop of Blood",
+      "meaning": "A drop of blood, symbolizing blood donations, testing, and health check-ups.",
+      "usage": [
+        {
+          "context": "Blood Donation Drive",
+          "example": "Contributing to a blood donation drive to save lives. 🩸❤️🚑"
+        }
+      ]
+    },
+    {
+      "emoji": "🧬",
+      "name": "DNA Double Helix",
+      "meaning": "A DNA double helix, symbolizing genetics, science, and DNA research.",
+      "usage": [
+        {
+          "context": "Genetic Research",
+          "example": "Unraveling the mysteries of genetics through DNA research. 🧬🔍🔬"
+        }
+      ]
+    },
+    {
+      "emoji": "🦠",
+      "name": "Microbe",
+      "meaning": "A microbe, symbolizing microorganisms, germs, and biology.",
+      "usage": [
+        {
+          "context": "Microbiology Study",
+          "example": "Studying microorganisms and their impact on health. 🦠🔬🧫"
+        }
+      ]
+    },
+    {
+      "emoji": "🧫",
+      "name": "Petri Dish",
+      "meaning": "A petri dish, symbolizing laboratory experiments, cell culture, and research.",
+      "usage": [
+        {
+          "context": "Cell Culture",
+          "example": "Observing cell cultures in a petri dish during a lab experiment. 🧫🔬📊"
+        }
+      ]
+    },
+    {
+      "emoji": "🌡️",
+      "name": "Thermometer",
+      "meaning": "A thermometer, symbolizing temperature measurement, fever, and health monitoring.",
+      "usage": [
+        {
+          "context": "Health Check",
+          "example": "Checking your body temperature with a thermometer when feeling unwell. 🌡️🤒🏥"
+        }
+      ]
+    },
+    {
+      "emoji": "🧹",
+      "name": "Broom",
+      "meaning": "A broom, symbolizing cleaning, sweeping, and tidying up.",
+      "usage": [
+        {
+          "context": "House Cleaning",
+          "example": "Sweeping and keeping the house clean with a broom. 🧹🏡🧼"
+        }
+      ]
+    },
+    {
+      "emoji": "🪠",
+      "name": "Plunger",
+      "meaning": "A plunger, symbolizing unclogging drains, plumbing, and fixes.",
+      "usage": [
+        {
+          "context": "Drain Blockage",
+          "example": "Fixing a drain blockage issue with a trusty plunger. 🪠🚿🛠️"
+        }
+      ]
+    },
+    {
+      "emoji": "🧺",
+      "name": "Basket",
+      "meaning": "A basket, symbolizing storage, picnics, and carrying items.",
+      "usage": [
+        {
+          "context": "Picnic Time",
+          "example": "Packing a basket with delicious treats for a fun picnic. 🧺🍉🌞"
+        }
+      ]
+    },
+    {
+      "emoji": "🪒",
+      "name": "Razor",
+      "meaning": "A razor, symbolizing shaving, grooming, and personal care.",
+      "usage": [
+        {
+          "context": "Shaving Routine",
+          "example": "Starting the day with a close shave using a sharp razor. 🪒💈🚿"
+        }
+      ]
+    },
+    {
+      "emoji": "🪮",
+      "name": "Lotion Bottle",
+      "meaning": "A lotion bottle, symbolizing skincare, moisturizing, and self-care.",
+      "usage": [
+        {
+          "context": "Skin Care",
+          "example": "Applying lotion from a stylish bottle for radiant skin. 🪮🌟💆‍♀️"
+        }
+      ]
+    },
+    {
+      "emoji": "🧽",
+      "name": "Sponge",
+      "meaning": "A sponge, symbolizing cleaning, scrubbing, and household chores.",
+      "usage": [
+        {
+          "context": "Dishwashing",
+          "example": "Washing dishes with a soapy sponge for a sparkling clean finish. 🧽🍽️🧼"
+        }
+      ]
+    },
+    {
+      "emoji": "🪣",
+      "name": "Bucket",
+      "meaning": "A bucket, symbolizing carrying liquids, mopping, and cleaning.",
+      "usage": [
+        {
+          "context": "Mopping Floors",
+          "example": "Mopping the floors and keeping them spotless with a bucket. 🪣🧽🏡"
+        }
+      ]
+    },
+    {
+      "emoji": "🧴",
+      "name": "Lotion Bottle",
+      "meaning": "A lotion bottle, symbolizing skincare, moisturizing, and self-care.",
+      "usage": [
+        {
+          "context": "Skin Care",
+          "example": "Applying lotion from a stylish bottle for radiant skin. 🪮🌟💆‍♀️"
+        }
+      ]
+    },
+    {
+      "emoji": "🛎️",
+      "name": "Bellhop Bell",
+      "meaning": "A bellhop bell, symbolizing hotel service, hospitality, and assistance.",
+      "usage": [
+        {
+          "context": "Hotel Check-In",
+          "example": "Arriving at the hotel and ringing the bell for assistance. 🛎️🏨🛏️"
+        }
+      ]
+    },
+    {
+      "emoji": "🔑",
+      "name": "Key",
+      "meaning": "A key, symbolizing access, security, and unlocking doors.",
+      "usage": [
+        {
+          "context": "Unlocking the Door",
+          "example": "Using a key to unlock the front door and enter the house. 🔑🚪🏡"
+        }
+      ]
+    },
+    {
+      "emoji": "🗝️",
+      "name": "Old Key",
+      "meaning": "An old key, symbolizing vintage locks, secrets, and hidden treasures.",
+      "usage": [
+        {
+          "context": "Treasure Hunt",
+          "example": "Unveiling the mystery of an old key to find hidden treasures. 🗝️🗺️💰"
+        }
+      ]
+    },
+    {
+      "emoji": "🚪",
+      "name": "Door",
+      "meaning": "A door, symbolizing entrances, opportunities, and new beginnings.",
+      "usage": [
+        {
+          "context": "New Opportunities",
+          "example": "Opening the door to a world of new opportunities and adventures. 🚪🌍🌟"
+        }
+      ]
+    },
+    {
+      "emoji": "🪑",
+      "name": "Chair",
+      "meaning": "A chair, symbolizing seating, comfort, and relaxation.",
+      "usage": [
+        {
+          "context": "Relaxing at Home",
+          "example": "Kicking back and relaxing in a comfortable chair at home. 🪑📺🍿"
+        }
+      ]
+    },
+    {
+      "emoji": "🛋️",
+      "name": "Couch and Lamp",
+      "meaning": "A couch and lamp, symbolizing home comfort, relaxation, and coziness.",
+      "usage": [
+        {
+          "context": "Cozy Evening",
+          "example": "Curling up on the couch with a good book and a lamp for a cozy evening. 🛋️📖🌙"
+        }
+      ]
+    },
+    {
+      "emoji": "🛏️",
+      "name": "Bed",
+      "meaning": "A bed, symbolizing rest, sleep, and bedtime.",
+      "usage": [
+        {
+          "context": "Bedtime Routine",
+          "example": "Getting a good night's sleep in a comfortable bed. 🛏️😴🌙"
+        }
+      ]
+    },
+    {
+      "emoji": "🛌",
+      "name": "Sleeping Bed",
+      "meaning": "A sleeping bed, symbolizing bedtime, relaxation, and resting.",
+      "usage": [
+        {
+          "context": "Nap Time",
+          "example": "Taking a short nap in a cozy sleeping bed. 🛌😴🌞"
+        }
+      ]
+    },
+    {
+      "emoji": "🧸",
+      "name": "Teddy Bear",
+      "meaning": "A teddy bear, symbolizing comfort, childhood, and huggable companions.",
+      "usage": [
+        {
+          "context": "Childhood Memories",
+          "example": "Nostalgic about childhood and the cherished teddy bear. 🧸👧🌈"
+        }
+      ]
+    },
+    {
+      "emoji": "🪆",
+      "name": "Nesting Dolls",
+      "meaning": "Nesting dolls, symbolizing Russian culture, matryoshka, and hidden surprises.",
+      "usage": [
+        {
+          "context": "Cultural Exchange",
+          "example": "Exploring Russian culture and the beauty of nesting dolls. 🪆🇷🇺❤️"
+        }
+      ]
+    },
+    {
+      "emoji": "🖼️",
+      "name": "Framed Picture",
+      "meaning": "A framed picture, symbolizing art, photography, and memories.",
+      "usage": [
+        {
+          "context": "Memory Lane",
+          "example": "Nostalgically looking at a framed picture and recalling cherished memories. 🖼️📸🌟"
+        }
+      ]
+    },
+    {
+      "emoji": "🪞",
+      "name": "Mirror",
+      "meaning": "A mirror, symbolizing reflection, self-assessment, and vanity.",
+      "usage": [
+        {
+          "context": "Getting Ready",
+          "example": "Checking your appearance in the mirror before heading out. 🪞💁‍♂️💄"
+        }
+      ]
+    },
+    {
+      "emoji": "🪟",
+      "name": "Window",
+      "meaning": "A window, symbolizing views, opportunities, and a fresh perspective.",
+      "usage": [
+        {
+          "context": "Scenic Views",
+          "example": "Admiring scenic views from a window on a relaxing day. 🪟🌄🌿"
+        }
+      ]
+    },
+    {
+      "emoji": "🛍️",
+      "name": "Shopping Bags",
+      "meaning": "Shopping bags, symbolizing retail therapy, purchases, and fashion.",
+      "usage": [
+        {
+          "context": "Retail Therapy",
+          "example": "Indulging in some retail therapy and coming home with shopping bags. 🛍️👗👠"
+        }
+      ]
+    },
+    {
+      "emoji": "🛒",
+      "name": "Shopping Cart",
+      "meaning": "A shopping cart, symbolizing grocery shopping, convenience, and selections.",
+      "usage": [
+        {
+          "context": "Grocery Shopping",
+          "example": "Filling up the shopping cart with groceries for the week. 🛒🍞🥦"
+        }
+      ]
+    },
+    {
+      "emoji": "🎁",
+      "name": "Wrapped Gift",
+      "meaning": "A wrapped gift, symbolizing surprises, presents, and celebrations.",
+      "usage": [
+        {
+          "context": "Birthday Surprise",
+          "example": "Presenting a beautifully wrapped gift as a birthday surprise. 🎁🎉🍰"
+        }
+      ]
+    },
+    {
+      "emoji": "🎈",
+      "name": "Balloon",
+      "meaning": "A balloon, symbolizing celebrations, parties, and happiness.",
+      "usage": [
+        {
+          "context": "Birthday Party",
+          "example": "Decorating a room with colorful balloons for a birthday party. 🎈🎂🎉"
+        }
+      ]
+    },
+    {
+      "emoji": "🎏",
+      "name": "Carp Streamer",
+      "meaning": "A carp streamer, symbolizing the Children's Day festival in Japan.",
+      "usage": [
+        {
+          "context": "Children's Day",
+          "example": "Celebrating Children's Day with colorful carp streamers. 🎏👶🎉"
+        }
+      ]
+    },
+    {
+      "emoji": "🎀",
+      "name": "Ribbon",
+      "meaning": "A ribbon, symbolizing decoration, bows, and embellishments.",
+      "usage": [
+        {
+          "context": "Gift Wrapping",
+          "example": "Tying a beautiful ribbon on a gift for an elegant touch. 🎀🎁🌟"
+        }
+      ]
+    },
+    {
+      "emoji": "🪄",
+      "name": "Magic Wand",
+      "meaning": "A magic wand, symbolizing magic, spells, and enchantment.",
+      "usage": [
+        {
+          "context": "Magic Show",
+          "example": "Performing a captivating magic show with a sparkling wand. 🪄✨🎩"
+        }
+      ]
+    },
+    {
+      "emoji": "🎊",
+      "name": "Confetti Ball",
+      "meaning": "A confetti ball, symbolizing celebrations, parties, and festivities.",
+      "usage": [
+        {
+          "context": "New Year's Eve",
+          "example": "Throwing confetti at midnight to welcome the New Year. 🎊🎉🍾"
+        }
+      ]
+    },
+    {
+      "emoji": "🎉",
+      "name": "Party Popper",
+      "meaning": "A party popper, symbolizing excitement, joy, and festive occasions.",
+      "usage": [
+        {
+          "context": "Birthday Party",
+          "example": "Popping party poppers to celebrate a friend's birthday. 🎉🎂🥳"
+        }
+      ]
+    },
+    {
+      "emoji": "🪅",
+      "name": "Piñata",
+      "meaning": "A piñata, symbolizing fun, surprises, and smashing for treats.",
+      "usage": [
+        {
+          "context": "Fiesta",
+          "example": "Kids taking turns to hit the piñata at the fiesta. 🪅🎈🍬"
+        }
+      ]
+    },
+    {
+      "emoji": "🎎",
+      "name": "Japanese Dolls",
+      "meaning": "Japanese dolls, symbolizing Hinamatsuri (Doll's Day) in Japan.",
+      "usage": [
+        {
+          "context": "Hinamatsuri",
+          "example": "Displaying Japanese dolls to celebrate Hinamatsuri. 🎎🌸🎌"
+        }
+      ]
+    },
+    {
+      "emoji": "🪭",
+      "name": "Kite",
+      "meaning": "A kite, symbolizing outdoor fun, flying, and high spirits.",
+      "usage": [
+        {
+          "context": "Kite Flying",
+          "example": "Flying kites with friends on a sunny day. 🪭🌞🪁"
+        }
+      ]
+    },
+    {
+      "emoji": "🏮",
+      "name": "Red Paper Lantern",
+      "meaning": "A red paper lantern, symbolizing festivals, illumination, and good luck.",
+      "usage": [
+        {
+          "context": "Chinese New Year",
+          "example": "Hanging red lanterns for good luck during Chinese New Year. 🏮🧧🎆"
+        }
+      ]
+    },
+    {
+      "emoji": "🎐",
+      "name": "Wind Chime",
+      "meaning": "A wind chime, symbolizing calm, relaxation, and gentle sounds.",
+      "usage": [
+        {
+          "context": "Zen Garden",
+          "example": "Enjoying the tranquil sound of wind chimes in a Zen garden. 🎐🌿🕊️"
+        }
+      ]
+    },
+    {
+      "emoji": "🪩",
+      "name": "Kite",
+      "meaning": "A kite, symbolizing outdoor fun, flying, and high spirits.",
+      "usage": [
+        {
+          "context": "Kite Flying",
+          "example": "Flying kites with friends on a sunny day. 🪭🌞🪁"
+        }
+      ]
+    },
+    {
+      "emoji": "🧧",
+      "name": "Red Envelope",
+      "meaning": "A red envelope, symbolizing gift-giving, good fortune, and Chinese New Year.",
+      "usage": [
+        {
+          "context": "Chinese New Year",
+          "example": "Receiving red envelopes with money for good luck on Chinese New Year. 🧧💰🧨"
+        }
+      ]
+    },
+    {
+      "emoji": "✉️",
+      "name": "Envelope",
+      "meaning": "An envelope, symbolizing letters, messages, and communication.",
+      "usage": [
+        {
+          "context": "Sending Invitations",
+          "example": "Mailing invitations in beautifully sealed envelopes. ✉️💌📬"
+        }
+      ]
+    },
+    {
+      "emoji": "📩",
+      "name": "Envelope with Arrow",
+      "meaning": "An envelope with an arrow, symbolizing incoming mail and messages.",
+      "usage": [
+        {
+          "context": "Inbox",
+          "example": "Checking the inbox for new messages and notifications. 📩📥📬"
+        }
+      ]
+    },
+    {
+      "emoji": "📨",
+      "name": "Incoming Envelope",
+      "meaning": "An incoming envelope, symbolizing new messages and correspondence.",
+      "usage": [
+        {
+          "context": "New Email",
+          "example": "Receiving a new email in the inbox. 📨📥📬"
+        }
+      ]
+    },
+    {
+      "emoji": "📧",
+      "name": "E-Mail",
+      "meaning": "An e-mail symbol, representing electronic communication and messages.",
+      "usage": [
+        {
+          "context": "Online Conversation",
+          "example": "Exchanging e-mails for an important online conversation. 📧💻📬"
+        }
+      ]
+    },
+    {
+      "emoji": "💌",
+      "name": "Love Letter",
+      "meaning": "A love letter, symbolizing affection, romance, and heartfelt messages.",
+      "usage": [
+        {
+          "context": "Romantic Gestures",
+          "example": "Writing and sending a heartfelt love letter to your partner. 💌❤️📬"
+        }
+      ]
+    },
+    {
+      "emoji": "📥",
+      "name": "Inbox Tray",
+      "meaning": "An inbox tray, symbolizing incoming messages and notifications.",
+      "usage": [
+        {
+          "context": "Receiving Notifications",
+          "example": "Checking the inbox tray for new messages and notifications. 📥📩🔔"
+        }
+      ]
+    },
+    {
+      "emoji": "📤",
+      "name": "Outbox Tray",
+      "meaning": "An outbox tray, symbolizing sent messages and completed tasks.",
+      "usage": [
+        {
+          "context": "Sent Messages",
+          "example": "Confirming sent messages and tasks in the outbox tray. 📤📩✔️"
+        }
+      ]
+    },
+    {
+      "emoji": "📦",
+      "name": "Package",
+      "meaning": "A package, symbolizing shipments, deliveries, and surprises.",
+      "usage": [
+        {
+          "context": "Package Delivery",
+          "example": "Receiving an eagerly awaited package delivery. 📦🚚🎁"
+        }
+      ]
+    },
+    {
+      "emoji": "🏷️",
+      "name": "Label",
+      "meaning": "A label, symbolizing identification, organization, and tagging.",
+      "usage": [
+        {
+          "context": "Labeling Items",
+          "example": "Using labels to identify and organize various items. 🏷️📦🗄️"
+        }
+      ]
+    },
+    {
+      "emoji": "🪧",
+      "name": "Placard",
+      "meaning": "A placard, symbolizing protests, demonstrations, and messages.",
+      "usage": [
+        {
+          "context": "Protest March",
+          "example": "Holding a placard with a powerful message at a protest march. 🪧📣✊"
+        }
+      ]
+    },
+    {
+      "emoji": "📪",
+      "name": "Mailbox",
+      "meaning": "A mailbox, symbolizing receiving mail and messages.",
+      "usage": [
+        {
+          "context": "Mail Delivery",
+          "example": "Checking the mailbox for new mail and messages. 📪📬✉️"
+        }
+      ]
+    },
+    {
+      "emoji": "📫",
+      "name": "Mailbox with Mail",
+      "meaning": "A mailbox with mail, symbolizing delivered messages and correspondence.",
+      "usage": [
+        {
+          "context": "Mail Delivered",
+          "example": "Happy to see the mailbox with incoming mail. 📫📬✉️"
+        }
+      ]
+    },
+    {
+      "emoji": "📬",
+      "name": "Open Mailbox with Raised Flag",
+      "meaning": "An open mailbox with a raised flag, symbolizing outgoing mail and communication.",
+      "usage": [
+        {
+          "context": "Sending Mail",
+          "example": "Raising the flag on the mailbox to indicate outgoing mail. 📬🚩📝"
+        }
+      ]
+    },
+    {
+      "emoji": "📭",
+      "name": "Open Mailbox with Lowered Flag",
+      "meaning": "An open mailbox with a lowered flag, symbolizing mail received and checked.",
+      "usage": [
+        {
+          "context": "Checking Mail",
+          "example": "Lowering the mailbox flag after checking the mail. 📭📬✉️"
+        }
+      ]
+    },
+    {
+      "emoji": "📮",
+      "name": "Postbox",
+      "meaning": "A postbox, symbolizing mailing letters and postal services.",
+      "usage": [
+        {
+          "context": "Sending Letters",
+          "example": "Dropping a letter into the postbox for mailing. 📮✉️📬"
+        }
+      ]
+    },
+    {
+      "emoji": "📯",
+      "name": "Postal Horn",
+      "meaning": "A postal horn, symbolizing announcements, proclamations, and fanfare.",
+      "usage": [
+        {
+          "context": "Official Announcements",
+          "example": "Announcing important news with the sound of the postal horn. 📯📢📰"
+        }
+      ]
+    },
+    {
+      "emoji": "📜",
+      "name": "Scroll",
+      "meaning": "A scroll, symbolizing ancient documents, history, and wisdom.",
+      "usage": [
+        {
+          "context": "Historical Research",
+          "example": "Unrolling the scroll to reveal ancient writings and history. 📜📚🔍"
+        }
+      ]
+    },
+    {
+      "emoji": "📃",
+      "name": "Page with Curl",
+      "meaning": "A page with a curl, symbolizing documents, certificates, and reading.",
+      "usage": [
+        {
+          "context": "Reading",
+          "example": "Reading a certificate with a beautiful page curl. 📃📜📖"
+        }
+      ]
+    },
+    {
+      "emoji": "📄",
+      "name": "Page Facing Up",
+      "meaning": "A page facing up, symbolizing documents, files, and paperwork.",
+      "usage": [
+        {
+          "context": "Filing Documents",
+          "example": "Placing important documents with the page facing up. 📄🗂️✒️"
+        }
+      ]
+    },
+    {
+      "emoji": "📑",
+      "name": "Bookmark Tabs",
+      "meaning": "Bookmark tabs, symbolizing references, organization, and easy access.",
+      "usage": [
+        {
+          "context": "Bookmarking Pages",
+          "example": "Using bookmark tabs to easily find favorite book pages. 📑📖📚"
+        }
+      ]
+    },
+    {
+      "emoji": "🧾",
+      "name": "Receipt",
+      "meaning": "A receipt, symbolizing transactions, payments, and proof of purchase.",
+      "usage": [
+        {
+          "context": "Expense Tracking",
+          "example": "Saving a digital copy of the receipt for expense tracking. 🧾💰📊"
+        }
+      ]
+    },
+    {
+      "emoji": "📊",
+      "name": "Bar Chart",
+      "meaning": "A bar chart, symbolizing data, statistics, and graphical representation.",
+      "usage": [
+        {
+          "context": "Data Analysis",
+          "example": "Creating a bar chart to visualize sales data. 📊📈📉"
+        }
+      ]
+    },
+    {
+      "emoji": "📈",
+      "name": "Chart Increasing",
+      "meaning": "A chart increasing, symbolizing growth, progress, and positive trends.",
+      "usage": [
+        {
+          "context": "Business Success",
+          "example": "Celebrating the chart's upward trend as a sign of success. 📈💼💹"
+        }
+      ]
+    },
+    {
+      "emoji": "📉",
+      "name": "Chart Decreasing",
+      "meaning": "A chart decreasing, symbolizing decline, regression, and negative trends.",
+      "usage": [
+        {
+          "context": "Market Analysis",
+          "example": "Analyzing the chart's downward trend for market predictions. 📉📊📉"
+        }
+      ]
+    },
+    {
+      "emoji": "🗒️",
+      "name": "Spiral Notepad",
+      "meaning": "A spiral notepad, symbolizing notes, jotting, and recording information.",
+      "usage": [
+        {
+          "context": "Taking Notes",
+          "example": "Using a spiral notepad for keeping important notes. 🗒️✏️🗂️"
+        }
+      ]
+    },
+    {
+      "emoji": "🗓️",
+      "name": "Spiral Calendar",
+      "meaning": "A spiral calendar, symbolizing schedules, dates, and time management.",
+      "usage": [
+        {
+          "context": "Planning Events",
+          "example": "Marking important dates on the spiral calendar for event planning. 🗓️📅📆"
+        }
+      ]
+    },
+    {
+      "emoji": "📆",
+      "name": "Tear-Off Calendar",
+      "meaning": "A tear-off calendar, symbolizing daily schedules, countdowns, and events.",
+      "usage": [
+        {
+          "context": "Daily Planning",
+          "example": "Tearing off a calendar page to start the new day. 📆⏰📅"
+        }
+      ]
+    },
+    {
+      "emoji": "📅",
+      "name": "Calendar",
+      "meaning": "A calendar, symbolizing dates, appointments, and planning.",
+      "usage": [
+        {
+          "context": "Scheduling",
+          "example": "Marking important dates and appointments on the calendar. 📅📆⏰"
+        }
+      ]
+    },
+    {
+      "emoji": "🗑️",
+      "name": "Wastebasket",
+      "meaning": "A wastebasket, symbolizing disposal, discarding, and cleaning.",
+      "usage": [
+        {
+          "context": "Cleaning Up",
+          "example": "Emptying the wastebasket to keep the workspace clean. 🗑️🧹🧼"
+        }
+      ]
+    },
+    {
+      "emoji": "📇",
+      "name": "Card Index",
+      "meaning": "A card index, symbolizing cataloging, organization, and reference cards.",
+      "usage": [
+        {
+          "context": "Organizing Information",
+          "example": "Creating a card index for easy access to contact information. 📇🗂️📧"
+        }
+      ]
+    },
+    {
+      "emoji": "🗃️",
+      "name": "File Cabinet",
+      "meaning": "A file cabinet, symbolizing filing, storage, and document organization.",
+      "usage": [
+        {
+          "context": "Storing Files",
+          "example": "Keeping important files and documents in a secure file cabinet. 🗃️🗂️📁"
+        }
+      ]
+    },
+    {
+      "emoji": "🗳️",
+      "name": "Ballot Box with Ballot",
+      "meaning": "A ballot box with a ballot, symbolizing elections, voting, and democracy.",
+      "usage": [
+        {
+          "context": "Election Day",
+          "example": "Casting a vote in the ballot box on election day. 🗳️🇺🇸✅"
+        }
+      ]
+    },
+    {
+      "emoji": "🗄️",
+      "name": "File Cabinet",
+      "meaning": "A file cabinet, symbolizing filing, storage, and document organization.",
+      "usage": [
+        {
+          "context": "Storing Files",
+          "example": "Keeping important files and documents in a secure file cabinet. 🗄️🗂️📁"
+        }
+      ]
+    },
+    {
+      "emoji": "📋",
+      "name": "Clipboard",
+      "meaning": "A clipboard, symbolizing notes, tasks, and temporary storage.",
+      "usage": [
+        {
+          "context": "Taking Notes",
+          "example": "Using a clipboard to jot down important tasks and notes. 📋📝🗒️"
+        }
+      ]
+    },
+    {
+      "emoji": "📁",
+      "name": "File Folder",
+      "meaning": "A file folder, symbolizing organizing documents, files, and records.",
+      "usage": [
+        {
+          "context": "Organizing Files",
+          "example": "Sorting and organizing files in labeled file folders. 📁🗂️📂"
+        }
+      ]
+    },
+    {
+      "emoji": "📂",
+      "name": "Open File Folder",
+      "meaning": "An open file folder, symbolizing access to files, documents, and records.",
+      "usage": [
+        {
+          "context": "Accessing Documents",
+          "example": "Opening a file folder to access important documents. 📂🗂️📄"
+        }
+      ]
+    },
+    {
+      "emoji": "🗂️",
+      "name": "File Folder",
+      "meaning": "A file folder, symbolizing organizing documents, files, and records.",
+      "usage": [
+        {
+          "context": "Organizing Files",
+          "example": "Sorting and organizing files in labeled file folders. 🗂️📁📂"
+        }
+      ]
+    },
+    {
+      "emoji": "🗞️",
+      "name": "Rolled-Up Newspaper",
+      "meaning": "A rolled-up newspaper, symbolizing news, journalism, and publications.",
+      "usage": [
+        {
+          "context": "Reading News",
+          "example": "Unrolling the newspaper to catch up on the latest news. 🗞️📰📃"
+        }
+      ]
+    },
+    {
+      "emoji": "📰",
+      "name": "Newspaper",
+      "meaning": "A newspaper, symbolizing news, journalism, and publications.",
+      "usage": [
+        {
+          "context": "Reading News",
+          "example": "Reading the newspaper over breakfast for the latest news. 📰🗞️📃"
+        }
+      ]
+    },
+    {
+      "emoji": "📓",
+      "name": "Notebook",
+      "meaning": "A notebook, symbolizing writing, school, and taking notes.",
+      "usage": [
+        {
+          "context": "Studying",
+          "example": "Taking notes during class in a school notebook. 📓📝📚"
+        }
+      ]
+    },
+    {
+      "emoji": "📔",
+      "name": "Notebook with Decorative Cover",
+      "meaning": "A notebook with a decorative cover, symbolizing creativity and journaling.",
+      "usage": [
+        {
+          "context": "Journaling",
+          "example": "Expressing creativity by writing in a decorative notebook. 📔🖋️📖"
+        }
+      ]
+    },
+    {
+      "emoji": "📒",
+      "name": "Ledger",
+      "meaning": "A ledger, symbolizing accounting, records, and financial tracking.",
+      "usage": [
+        {
+          "context": "Financial Records",
+          "example": "Keeping financial records and accounts in a ledger. 📒💰📈"
+        }
+      ]
+    },
+    {
+      "emoji": "📕",
+      "name": "Closed Book",
+      "meaning": "A closed book, symbolizing completion, reading, and knowledge.",
+      "usage": [
+        {
+          "context": "Reading",
+          "example": "Finishing a good book and feeling a sense of completion. 📕📖📚"
+        }
+      ]
+    },
+    {
+      "emoji": "📗",
+      "name": "Green Book",
+      "meaning": "A green book, symbolizing learning, education, and textbooks.",
+      "usage": [
+        {
+          "context": "Studying",
+          "example": "Using a green book as a textbook for learning new subjects. 📗📚📖"
+        }
+      ]
+    },
+    {
+      "emoji": "📘",
+      "name": "Blue Book",
+      "meaning": "A blue book, symbolizing exams, testing, and answer sheets.",
+      "usage": [
+        {
+          "context": "Exams",
+          "example": "Filling out a blue book during an important exam. 📘📝🧾"
+        }
+      ]
+    },
+    {
+      "emoji": "📙",
+      "name": "Orange Book",
+      "meaning": "An orange book, symbolizing reading, knowledge, and literature.",
+      "usage": [
+        {
+          "context": "Reading for Pleasure",
+          "example": "Enjoying a good novel from an orange book. 📙📚📖"
+        }
+      ]
+    },
+    {
+      "emoji": "📚",
+      "name": "Books",
+      "meaning": "A stack of books, symbolizing reading, learning, and knowledge.",
+      "usage": [
+        {
+          "context": "Library Visit",
+          "example": "Exploring the library and picking up a stack of books to read. 📚📖📜"
+        }
+      ]
+    },
+    {
+      "emoji": "📖",
+      "name": "Open Book",
+      "meaning": "An open book, symbolizing reading, learning, and literature.",
+      "usage": [
+        {
+          "context": "Reading",
+          "example": "Diving into a captivating story in an open book. 📖📚📜"
+        }
+      ]
+    },
+    {
+      "emoji": "🔖",
+      "name": "Bookmark",
+      "meaning": "A bookmark, symbolizing saving your place in a book or document.",
+      "usage": [
+        {
+          "context": "Reading Progress",
+          "example": "Using a bookmark to remember where you left off in a book. 🔖📖📜"
+        }
+      ]
+    },
+    {
+      "emoji": "🧷",
+      "name": "Safety Pin",
+      "meaning": "A safety pin, symbolizing securing, fastening, and holding things together.",
+      "usage": [
+        {
+          "context": "Fixing Clothing",
+          "example": "Using a safety pin to secure a loose button. 🧷👖🪤"
+        }
+      ]
+    },
+    {
+      "emoji": "🔗",
+      "name": "Link",
+      "meaning": "A link symbol, representing connections, relationships, and hyperlinking.",
+      "usage": [
+        {
+          "context": "Website Links",
+          "example": "Sharing a link to an interesting article on the web. 🔗🌐📰"
+        }
+      ]
+    },
+    {
+      "emoji": "📎",
+      "name": "Paperclip",
+      "meaning": "A paperclip, symbolizing attachment, holding papers together, and organization.",
+      "usage": [
+        {
+          "context": "Paperwork",
+          "example": "Attaching documents together with a paperclip for filing. 📎📂📝"
+        }
+      ]
+    },
+    {
+      "emoji": "🖇️",
+      "name": "Linked Paperclips",
+      "meaning": "Linked paperclips, symbolizing connections, teamwork, and unity.",
+      "usage": [
+        {
+          "context": "Teamwork",
+          "example": "Using linked paperclips to symbolize unity in teamwork. 🖇️🤝👥"
+        }
+      ]
+    },
+    {
+      "emoji": "📐",
+      "name": "Triangular Ruler",
+      "meaning": "A triangular ruler, symbolizing geometry, precision, and measurements.",
+      "usage": [
+        {
+          "context": "Math Class",
+          "example": "Using a triangular ruler for precise geometry drawings. 📐📏🧮"
+        }
+      ]
+    },
+    {
+      "emoji": "📏",
+      "name": "Straight Ruler",
+      "meaning": "A straight ruler, symbolizing measurements and straight-edge tasks.",
+      "usage": [
+        {
+          "context": "Measuring Length",
+          "example": "Using a straight ruler to measure the length of objects. 📏📐📐"
+        }
+      ]
+    },
+    {
+      "emoji": "🧮",
+      "name": "Abacus",
+      "meaning": "An abacus, symbolizing counting, arithmetic, and calculations.",
+      "usage": [
+        {
+          "context": "Mathematics",
+          "example": "Teaching children to count and perform arithmetic on the abacus. 🧮🔢🧑‍🏫"
+        }
+      ]
+    },
+    {
+      "emoji": "📌",
+      "name": "Pushpin",
+      "meaning": "A pushpin, symbolizing marking locations, points of interest, or reminders.",
+      "usage": [
+        {
+          "context": "Pinning Locations",
+          "example": "Marking important places on the map with a pushpin. 📌🗺️📍"
+        }
+      ]
+    },
+    {
+      "emoji": "📍",
+      "name": "Round Pushpin",
+      "meaning": "A round pushpin, symbolizing marking locations, points of interest, or reminders.",
+      "usage": [
+        {
+          "context": "Pinning Locations",
+          "example": "Using a round pushpin to mark significant locations on a map. 📍🗺️📌"
+        }
+      ]
+    },
+    {
+      "emoji": "✂️",
+      "name": "Scissors",
+      "meaning": "A pair of scissors, symbolizing cutting, trimming, and crafting.",
+      "usage": [
+        {
+          "context": "Crafting",
+          "example": "Using scissors to cut paper for crafting projects. ✂️📄✏️"
+        }
+      ]
+    },
+    {
+      "emoji": "🖊️",
+      "name": "Pen",
+      "meaning": "A pen, symbolizing writing, drawing, and creative expression.",
+      "usage": [
+        {
+          "context": "Taking Notes",
+          "example": "Writing down important ideas with a pen and notebook. 🖊️📓📝"
+        }
+      ]
+    },
+    {
+      "emoji": "🖋️",
+      "name": "Fountain Pen",
+      "meaning": "A fountain pen, symbolizing elegance, calligraphy, and fine writing.",
+      "usage": [
+        {
+          "context": "Calligraphy",
+          "example": "Creating beautiful calligraphy with a fountain pen. 🖋️📜🖼️"
+        }
+      ]
+    },
+    {
+      "emoji": "✒️",
+      "name": "Black Nib Pen",
+      "meaning": "A black nib pen, symbolizing writing, signature, and document signing.",
+      "usage": [
+        {
+          "context": "Signing Documents",
+          "example": "Signing important documents with a black nib pen. ✒️📃📝"
+        }
+      ]
+    },
+    {
+      "emoji": "🖌️",
+      "name": "Paintbrush",
+      "meaning": "A paintbrush, symbolizing art, creativity, and painting.",
+      "usage": [
+        {
+          "context": "Art Class",
+          "example": "Creating colorful artwork with a paintbrush. 🖌️🎨🖼️"
+        }
+      ]
+    },
+    {
+      "emoji": "🖍️",
+      "name": "Crayon",
+      "meaning": "A crayon, symbolizing drawing, coloring, and children's creativity.",
+      "usage": [
+        {
+          "context": "Art Activities",
+          "example": "Kids using crayons to color and draw in coloring books. 🖍️📚🎨"
+        }
+      ]
+    },
+    {
+      "emoji": "📝",
+      "name": "Memo",
+      "meaning": "A memo, symbolizing notes, reminders, and to-do lists.",
+      "usage": [
+        {
+          "context": "Taking Notes",
+          "example": "Writing a quick memo to remember important tasks. 📝🗒️📅"
+        }
+      ]
+    },
+    {
+      "emoji": "✏️",
+      "name": "Pencil",
+      "meaning": "A pencil, symbolizing drawing, writing, and creativity.",
+      "usage": [
+        {
+          "context": "Art Class",
+          "example": "Sketching beautiful drawings with a pencil and paper. ✏️📝🎨"
+        }
+      ]
+    },
+    {
+      "emoji": "🔍",
+      "name": "Magnifying Glass Tilted Left",
+      "meaning": "A magnifying glass tilted left, symbolizing zooming in, investigating, and search.",
+      "usage": [
+        {
+          "context": "Searching Information",
+          "example": "Closely examining documents with a magnifying glass. 🔍📄🔍"
+        }
+      ]
+    },
+    {
+      "emoji": "🔎",
+      "name": "Magnifying Glass Tilted Right",
+      "meaning": "A magnifying glass tilted right, symbolizing zooming in, investigating, and search.",
+      "usage": [
+        {
+          "context": "Investigation",
+          "example": "Conducting a detailed investigation with a magnifying glass. 🔎🔍📄"
+        }
+      ]
+    },
+    {
+      "emoji": "🔏",
+      "name": "Lock with Ink Pen",
+      "meaning": "A lock with an ink pen, symbolizing secure documents, and signature required.",
+      "usage": [
+        {
+          "context": "Secure Documents",
+          "example": "Securing important documents with a lock and ink pen. 🔏📝📜"
+        }
+      ]
+    },
+    {
+      "emoji": "🔐",
+      "name": "Closed Lock with Key",
+      "meaning": "A closed lock with a key, symbolizing security and protection.",
+      "usage": [
+        {
+          "context": "Online Privacy",
+          "example": "Ensuring online privacy with strong security. 🔐🔒💻"
+        }
+      ]
+    },
+    {
+      "emoji": "🔒",
+      "name": "Lock",
+      "meaning": "A lock, symbolizing security, protection, and privacy.",
+      "usage": [
+        {
+          "context": "Safety",
+          "example": "Locking the front door for safety and privacy. 🔒🚪🏡"
+        }
+      ]
+    },
+    {
+      "emoji": "🔓",
+      "name": "Unlocked",
+      "meaning": "An unlocked lock, symbolizing open access, freedom, and lack of security.",
+      "usage": [
+        {
+          "context": "Unlocking Doors",
+          "example": "Unlocking the gate to grant access to the garden. 🔓🏡🌳"
+        }
+      ]
+    }
+  ]
 }

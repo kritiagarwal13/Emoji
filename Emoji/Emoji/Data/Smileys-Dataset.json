@@ -813,7 +813,7 @@
         {
             "emoji": "🤯",
             "name": "Face with Exploding Head",
-            "meaning": "A face with an exploding head, indicating amazement, shock, or mind-blown."
+            "meaning": "A face with an exploding head, indicating amazement, shock, or mind-blown.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -858,7 +858,7 @@
         {
             "emoji": "🥶",
             "name": "Cold Face",
-            "meaning": "A face with a blue hue, indicating extreme cold or shivering."
+            "meaning": "A face with a blue hue, indicating extreme cold or shivering.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -873,7 +873,7 @@
         {
             "emoji": "😶‍🌫️",
             "name": "Face in Clouds",
-            "meaning": "A face obscured by clouds, indicating being spaced out or disoriented."
+            "meaning": "A face obscured by clouds, indicating being spaced out or disoriented.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -888,7 +888,7 @@
         {
             "emoji": "😱",
             "name": "Face Screaming in Fear",
-            "meaning": "A face screaming in fear, indicating extreme shock, horror, or fear."
+            "meaning": "A face screaming in fear, indicating extreme shock, horror, or fear.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -903,7 +903,7 @@
         {
             "emoji": "😨",
             "name": "Fearful Face",
-            "meaning": "A fearful or anxious face, indicating worry, anxiety, or apprehension."
+            "meaning": "A fearful or anxious face, indicating worry, anxiety, or apprehension.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -918,7 +918,7 @@
         {
             "emoji": "😰",
             "name": "Anxious Face with Sweat",
-            "meaning": "A face with sweat droplets, indicating nervousness or unease."
+            "meaning": "A face with sweat droplets, indicating nervousness or unease.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -933,7 +933,7 @@
         {
             "emoji": "😥",
             "name": "Sad but Relieved Face",
-            "meaning": "A face with a single tear and a relieved expression, indicating mixed emotions of sadness and relief."
+            "meaning": "A face with a single tear and a relieved expression, indicating mixed emotions of sadness and relief.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -948,7 +948,7 @@
         {
             "emoji": "😓",
             "name": "Downcast Face with Sweat",
-            "meaning": "A face with sweat droplets, indicating stress or discomfort."
+            "meaning": "A face with sweat droplets, indicating stress or discomfort.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1188,7 +1188,7 @@
         {
             "emoji": "😬",
             "name": "Grimacing Face",
-            "meaning": "A face with a grimace, indicating discomfort, tension, or awkwardness."
+            "meaning": "A face with a grimace, indicating discomfort, tension, or awkwardness.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1203,7 +1203,7 @@
         {
             "emoji": "🙄",
             "name": "Face with Rolling Eyes",
-            "meaning": "A face rolling its eyes, indicating exasperation, annoyance, or boredom."
+            "meaning": "A face rolling its eyes, indicating exasperation, annoyance, or boredom.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1218,7 +1218,7 @@
         {
             "emoji": "😯",
             "name": "Astonished Face",
-            "meaning": "A face with a wide-eyed expression, indicating astonishment or amazement."
+            "meaning": "A face with a wide-eyed expression, indicating astonishment or amazement.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1233,7 +1233,7 @@
         {
             "emoji": "😦",
             "name": "Frowning Face with Open Mouth",
-            "meaning": "A frowning face with an open mouth, indicating shock or disappointment."
+            "meaning": "A frowning face with an open mouth, indicating shock or disappointment.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1248,7 +1248,7 @@
         {
             "emoji": "😧",
             "name": "Anguished Face",
-            "meaning": "A face with a pained expression, indicating anguish or distress."
+            "meaning": "A face with a pained expression, indicating anguish or distress.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1263,7 +1263,7 @@
         {
             "emoji": "😮",
             "name": "Face with Open Mouth",
-            "meaning": "A face with an open mouth, indicating surprise, shock, or awe."
+            "meaning": "A face with an open mouth, indicating surprise, shock, or awe.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1278,7 +1278,7 @@
         {
             "emoji": "😲",
             "name": "Astonished Face with Open Mouth",
-            "meaning": "A face with an open mouth and wide eyes, indicating astonishment or amazement."
+            "meaning": "A face with an open mouth and wide eyes, indicating astonishment or amazement.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1293,7 +1293,7 @@
         {
             "emoji": "🥱",
             "name": "Yawning Face",
-            "meaning": "A face with a wide yawn, indicating tiredness or boredom."
+            "meaning": "A face with a wide yawn, indicating tiredness or boredom.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1308,7 +1308,7 @@
         {
             "emoji": "😴",
             "name": "Sleeping Face",
-            "meaning": "A face with closed eyes, indicating sleep or drowsiness."
+            "meaning": "A face with closed eyes, indicating sleep or drowsiness.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1323,7 +1323,7 @@
         {
             "emoji": "🤤",
             "name": "Drooling Face",
-            "meaning": "A face with a drooling mouth, indicating desire or lust."
+            "meaning": "A face with a drooling mouth, indicating desire or lust.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1338,7 +1338,7 @@
         {
             "emoji": "😪",
             "name": "Sleepy Face",
-            "meaning": "A face with closed eyes and a blue bubble, indicating sleepiness."
+            "meaning": "A face with closed eyes and a blue bubble, indicating sleepiness.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1353,7 +1353,7 @@
         {
             "emoji": "😮‍💨",
             "name": "Face Exhaling",
-            "meaning": "A face exhaling, indicating relief or letting go of stress."
+            "meaning": "A face exhaling, indicating relief or letting go of stress.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1368,7 +1368,7 @@
         {
             "emoji": "😵",
             "name": "Face with Spiral Eyes",
-            "meaning": "A face with spirals in the eyes, indicating dizziness or being in a trance."
+            "meaning": "A face with spirals in the eyes, indicating dizziness or being in a trance.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1383,7 +1383,7 @@
         {
             "emoji": "😵‍💫",
             "name": "Face with Stars and Spiral Eyes",
-            "meaning": "A face with stars and spirals in the eyes, indicating dizziness or being in a trance."
+            "meaning": "A face with stars and spirals in the eyes, indicating dizziness or being in a trance.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1398,7 +1398,7 @@
         {
             "emoji": "🤐",
             "name": "Zipper-Mouth Face",
-            "meaning": "A face with a zipper over the mouth, indicating secrecy or silence."
+            "meaning": "A face with a zipper over the mouth, indicating secrecy or silence.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1413,7 +1413,7 @@
         {
             "emoji": "🥴",
             "name": "Woozy Face",
-            "meaning": "A face with uneven eyes and a wobbly mouth, indicating dizziness or intoxication."
+            "meaning": "A face with uneven eyes and a wobbly mouth, indicating dizziness or intoxication.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1428,7 +1428,7 @@
         {
             "emoji": "🤢",
             "name": "Nauseated Face",
-            "meaning": "A face with a green hue, indicating nausea or feeling unwell."
+            "meaning": "A face with a green hue, indicating nausea or feeling unwell.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1623,7 +1623,7 @@
         {
             "emoji": "💩",
             "name": "Pile of Poo",
-            "meaning": "A pile of poo, indicating feces or a messy situation."
+            "meaning": "A pile of poo, indicating feces or a messy situation.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1638,7 +1638,7 @@
         {
             "emoji": "👻",
             "name": "Ghost",
-            "meaning": "A ghost, indicating spookiness, death, or the supernatural."
+            "meaning": "A ghost, indicating spookiness, death, or the supernatural.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1653,7 +1653,7 @@
         {
             "emoji": "💀",
             "name": "Skull",
-            "meaning": "A skull, indicating death, danger, or mortality."
+            "meaning": "A skull, indicating death, danger, or mortality.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1668,7 +1668,7 @@
         {
             "emoji": "☠️",
             "name": "Skull and Crossbones",
-            "meaning": "A skull and crossbones, indicating danger or toxicity."
+            "meaning": "A skull and crossbones, indicating danger or toxicity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1683,7 +1683,7 @@
         {
             "emoji": "👽",
             "name": "Alien",
-            "meaning": "An alien, indicating extraterrestrial life or strangeness."
+            "meaning": "An alien, indicating extraterrestrial life or strangeness.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1698,7 +1698,7 @@
         {
             "emoji": "👾",
             "name": "Alien Monster",
-            "meaning": "An alien monster, indicating a creature from outer space or video games."
+            "meaning": "An alien monster, indicating a creature from outer space or video games.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1713,7 +1713,7 @@
         {
             "emoji": "🤖",
             "name": "Robot Face",
-            "meaning": "A robot face, indicating a robot or artificial intelligence."
+            "meaning": "A robot face, indicating a robot or artificial intelligence.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1728,7 +1728,7 @@
         {
             "emoji": "🎃",
             "name": "Jack-O-Lantern",
-            "meaning": "A jack-o-lantern, indicating Halloween or spooky festivities."
+            "meaning": "A jack-o-lantern, indicating Halloween or spooky festivities.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1743,7 +1743,7 @@
         {
             "emoji": "😺",
             "name": "Grinning Cat Face",
-            "meaning": "A grinning cat face, indicating playfulness or happiness."
+            "meaning": "A grinning cat face, indicating playfulness or happiness.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1758,7 +1758,7 @@
         {
             "emoji": "😸",
             "name": "Grinning Cat with Smiling Eyes",
-            "meaning": "A grinning cat face with smiling eyes, indicating extreme happiness or amusement."
+            "meaning": "A grinning cat face with smiling eyes, indicating extreme happiness or amusement.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1773,7 +1773,7 @@
         {
             "emoji": "😹",
             "name": "Cat with Tears of Joy",
-            "meaning": "A cat face with tears of joy, indicating uncontrollable laughter or amusement."
+            "meaning": "A cat face with tears of joy, indicating uncontrollable laughter or amusement.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1788,7 +1788,7 @@
         {
             "emoji": "😻",
             "name": "Smiling Cat with Heart-Eyes",
-            "meaning": "A cat face with heart eyes, indicating love or admiration."
+            "meaning": "A cat face with heart eyes, indicating love or admiration.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1803,7 +1803,7 @@
         {
             "emoji": "😼",
             "name": "Cat with Wry Smile",
-            "meaning": "A cat face with a sly or wry smile, indicating mischief or playfulness."
+            "meaning": "A cat face with a sly or wry smile, indicating mischief or playfulness.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1818,7 +1818,7 @@
         {
             "emoji": "😽",
             "name": "Kissing Cat",
-            "meaning": "A cat face blowing a kiss, indicating affection or love."
+            "meaning": "A cat face blowing a kiss, indicating affection or love.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1833,7 +1833,7 @@
         {
             "emoji": "😾",
             "name": "Pouting Cat",
-            "meaning": "A pouting cat face, indicating frustration or displeasure."
+            "meaning": "A pouting cat face, indicating frustration or displeasure.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -1848,7 +1848,7 @@
         {
             "emoji": "🫶",
             "name": "Heart Hands",
-            "meaning": "Hands forming a heart shape, indicating love or affection."
+            "meaning": "Hands forming a heart shape, indicating love or affection.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2028,7 +2028,7 @@
         {
             "emoji": "👐",
             "name": "Open Hands",
-            "meaning": "Two open hands, indicating openness, acceptance, or honesty."
+            "meaning": "Two open hands, indicating openness, acceptance, or honesty.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2043,7 +2043,7 @@
         {
             "emoji": "👐🏻",
             "name": "Open Hands (Light Skin Tone)",
-            "meaning": "Two open hands, indicating openness, acceptance, or honesty with a light skin tone."
+            "meaning": "Two open hands, indicating openness, acceptance, or honesty with a light skin tone.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2058,7 +2058,7 @@
         {
             "emoji": "👐🏼",
             "name": "Open Hands (Medium-Light Skin Tone)",
-            "meaning": "Two open hands, indicating openness, acceptance, or honesty with a medium-light skin tone."
+            "meaning": "Two open hands, indicating openness, acceptance, or honesty with a medium-light skin tone.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2073,7 +2073,7 @@
         {
             "emoji": "👐🏽",
             "name": "Open Hands (Medium Skin Tone)",
-            "meaning": "Two open hands, indicating openness, acceptance, or honesty with a medium skin tone."
+            "meaning": "Two open hands, indicating openness, acceptance, or honesty with a medium skin tone.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2088,7 +2088,7 @@
         {
             "emoji": "👐🏾",
             "name": "Open Hands (Medium-Dark Skin Tone)",
-            "meaning": "Two open hands, indicating openness, acceptance, or honesty with a medium-dark skin tone."
+            "meaning": "Two open hands, indicating openness, acceptance, or honesty with a medium-dark skin tone.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2103,7 +2103,7 @@
         {
             "emoji": "👐🏿",
             "name": "Open Hands (Dark Skin Tone)",
-            "meaning": "Two open hands, indicating openness, acceptance, or honesty with a dark skin tone."
+            "meaning": "Two open hands, indicating openness, acceptance, or honesty with a dark skin tone.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2118,7 +2118,7 @@
         {
             "emoji": "🙌",
             "name": "Raising Hands",
-            "meaning": "Two hands raised in celebration or praise, indicating excitement or agreement."
+            "meaning": "Two hands raised in celebration or praise, indicating excitement or agreement.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2133,7 +2133,7 @@
         {
             "emoji": "🙌🏻",
             "name": "Raising Hands (Light Skin Tone)",
-            "meaning": "Two hands raised in celebration or praise with a light skin tone, indicating excitement or agreement."
+            "meaning": "Two hands raised in celebration or praise with a light skin tone, indicating excitement or agreement.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2148,7 +2148,7 @@
         {
             "emoji": "🙌🏼",
             "name": "Raising Hands (Medium-Light Skin Tone)",
-            "meaning": "Two hands raised in celebration or praise with a medium-light skin tone, indicating excitement or agreement."
+            "meaning": "Two hands raised in celebration or praise with a medium-light skin tone, indicating excitement or agreement.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2163,7 +2163,7 @@
         {
             "emoji": "🙌🏽",
             "name": "Raising Hands (Medium Skin Tone)",
-            "meaning": "Two hands raised in celebration or praise with a medium skin tone, indicating excitement or agreement."
+            "meaning": "Two hands raised in celebration or praise with a medium skin tone, indicating excitement or agreement.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2178,7 +2178,7 @@
         {
             "emoji": "🙌🏾",
             "name": "Raising Hands (Medium-Dark Skin Tone)",
-            "meaning": "Two hands raised in celebration or praise with a medium-dark skin tone, indicating excitement or agreement."
+            "meaning": "Two hands raised in celebration or praise with a medium-dark skin tone, indicating excitement or agreement.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2193,7 +2193,7 @@
         {
             "emoji": "🙌🏿",
             "name": "Raising Hands (Dark Skin Tone)",
-            "meaning": "Two hands raised in celebration or praise with a dark skin tone, indicating excitement or agreement."
+            "meaning": "Two hands raised in celebration or praise with a dark skin tone, indicating excitement or agreement.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2208,7 +2208,7 @@
         {
             "emoji": "👏",
             "name": "Clapping Hands",
-            "meaning": "Two hands clapping together, indicating applause, appreciation, or approval."
+            "meaning": "Two hands clapping together, indicating applause, appreciation, or approval.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2223,7 +2223,7 @@
         {
             "emoji": "👏🏻",
             "name": "Clapping Hands (Light Skin Tone)",
-            "meaning": "Two hands clapping together with a light skin tone, indicating applause, appreciation, or approval."
+            "meaning": "Two hands clapping together with a light skin tone, indicating applause, appreciation, or approval.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2238,7 +2238,7 @@
         {
             "emoji": "👏🏼",
             "name": "Clapping Hands (Medium-Light Skin Tone)",
-            "meaning": "Two hands clapping together with a medium-light skin tone, indicating applause, appreciation, or approval."
+            "meaning": "Two hands clapping together with a medium-light skin tone, indicating applause, appreciation, or approval.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2253,7 +2253,7 @@
         {
             "emoji": "👏🏽",
             "name": "Clapping Hands (Medium Skin Tone)",
-            "meaning": "Two hands clapping together with a medium skin tone, indicating applause, appreciation, or approval."
+            "meaning": "Two hands clapping together with a medium skin tone, indicating applause, appreciation, or approval.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2268,7 +2268,7 @@
         {
             "emoji": "👏🏾",
             "name": "Clapping Hands (Medium-Dark Skin Tone)",
-            "meaning": "Two hands clapping together with a medium-dark skin tone, indicating applause, appreciation, or approval."
+            "meaning": "Two hands clapping together with a medium-dark skin tone, indicating applause, appreciation, or approval.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2283,7 +2283,7 @@
         {
             "emoji": "👏🏿",
             "name": "Clapping Hands (Dark Skin Tone)",
-            "meaning": "Two hands clapping together with a dark skin tone, indicating applause, appreciation, or approval."
+            "meaning": "Two hands clapping together with a dark skin tone, indicating applause, appreciation, or approval.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2298,7 +2298,7 @@
         {
             "emoji": "🤝",
             "name": "Handshake",
-            "meaning": "Two hands shaking, indicating an agreement, partnership, or mutual understanding."
+            "meaning": "Two hands shaking, indicating an agreement, partnership, or mutual understanding.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2313,7 +2313,7 @@
         {
             "emoji": "👍",
             "name": "Thumbs Up",
-            "meaning": "A thumbs-up gesture, indicating approval, agreement, or a positive attitude."
+            "meaning": "A thumbs-up gesture, indicating approval, agreement, or a positive attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2328,7 +2328,7 @@
         {
             "emoji": "👍🏻",
             "name": "Thumbs Up (Light Skin Tone)",
-            "meaning": "A thumbs-up gesture with a light skin tone, indicating approval, agreement, or a positive attitude."
+            "meaning": "A thumbs-up gesture with a light skin tone, indicating approval, agreement, or a positive attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2343,7 +2343,7 @@
         {
             "emoji": "👍🏼",
             "name": "Thumbs Up (Medium-Light Skin Tone)",
-            "meaning": "A thumbs-up gesture with a medium-light skin tone, indicating approval, agreement, or a positive attitude."
+            "meaning": "A thumbs-up gesture with a medium-light skin tone, indicating approval, agreement, or a positive attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2358,7 +2358,7 @@
         {
             "emoji": "👍🏽",
             "name": "Thumbs Up (Medium Skin Tone)",
-            "meaning": "A thumbs-up gesture with a medium skin tone, indicating approval, agreement, or a positive attitude."
+            "meaning": "A thumbs-up gesture with a medium skin tone, indicating approval, agreement, or a positive attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2373,7 +2373,7 @@
         {
             "emoji": "👍🏾",
             "name": "Thumbs Up (Medium-Dark Skin Tone)",
-            "meaning": "A thumbs-up gesture with a medium-dark skin tone, indicating approval, agreement, or a positive attitude."
+            "meaning": "A thumbs-up gesture with a medium-dark skin tone, indicating approval, agreement, or a positive attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2388,7 +2388,7 @@
         {
             "emoji": "👍🏿",
             "name": "Thumbs Up (Dark Skin Tone)",
-            "meaning": "A thumbs-up gesture with a dark skin tone, indicating approval, agreement, or a positive attitude."
+            "meaning": "A thumbs-up gesture with a dark skin tone, indicating approval, agreement, or a positive attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2403,7 +2403,7 @@
         {
             "emoji": "👎",
             "name": "Thumbs Down",
-            "meaning": "A thumbs-down gesture, indicating disapproval, disagreement, or a negative attitude."
+            "meaning": "A thumbs-down gesture, indicating disapproval, disagreement, or a negative attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2418,7 +2418,7 @@
         {
             "emoji": "👎🏻",
             "name": "Thumbs Down (Light Skin Tone)",
-            "meaning": "A thumbs-down gesture with a light skin tone, indicating disapproval, disagreement, or a negative attitude."
+            "meaning": "A thumbs-down gesture with a light skin tone, indicating disapproval, disagreement, or a negative attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2433,7 +2433,7 @@
         {
             "emoji": "👎🏼",
             "name": "Thumbs Down (Medium-Light Skin Tone)",
-            "meaning": "A thumbs-down gesture with a medium-light skin tone, indicating disapproval, disagreement, or a negative attitude."
+            "meaning": "A thumbs-down gesture with a medium-light skin tone, indicating disapproval, disagreement, or a negative attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2448,7 +2448,7 @@
         {
             "emoji": "👎🏽",
             "name": "Thumbs Down (Medium Skin Tone)",
-            "meaning": "A thumbs-down gesture with a medium skin tone, indicating disapproval, disagreement, or a negative attitude."
+            "meaning": "A thumbs-down gesture with a medium skin tone, indicating disapproval, disagreement, or a negative attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2463,7 +2463,7 @@
         {
             "emoji": "👎🏾",
             "name": "Thumbs Down (Medium-Dark Skin Tone)",
-            "meaning": "A thumbs-down gesture with a medium-dark skin tone, indicating disapproval, disagreement, or a negative attitude."
+            "meaning": "A thumbs-down gesture with a medium-dark skin tone, indicating disapproval, disagreement, or a negative attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2478,7 +2478,7 @@
         {
             "emoji": "👎🏿",
             "name": "Thumbs Down (Dark Skin Tone)",
-            "meaning": "A thumbs-down gesture with a dark skin tone, indicating disapproval, disagreement, or a negative attitude."
+            "meaning": "A thumbs-down gesture with a dark skin tone, indicating disapproval, disagreement, or a negative attitude.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2493,7 +2493,7 @@
         {
             "emoji": "👊",
             "name": "Oncoming Fist",
-            "meaning": "A fist held up, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist held up, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2508,7 +2508,7 @@
         {
             "emoji": "👊🏻",
             "name": "Oncoming Fist (Light Skin Tone)",
-            "meaning": "A fist held up with a light skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist held up with a light skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2523,7 +2523,7 @@
         {
             "emoji": "👊🏼",
             "name": "Oncoming Fist (Medium-Light Skin Tone)",
-            "meaning": "A fist held up with a medium-light skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist held up with a medium-light skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2538,7 +2538,7 @@
         {
             "emoji": "👊🏽",
             "name": "Oncoming Fist (Medium Skin Tone)",
-            "meaning": "A fist held up with a medium skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist held up with a medium skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2553,7 +2553,7 @@
         {
             "emoji": "👊🏾",
             "name": "Oncoming Fist (Medium-Dark Skin Tone)",
-            "meaning": "A fist held up with a medium-dark skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist held up with a medium-dark skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2568,7 +2568,7 @@
         {
             "emoji": "👊🏿",
             "name": "Oncoming Fist (Dark Skin Tone)",
-            "meaning": "A fist held up with a dark skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist held up with a dark skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2583,7 +2583,7 @@
         {
             "emoji": "✊",
             "name": "Raised Fist",
-            "meaning": "A raised fist, indicating a symbol of strength, solidarity, or resistance."
+            "meaning": "A raised fist, indicating a symbol of strength, solidarity, or resistance.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2598,7 +2598,7 @@
         {
             "emoji": "✊🏻",
             "name": "Raised Fist (Light Skin Tone)",
-            "meaning": "A raised fist with a light skin tone, indicating a symbol of strength, solidarity, or resistance."
+            "meaning": "A raised fist with a light skin tone, indicating a symbol of strength, solidarity, or resistance.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2613,7 +2613,7 @@
         {
             "emoji": "✊🏼",
             "name": "Raised Fist (Medium-Light Skin Tone)",
-            "meaning": "A raised fist with a medium-light skin tone, indicating a symbol of strength, solidarity, or resistance."
+            "meaning": "A raised fist with a medium-light skin tone, indicating a symbol of strength, solidarity, or resistance.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2628,7 +2628,7 @@
         {
             "emoji": "✊🏽",
             "name": "Raised Fist (Medium Skin Tone)",
-            "meaning": "A raised fist with a medium skin tone, indicating a symbol of strength, solidarity, or resistance."
+            "meaning": "A raised fist with a medium skin tone, indicating a symbol of strength, solidarity, or resistance.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2643,7 +2643,7 @@
         {
             "emoji": "✊🏾",
             "name": "Raised Fist (Medium-Dark Skin Tone)",
-            "meaning": "A raised fist with a medium-dark skin tone, indicating a symbol of strength, solidarity, or resistance."
+            "meaning": "A raised fist with a medium-dark skin tone, indicating a symbol of strength, solidarity, or resistance.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2658,7 +2658,7 @@
         {
             "emoji": "✊🏿",
             "name": "Raised Fist (Dark Skin Tone)",
-            "meaning": "A raised fist with a dark skin tone, indicating a symbol of strength, solidarity, or resistance."
+            "meaning": "A raised fist with a dark skin tone, indicating a symbol of strength, solidarity, or resistance.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2673,7 +2673,7 @@
         {
             "emoji": "🤛",
             "name": "Left-Facing Fist",
-            "meaning": "A fist facing to the left, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the left, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2688,7 +2688,7 @@
         {
             "emoji": "🤛🏻",
             "name": "Left-Facing Fist (Light Skin Tone)",
-            "meaning": "A fist facing to the left with a light skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the left with a light skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2703,7 +2703,7 @@
         {
             "emoji": "🤛🏼",
             "name": "Left-Facing Fist (Medium-Light Skin Tone)",
-            "meaning": "A fist facing to the left with a medium-light skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the left with a medium-light skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2718,7 +2718,7 @@
         {
             "emoji": "🤛🏽",
             "name": "Left-Facing Fist (Medium Skin Tone)",
-            "meaning": "A fist facing to the left with a medium skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the left with a medium skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2733,7 +2733,7 @@
         {
             "emoji": "🤛🏾",
             "name": "Left-Facing Fist (Medium-Dark Skin Tone)",
-            "meaning": "A fist facing to the left with a medium-dark skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the left with a medium-dark skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2748,7 +2748,7 @@
         {
             "emoji": "🤛🏿",
             "name": "Left-Facing Fist (Dark Skin Tone)",
-            "meaning": "A fist facing to the left with a dark skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the left with a dark skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2763,7 +2763,7 @@
         {
             "emoji": "🤜",
             "name": "Right-Facing Fist",
-            "meaning": "A fist facing to the right, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the right, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2778,7 +2778,7 @@
         {
             "emoji": "🤜🏻",
             "name": "Right-Facing Fist (Light Skin Tone)",
-            "meaning": "A fist facing to the right with a light skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the right with a light skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2793,7 +2793,7 @@
         {
             "emoji": "🤜🏼",
             "name": "Right-Facing Fist (Medium-Light Skin Tone)",
-            "meaning": "A fist facing to the right with a medium-light skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the right with a medium-light skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2808,7 +2808,7 @@
         {
             "emoji": "🤜🏽",
             "name": "Right-Facing Fist (Medium Skin Tone)",
-            "meaning": "A fist facing to the right with a medium skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the right with a medium skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2823,7 +2823,7 @@
         {
             "emoji": "🤜🏾",
             "name": "Right-Facing Fist (Medium-Dark Skin Tone)",
-            "meaning": "A fist facing to the right with a medium-dark skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the right with a medium-dark skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",
@@ -2838,7 +2838,7 @@
         {
             "emoji": "🤜🏿",
             "name": "Right-Facing Fist (Dark Skin Tone)",
-            "meaning": "A fist facing to the right with a dark skin tone, indicating a fist bump or a sign of greeting or solidarity."
+            "meaning": "A fist facing to the right with a dark skin tone, indicating a fist bump or a sign of greeting or solidarity.",
             "usage": [
                 {
                     "context": "Messaging",

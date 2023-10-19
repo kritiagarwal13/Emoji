@@ -116,5 +116,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E016AA17-58FD-4501-8C29-6A546DD9A2E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Emoji/Controller/EmojiDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getEmojis()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E016AA17-58FD-4501-8C29-6A546DD9A2E7 - b4108ab82ae86c25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji.EmojiDetailViewController.getEmojis() -&gt; ()"
+                  moduleName = "Emoji"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kritiagarwal/Documents/GitHub/Emoji/Emoji/Emoji/Controller/EmojiDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "E016AA17-58FD-4501-8C29-6A546DD9A2E7 - b4108ab82ae86c25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji.EmojiDetailViewController.getEmojis() -&gt; ()"
+                  moduleName = "Emoji"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kritiagarwal/Documents/GitHub/Emoji/Emoji/Emoji/Controller/EmojiDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
