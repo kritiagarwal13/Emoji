@@ -68,4 +68,12 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
         return CGSize(width: width, height: width)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "EmojiDetailViewController") as! EmojiDetailViewController
+        vc.emoji = self.emojiData?[indexPath.row].character ?? ""
+        vc.emojiTitle = self.emojiData?[indexPath.row].unicodeName ?? ""
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
