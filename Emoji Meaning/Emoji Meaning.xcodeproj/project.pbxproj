@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D60DF0E82ACF23A0007EC803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DF0E72ACF23A0007EC803 /* AppDelegate.swift */; };
 		D60DF0EA2ACF23A0007EC803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DF0E92ACF23A0007EC803 /* SceneDelegate.swift */; };
-		D60DF0EC2ACF23A0007EC803 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DF0EB2ACF23A0007EC803 /* HomeViewController.swift */; };
 		D60DF0EF2ACF23A0007EC803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DF0ED2ACF23A0007EC803 /* Main.storyboard */; };
 		D60DF0F12ACF23A0007EC803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60DF0F02ACF23A0007EC803 /* Assets.xcassets */; };
 		D60DF0F42ACF23A0007EC803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DF0F22ACF23A0007EC803 /* LaunchScreen.storyboard */; };
@@ -19,13 +18,16 @@
 		D61418432AD5ECE00001BFB1 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61418422AD5ECE00001BFB1 /* ApiService.swift */; };
 		D61E78D62AD365E3002A6B2C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E78D52AD365E3002A6B2C /* SearchViewController.swift */; };
 		D646D7F02AD8AEF1003E26B0 /* NetworkParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646D7EF2AD8AEF1003E26B0 /* NetworkParams.swift */; };
+		D6D372602AE1821600609EB0 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3725F2AE1821600609EB0 /* TabbarController.swift */; };
+		D6D372622AE182B700609EB0 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D372612AE182B700609EB0 /* CategoriesViewController.swift */; };
+		D6D372642AE182C700609EB0 /* EmojisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D372632AE182C700609EB0 /* EmojisViewController.swift */; };
+		D6D372672AE1890B00609EB0 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D372652AE1890B00609EB0 /* EmojiCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D60DF0E42ACF23A0007EC803 /* Emoji Meaning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Meaning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60DF0E72ACF23A0007EC803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D60DF0E92ACF23A0007EC803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D60DF0EB2ACF23A0007EC803 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D60DF0EE2ACF23A0007EC803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D60DF0F02ACF23A0007EC803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D60DF0F32ACF23A0007EC803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,6 +47,10 @@
 		D65A0A6F2ADB423F002C309C /* SymbolsDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SymbolsDataset.json; sourceTree = "<group>"; };
 		D65A0A702ADB424C002C309C /* FlagsDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FlagsDataset.json; sourceTree = "<group>"; };
 		D65A0A712AE0661D002C309C /* People-Dataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "People-Dataset.json"; sourceTree = "<group>"; };
+		D6D3725F2AE1821600609EB0 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		D6D372612AE182B700609EB0 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		D6D372632AE182C700609EB0 /* EmojisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojisViewController.swift; sourceTree = "<group>"; };
+		D6D372652AE1890B00609EB0 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				D614183D2AD576E30001BFB1 /* CategoryCollectionViewCell.swift */,
+				D6D372652AE1890B00609EB0 /* EmojiCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,8 +118,10 @@
 		D61E78C32AD21030002A6B2C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D60DF0EB2ACF23A0007EC803 /* HomeViewController.swift */,
 				D61E78D52AD365E3002A6B2C /* SearchViewController.swift */,
+				D6D3725F2AE1821600609EB0 /* TabbarController.swift */,
+				D6D372612AE182B700609EB0 /* CategoriesViewController.swift */,
+				D6D372632AE182C700609EB0 /* EmojisViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -214,9 +223,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D60DF0EC2ACF23A0007EC803 /* HomeViewController.swift in Sources */,
+				D6D372672AE1890B00609EB0 /* EmojiCollectionViewCell.swift in Sources */,
+				D6D372622AE182B700609EB0 /* CategoriesViewController.swift in Sources */,
 				D60DF0E82ACF23A0007EC803 /* AppDelegate.swift in Sources */,
+				D6D372642AE182C700609EB0 /* EmojisViewController.swift in Sources */,
 				D61E78D62AD365E3002A6B2C /* SearchViewController.swift in Sources */,
+				D6D372602AE1821600609EB0 /* TabbarController.swift in Sources */,
 				D614183B2AD56F000001BFB1 /* ErrorResponse.swift in Sources */,
 				D61418432AD5ECE00001BFB1 /* ApiService.swift in Sources */,
 				D60DF0EA2ACF23A0007EC803 /* SceneDelegate.swift in Sources */,

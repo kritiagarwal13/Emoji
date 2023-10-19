@@ -3,4 +3,54 @@
    uuid = "C5122E58-FDDE-4B55-AC2C-D777ABF403E9"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFB546AE-E74A-4A29-9C43-7262A4933314"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Emoji Meaning/View/EmojiCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "configCellData(titleString:fontHeight:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AFB546AE-E74A-4A29-9C43-7262A4933314 - 66ae91762b7b2a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Meaning.EmojiCollectionViewCell.configCellData(titleString: Swift.String, fontHeight: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "Emoji Meaning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kritiagarwal/Documents/GitHub/Emoji/Emoji%20Meaning/Emoji%20Meaning/View/EmojiCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "AFB546AE-E74A-4A29-9C43-7262A4933314 - 66ae91762b7acd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Meaning.EmojiCollectionViewCell.configCellData(titleString: Swift.String, fontHeight: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "Emoji Meaning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kritiagarwal/Documents/GitHub/Emoji/Emoji%20Meaning/Emoji%20Meaning/View/EmojiCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
