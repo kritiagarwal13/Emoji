@@ -87,6 +87,7 @@
 		D60DF0E62ACF23A0007EC803 /* Emoji */ = {
 			isa = PBXGroup;
 			children = (
+				D60DF0F52ACF23A0007EC803 /* Info.plist */,
 				D60DF0E72ACF23A0007EC803 /* AppDelegate.swift */,
 				D60DF0E92ACF23A0007EC803 /* SceneDelegate.swift */,
 				D626F5902ADADBE9004D897F /* Data */,
@@ -97,7 +98,6 @@
 				D60DF0ED2ACF23A0007EC803 /* Main.storyboard */,
 				D60DF0F02ACF23A0007EC803 /* Assets.xcassets */,
 				D60DF0F22ACF23A0007EC803 /* LaunchScreen.storyboard */,
-				D60DF0F52ACF23A0007EC803 /* Info.plist */,
 			);
 			path = Emoji;
 			sourceTree = "<group>";
@@ -393,7 +393,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XXY5DGP7HA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Emoji Meaning/Info.plist";
+				INFOPLIST_FILE = Emoji/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -421,7 +421,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XXY5DGP7HA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Emoji Meaning/Info.plist";
+				INFOPLIST_FILE = Emoji/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
