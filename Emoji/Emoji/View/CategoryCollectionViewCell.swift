@@ -11,7 +11,7 @@ class CategoryCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var bgView: UIView!
-    
+        
     override class func awakeFromNib() {
         super.awakeFromNib()
        

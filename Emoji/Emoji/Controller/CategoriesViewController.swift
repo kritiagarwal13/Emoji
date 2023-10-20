@@ -15,7 +15,8 @@ class CategoriesViewController: UIViewController {
     //MARK: - Properties
     var categoryData: [CategoryDataModel]?
     var apiService = APIService()
-    var titleArr = ["😀", "👥", "🧥", "🐶", "🍽️", "🚉", "🧘🏻‍♂️", "⏰", "♻️", "🏳️"]
+    var titleArr = ["😀", "👥", "🐶", "🍽️","🧘🏻‍♂️",  "🚉", "⏰", "♻️", "🏳️"]
+    var categoryArr = ["SmileysDataset", "People-Dataset", "Animal-and-NatureDataset", "Food-and-DrinkDataset","ActivityDataset", "Travel-and-PlacesDataset", "ObjectsDataset", "SymbolsDataset", "FlagsDataset"]
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -24,7 +25,6 @@ class CategoriesViewController: UIViewController {
         // API Call
         getCategories()
         
-//        self.collectionView.register(EmojiCollectionViewCell.self, forCellWithReuseIdentifier: "EmojiCollectionViewCell")
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         self.collectionView.collectionViewLayout = UICollectionViewFlowLayout()
@@ -72,6 +72,13 @@ extension CategoriesViewController: UICollectionViewDataSource, UICollectionView
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = self.collectionView.frame.width/2 - 5
         return CGSize(width: width, height: width)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "EmojiDetailViewController") as! EmojiDetailViewController
+        vc.dataset = self.categoryArr[indexPath.item]
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 }

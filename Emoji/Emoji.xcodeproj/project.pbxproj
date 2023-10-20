@@ -27,7 +27,7 @@
 		D6D3726E2AE1DE9B00609EB0 /* SmileysDataset.json in Resources */ = {isa = PBXBuildFile; fileRef = D626F5932ADADD49004D897F /* SmileysDataset.json */; };
 		D6D3726F2AE1DE9E00609EB0 /* People-Dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = D65A0A712AE0661D002C309C /* People-Dataset.json */; };
 		D6D372702AE1DEA000609EB0 /* Animal-and-NatureDataset.json in Resources */ = {isa = PBXBuildFile; fileRef = D65A0A6A2ADB41AE002C309C /* Animal-and-NatureDataset.json */; };
-		D6D372712AE1DEA300609EB0 /* activityDataset.json in Resources */ = {isa = PBXBuildFile; fileRef = D65A0A6C2ADB41F1002C309C /* activityDataset.json */; };
+		D6D372712AE1DEA300609EB0 /* ActivityDataset.json in Resources */ = {isa = PBXBuildFile; fileRef = D65A0A6C2ADB41F1002C309C /* ActivityDataset.json */; };
 		D6D372722AE1DEA500609EB0 /* Food-and-DrinkDataset.json in Resources */ = {isa = PBXBuildFile; fileRef = D65A0A6B2ADB41E3002C309C /* Food-and-DrinkDataset.json */; };
 		D6D372732AE1DEAB00609EB0 /* Travel-and-PlacesDataset.json in Resources */ = {isa = PBXBuildFile; fileRef = D65A0A6D2ADB421E002C309C /* Travel-and-PlacesDataset.json */; };
 		D6D372742AE1DEB000609EB0 /* ObjectsDataset.json in Resources */ = {isa = PBXBuildFile; fileRef = D65A0A6E2ADB422C002C309C /* ObjectsDataset.json */; };
@@ -52,7 +52,7 @@
 		D646D7EF2AD8AEF1003E26B0 /* NetworkParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParams.swift; sourceTree = "<group>"; };
 		D65A0A6A2ADB41AE002C309C /* Animal-and-NatureDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animal-and-NatureDataset.json"; sourceTree = "<group>"; };
 		D65A0A6B2ADB41E3002C309C /* Food-and-DrinkDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Food-and-DrinkDataset.json"; sourceTree = "<group>"; };
-		D65A0A6C2ADB41F1002C309C /* activityDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = activityDataset.json; path = Emoji/Data/activityDataset.json; sourceTree = SOURCE_ROOT; };
+		D65A0A6C2ADB41F1002C309C /* ActivityDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ActivityDataset.json; path = Emoji/Data/ActivityDataset.json; sourceTree = SOURCE_ROOT; };
 		D65A0A6D2ADB421E002C309C /* Travel-and-PlacesDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Travel-and-PlacesDataset.json"; sourceTree = "<group>"; };
 		D65A0A6E2ADB422C002C309C /* ObjectsDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ObjectsDataset.json; sourceTree = "<group>"; };
 		D65A0A6F2ADB423F002C309C /* SymbolsDataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SymbolsDataset.json; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 				D65A0A712AE0661D002C309C /* People-Dataset.json */,
 				D65A0A6A2ADB41AE002C309C /* Animal-and-NatureDataset.json */,
 				D65A0A6B2ADB41E3002C309C /* Food-and-DrinkDataset.json */,
-				D65A0A6C2ADB41F1002C309C /* activityDataset.json */,
+				D65A0A6C2ADB41F1002C309C /* ActivityDataset.json */,
 				D65A0A6D2ADB421E002C309C /* Travel-and-PlacesDataset.json */,
 				D65A0A6E2ADB422C002C309C /* ObjectsDataset.json */,
 				D65A0A6F2ADB423F002C309C /* SymbolsDataset.json */,
@@ -230,7 +230,7 @@
 				D60DF0F42ACF23A0007EC803 /* LaunchScreen.storyboard in Resources */,
 				D6D3726E2AE1DE9B00609EB0 /* SmileysDataset.json in Resources */,
 				D6D372732AE1DEAB00609EB0 /* Travel-and-PlacesDataset.json in Resources */,
-				D6D372712AE1DEA300609EB0 /* activityDataset.json in Resources */,
+				D6D372712AE1DEA300609EB0 /* ActivityDataset.json in Resources */,
 				D6D372742AE1DEB000609EB0 /* ObjectsDataset.json in Resources */,
 				D60DF0F12ACF23A0007EC803 /* Assets.xcassets in Resources */,
 				D6D372762AE1DEB400609EB0 /* FlagsDataset.json in Resources */,

@@ -17,6 +17,7 @@ class EmojiDetailViewController: UIViewController {
     var emojiData : EmojiDatasetModel?
     var emoji = ""
     var emojiTitle = ""
+    var dataset = ""
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -29,7 +30,7 @@ class EmojiDetailViewController: UIViewController {
     //MARK: - Extra Methods
     
     func getEmojis() {
-        if let path = Bundle.main.path(forResource: "SmileysDataset", ofType: "json") {
+        if let path = Bundle.main.path(forResource: dataset, ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path))
                 let decoder = JSONDecoder()
@@ -40,7 +41,6 @@ class EmojiDetailViewController: UIViewController {
             }
         }
         self.collectionView.reloadData()
-        //print("could not find JSON file")
     }
 }
 
@@ -48,19 +48,17 @@ class EmojiDetailViewController: UIViewController {
 
 extension EmojiDetailViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return  1
+        return  self.emojiData?.emojis.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiDetailCollectionViewCell", for: indexPath) as! EmojiDetailCollectionViewCell
-        cell.emojiLbl.text = self.emojiData?.emojis.first?.emoji ?? ""
-        cell.lblTitle.text = self.emojiData?.emojis.first?.name ?? ""
-        
+        cell.configureData(meaning: self.emojiData?.emojis[indexPath.item].meaning ?? "", usage: self.emojiData?.emojis[indexPath.item].usage.first?.context ?? "", example: self.emojiData?.emojis[indexPath.item].usage.first?.example ?? "", title: self.emojiData?.emojis[indexPath.item].name ?? "", emoji: self.emojiData?.emojis[indexPath.item].emoji ?? "")
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: self.collectionView.frame.width, height: self.collectionView.frame.height)
+        return CGSize(width: self.collectionView.frame.width , height: self.collectionView.frame.height)
     }
     
 }
