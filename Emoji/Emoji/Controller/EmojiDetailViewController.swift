@@ -16,8 +16,8 @@ class EmojiDetailViewController: UIViewController {
     var apiService = APIService()
     var emojiData : EmojiDatasetModel?
     var emoji = ""
-    var emojiTitle = ""
-    var dataset = ""
+    var showSingleDetail = false
+    var dataset = "SmileysDataset"
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -48,12 +48,26 @@ class EmojiDetailViewController: UIViewController {
 
 extension EmojiDetailViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return  self.emojiData?.emojis.count ?? 0
+        if showSingleDetail {
+            return 1
+        } else {
+            return  self.emojiData?.emojis.count ?? 0
+        }
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiDetailCollectionViewCell", for: indexPath) as! EmojiDetailCollectionViewCell
-        cell.configureData(meaning: self.emojiData?.emojis[indexPath.item].meaning ?? "", usage: self.emojiData?.emojis[indexPath.item].usage.first?.context ?? "", example: self.emojiData?.emojis[indexPath.item].usage.first?.example ?? "", title: self.emojiData?.emojis[indexPath.item].name ?? "", emoji: self.emojiData?.emojis[indexPath.item].emoji ?? "")
+        if showSingleDetail {
+            for each in emojiData?.emojis ?? [] {
+                if self.emoji == each.emoji {
+                    cell.configureData(meaning: each.meaning, usage: each.usage.first?.context ?? "", example: each.usage.first?.example ?? "", title: each.name, emoji: each.emoji)
+                }
+            }
+        } else {
+            cell.configureData(meaning: self.emojiData?.emojis[indexPath.item].meaning ?? "", usage: self.emojiData?.emojis[indexPath.item].usage.first?.context ?? "", example: self.emojiData?.emojis[indexPath.item].usage.first?.example ?? "", title: self.emojiData?.emojis[indexPath.item].name ?? "", emoji: self.emojiData?.emojis[indexPath.item].emoji ?? "")
+        }
+        
         return cell
     }
     

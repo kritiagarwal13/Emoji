@@ -78,6 +78,7 @@ extension CategoriesViewController: UICollectionViewDataSource, UICollectionView
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "EmojiDetailViewController") as! EmojiDetailViewController
         vc.dataset = self.categoryArr[indexPath.item]
+        vc.showSingleDetail = false
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

@@ -15,6 +15,7 @@ class EmojisViewController: UIViewController {
     //MARK: - Properties
     var emojiData: [EmojiDataModel]?
     var apiService = APIService()
+    var categoryArr = ["SmileysDataset", "People-Dataset", "Animal-and-NatureDataset", "Food-and-DrinkDataset","ActivityDataset", "Travel-and-PlacesDataset", "ObjectsDataset", "SymbolsDataset", "FlagsDataset"]
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -71,7 +72,8 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "EmojiDetailViewController") as! EmojiDetailViewController
         vc.emoji = self.emojiData?[indexPath.row].character ?? ""
-        vc.emojiTitle = self.emojiData?[indexPath.row].unicodeName ?? ""
+        vc.dataset = self.categoryArr.first ?? ""
+        vc.showSingleDetail = true
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
