@@ -52,3 +52,37 @@ struct CategoryDataModel: Codable {
     let slug: String
     let subCategories: [String]
 }
+
+struct EmojiDatasetModel: Codable {
+    var emoji: [EmojiJSONDataModel]?
+}
+
+struct EmojiJSONDataModel: Codable {
+    var emoji: String?
+    var name: String?
+    var meaning: String?
+    var usage: [UsageModel]?
+}
+
+struct UsageModel: Codable {
+    var context: String?
+    var example: String?
+}
+
+/*"emojis": [
+    {
+        "emoji": "😀",
+        "name": "Grinning Face",
+        "meaning": "A classic grinning face, indicating happiness or a friendly greeting.",
+        "usage": [
+            {
+                "context": "Messaging",
+                "example": "I'm so excited to see you! 😀"
+            },
+            {
+                "context": "Social Media",
+                "example": "Greeting friends with a big 😀."
+            }
+        ]
+    }
+*/
