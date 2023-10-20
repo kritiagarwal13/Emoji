@@ -14,6 +14,7 @@ class EmojiDetailViewController: UIViewController {
     
     //MARK: - Properties
     var apiService = APIService()
+    var emojiData : EmojiDatasetModel?
     var emoji = ""
     var emojiTitle = ""
     
@@ -28,25 +29,19 @@ class EmojiDetailViewController: UIViewController {
     //MARK: - Extra Methods
     
     func getEmojis() {
-        if let fileURL = Bundle.main.url(forResource: "ActivityDataset", withExtension: "json") {
+        if let path = Bundle.main.path(forResource: "SmileysDataset", ofType: "json") {
             do {
-                let data = try Data(contentsOf: fileURL)
+                let data = try Data(contentsOf: URL(fileURLWithPath: path))
                 let decoder = JSONDecoder()
-                do {
-                    let jsonData = try JSONSerialization.data(withJSONObject: mockJSON, options: .prettyPrinted)
-                    let jsonString = String(data: jsonData, encoding: .utf8)
-                    print(jsonString ?? "Could not convert to JSON string")
-                } catch {
-                    print("Error converting to JSON: \(error)")
-                }
+                let emojiData = try decoder.decode(EmojiDatasetModel.self, from: data)
+                self.emojiData = emojiData
             } catch {
-                print("error")
+                print("Error loading and parsing JSON: \(error)")
             }
-        } else {
-            print("JSON file not found")
         }
+        self.collectionView.reloadData()
+        //print("could not find JSON file")
     }
-
 }
 
 //MARK: - Extensions
@@ -58,8 +53,8 @@ extension EmojiDetailViewController: UICollectionViewDataSource, UICollectionVie
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiDetailCollectionViewCell", for: indexPath) as! EmojiDetailCollectionViewCell
-        cell.emojiLbl.text = self.emoji
-        cell.lblTitle.text = self.emojiTitle
+        cell.emojiLbl.text = self.emojiData?.emojis.first?.emoji ?? ""
+        cell.lblTitle.text = self.emojiData?.emojis.first?.name ?? ""
         
         return cell
     }

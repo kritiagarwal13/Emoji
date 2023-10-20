@@ -53,20 +53,20 @@ struct CategoryDataModel: Codable {
     let subCategories: [String]
 }
 
-struct EmojiDatasetModel: Codable {
-    var emoji: [EmojiJSONDataModel]?
-}
-
-struct EmojiJSONDataModel: Codable {
-    var emoji: String?
-    var name: String?
-    var meaning: String?
-    var usage: [UsageModel]?
+struct EmojiModel: Codable {
+    let emoji: String
+    let name: String
+    let meaning: String
+    let usage: [UsageModel]
 }
 
 struct UsageModel: Codable {
-    var context: String?
-    var example: String?
+    let context: String
+    let example: String
+}
+
+struct EmojiDatasetModel: Codable {
+    let emojis: [EmojiModel]
 }
 
 /*"emojis": [
