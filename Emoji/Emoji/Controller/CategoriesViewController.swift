@@ -15,9 +15,8 @@ class CategoriesViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     //MARK: - Properties
-    var categoryData: [CategoryDataModel]?
     var apiService = APIService()
-    var emojiData : EmojisData?
+    var emojiCategoryData : [EmojiCategory]?
     var titleArr = ["😀", "👥", "🐶", "🍽️","🧘🏻‍♂️",  "🚉", "⏰", "♻️", "🏳️"]
     
     //MARK: - Life Cycle Methods
@@ -26,7 +25,6 @@ class CategoriesViewController: UIViewController {
 
         // API Call
         getCategoryData()
-        getCategories()
        
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
@@ -35,27 +33,10 @@ class CategoriesViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        self.getCategories()
+//        self.getCategoryData()
     }
     
     //MARK: - Extra Methods
-    
-    func getCategories() {
-        let urlString = NetworkParams.path.rawValue + UrlEndpoint.categories.rawValue + apiService.privateAccessKey
-        self.apiService.fetchData(for: [CategoryDataModel].self, from: URL(string: urlString)!) { result in
-            switch result {
-            case .success(let categoryData):
-                // Handle emojiData
-                self.categoryData = categoryData
-                DispatchQueue.main.async {
-                    self.collectionView.reloadData()
-                }
-            case .failure(let error):
-                // Handle error
-                print(error.localizedDescription)
-            }
-        }
-    }
     
     func getCategoryData() {
         
@@ -68,8 +49,12 @@ class CategoriesViewController: UIViewController {
                 do {
                     let jsonData = try JSONSerialization.data(withJSONObject: data)
                     let decodedData = try JSONDecoder().decode([EmojiCategory].self, from: jsonData)
-                    print(decodedData.count) // Use 'decodedData' as an array of EmojiCategory
-                } catch {
+                    print(decodedData.count)
+                    self.emojiCategoryData = decodedData
+                    DispatchQueue.main.async {
+                        self.collectionView.reloadData()
+                    }
+                    } catch {
                     print("Error decoding data: \(error)")
                 }
             }
@@ -82,12 +67,12 @@ class CategoriesViewController: UIViewController {
 
 extension CategoriesViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.titleArr.count 
+        return self.emojiCategoryData?.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoryCollectionViewCell", for: indexPath) as! CategoryCollectionViewCell
-        cell.configCellData(titleString: self.titleArr[indexPath.row], fontHeight: CGFloat(100))
+        cell.configCellData(titleString: self.emojiCategoryData?[indexPath.row].smiley ?? "", fontHeight: CGFloat(22))
         return cell
     }
     
