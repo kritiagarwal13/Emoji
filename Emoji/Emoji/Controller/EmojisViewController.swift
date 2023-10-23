@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class EmojisViewController: UIViewController {
 
@@ -13,9 +15,9 @@ class EmojisViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     //MARK: - Properties
-    var emojiData: [EmojiDataModel]?
+//    var emojiData: [EmojiDataModel]?
     var apiService = APIService()
-    var categoryArr = ["SmileysDataset", "People-Dataset", "Animal-and-NatureDataset", "Food-and-DrinkDataset","ActivityDataset", "Travel-and-PlacesDataset", "ObjectsDataset", "SymbolsDataset", "FlagsDataset"]
+    var emojiData = [EmojiInfo]()
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -32,18 +34,25 @@ class EmojisViewController: UIViewController {
     //MARK: - Extra Methods
     
     func getEmojis() {
-        let urlString = NetworkParams.path.rawValue + UrlEndpoint.emojis.rawValue + apiService.privateAccessKey
-        self.apiService.fetchData(for: [EmojiDataModel].self, from: URL(string: urlString)!) { result in
-            switch result {
-            case .success(let emojiData):
-                // Handle emojiData
-                self.emojiData = emojiData
-                DispatchQueue.main.async {
-                    self.collectionView.reloadData()
+        let reference = Database.database().reference()
+        let validPath = "emojis"
+        let dataReference = reference.child(validPath)
+        
+        dataReference.observe(.value) { (snapshot) in
+            if snapshot.exists(), let data = snapshot.value as? [[String: Any]] {
+                do {
+                    let jsonData = try JSONSerialization.data(withJSONObject: data)
+                    let decodedData = try JSONDecoder().decode([EmojiCategory].self, from: jsonData)
+                    print(decodedData.count)
+                    for each in decodedData {
+                        self.emojiData.append(contentsOf: each.emojisList)
+                    }
+                    DispatchQueue.main.async {
+                        self.collectionView.reloadData()
+                    }
+                    } catch {
+                    print("Error decoding data: \(error)")
                 }
-            case .failure(let error):
-                // Handle error
-                print(error.localizedDescription)
             }
         }
     }
@@ -54,12 +63,12 @@ class EmojisViewController: UIViewController {
 
 extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.emojiData?.count ?? 1
+        return self.emojiData.count 
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiCollectionViewCell", for: indexPath) as! EmojiCollectionViewCell
-        cell.configCellData(titleString: self.emojiData?[indexPath.row].character ?? "", fontHeight: CGFloat(100))
+        cell.configCellData(titleString: self.emojiData[indexPath.row].emoji, fontHeight: CGFloat(100))
         return cell
     }
     
@@ -71,8 +80,7 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "EmojiDetailViewController") as! EmojiDetailViewController
-        vc.emoji = self.emojiData?[indexPath.row].character ?? ""
-        vc.dataset = self.categoryArr.first ?? ""
+        vc.emoji = self.emojiData[indexPath.row].emoji 
         vc.showSingleDetail = true
         self.navigationController?.pushViewController(vc, animated: true)
     }
