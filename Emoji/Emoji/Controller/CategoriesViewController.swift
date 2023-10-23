@@ -17,7 +17,6 @@ class CategoriesViewController: UIViewController {
     //MARK: - Properties
     var apiService = APIService()
     var emojiCategoryData : [EmojiCategory]?
-    var titleArr = ["😀", "👥", "🐶", "🍽️","🧘🏻‍♂️",  "🚉", "⏰", "♻️", "🏳️"]
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -72,7 +71,8 @@ extension CategoriesViewController: UICollectionViewDataSource, UICollectionView
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoryCollectionViewCell", for: indexPath) as! CategoryCollectionViewCell
-        cell.configCellData(titleString: self.emojiCategoryData?[indexPath.row].smiley ?? "", fontHeight: CGFloat(22))
+        cell.configCellData(titleString: self.emojiCategoryData?[indexPath.row].smiley ?? "", fontHeight: CGFloat(27))
+        cell.addShadow()
         return cell
     }
     

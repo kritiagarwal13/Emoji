@@ -117,29 +117,33 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WPv-mo-xY3">
-                                                    <rect key="frame" x="1" y="1" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="7" y="7" width="0.0" height="0.0"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5c-8Q-vmf">
-                                                            <rect key="frame" x="-21" y="-10.333333333333334" width="42" height="20.666666666666668"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5c-8Q-vmf">
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.9529411793" green="0.94509804249999996" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstItem="s5c-8Q-vmf" firstAttribute="centerY" secondItem="WPv-mo-xY3" secondAttribute="centerY" id="Q3v-6d-Ybb"/>
-                                                        <constraint firstItem="s5c-8Q-vmf" firstAttribute="centerX" secondItem="WPv-mo-xY3" secondAttribute="centerX" id="VEa-bp-x6h"/>
+                                                        <constraint firstItem="s5c-8Q-vmf" firstAttribute="top" secondItem="WPv-mo-xY3" secondAttribute="top" id="Mwz-yd-idL"/>
+                                                        <constraint firstAttribute="trailing" secondItem="s5c-8Q-vmf" secondAttribute="trailing" id="YH7-Z4-fk7"/>
+                                                        <constraint firstAttribute="bottom" secondItem="s5c-8Q-vmf" secondAttribute="bottom" id="o1x-L7-Eof"/>
+                                                        <constraint firstItem="s5c-8Q-vmf" firstAttribute="leading" secondItem="WPv-mo-xY3" secondAttribute="leading" id="pf2-6g-0J2"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstItem="WPv-mo-xY3" firstAttribute="top" secondItem="YmK-G8-ASM" secondAttribute="top" constant="1" id="7oK-YQ-dsW"/>
-                                                <constraint firstAttribute="bottom" secondItem="WPv-mo-xY3" secondAttribute="bottom" constant="1" id="FSF-F2-IDe"/>
-                                                <constraint firstAttribute="trailing" secondItem="WPv-mo-xY3" secondAttribute="trailing" constant="1" id="bLc-QB-Zim"/>
-                                                <constraint firstItem="WPv-mo-xY3" firstAttribute="leading" secondItem="YmK-G8-ASM" secondAttribute="leading" constant="1" id="eGs-P5-joL"/>
+                                                <constraint firstItem="WPv-mo-xY3" firstAttribute="top" secondItem="YmK-G8-ASM" secondAttribute="top" constant="7" id="7oK-YQ-dsW"/>
+                                                <constraint firstAttribute="bottom" secondItem="WPv-mo-xY3" secondAttribute="bottom" constant="7" id="FSF-F2-IDe"/>
+                                                <constraint firstAttribute="trailing" secondItem="WPv-mo-xY3" secondAttribute="trailing" constant="7" id="bLc-QB-Zim"/>
+                                                <constraint firstItem="WPv-mo-xY3" firstAttribute="leading" secondItem="YmK-G8-ASM" secondAttribute="leading" constant="7" id="eGs-P5-joL"/>
                                             </constraints>
                                         </collectionViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="bgView" destination="WPv-mo-xY3" id="zmL-fF-XdE"/>
                                             <outlet property="lblTitle" destination="s5c-8Q-vmf" id="YvY-mQ-wJI"/>
@@ -153,7 +157,7 @@
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MIZ-A7-f7P"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="KHD-wl-WqC" firstAttribute="trailing" secondItem="MIZ-A7-f7P" secondAttribute="trailing" constant="-10" id="Bk0-hr-4oV"/>
                             <constraint firstItem="KHD-wl-WqC" firstAttribute="top" secondItem="MIZ-A7-f7P" secondAttribute="top" id="gdL-xM-8wH"/>
@@ -435,7 +439,7 @@
         <image name="face.smiling" catalog="system" width="128" height="123"/>
         <image name="tray.full" catalog="system" width="128" height="88"/>
         <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
