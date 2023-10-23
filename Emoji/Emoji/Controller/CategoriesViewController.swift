@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class CategoriesViewController: UIViewController {
 
@@ -15,16 +17,17 @@ class CategoriesViewController: UIViewController {
     //MARK: - Properties
     var categoryData: [CategoryDataModel]?
     var apiService = APIService()
+    var emojiData : EmojisData?
     var titleArr = ["😀", "👥", "🐶", "🍽️","🧘🏻‍♂️",  "🚉", "⏰", "♻️", "🏳️"]
-    var categoryArr = ["SmileysDataset", "People-Dataset", "Animal-and-NatureDataset", "Food-and-DrinkDataset","ActivityDataset", "Travel-and-PlacesDataset", "ObjectsDataset", "SymbolsDataset", "FlagsDataset"]
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // API Call
+        getCategoryData()
         getCategories()
-        
+       
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         self.collectionView.collectionViewLayout = UICollectionViewFlowLayout()
@@ -53,6 +56,25 @@ class CategoriesViewController: UIViewController {
             }
         }
     }
+    
+    func getCategoryData() {
+        
+        let reference = Database.database().reference()
+        let validPath = "emojis"
+        let dataReference = reference.child(validPath)
+        
+        dataReference.observe(.value) { (snapshot) in
+            if snapshot.exists(), let data = snapshot.value as? [[String: Any]] {
+                do {
+                    let jsonData = try JSONSerialization.data(withJSONObject: data)
+                    let decodedData = try JSONDecoder().decode([EmojiCategory].self, from: jsonData)
+                    print(decodedData.count) // Use 'decodedData' as an array of EmojiCategory
+                } catch {
+                    print("Error decoding data: \(error)")
+                }
+            }
+        }
+    }
 
 }
 
@@ -77,7 +99,6 @@ extension CategoriesViewController: UICollectionViewDataSource, UICollectionView
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "EmojiDetailViewController") as! EmojiDetailViewController
-        vc.dataset = self.categoryArr[indexPath.item]
         vc.showSingleDetail = false
         self.navigationController?.pushViewController(vc, animated: true)
     }

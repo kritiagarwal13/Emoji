@@ -14,7 +14,7 @@ class EmojiDetailViewController: UIViewController {
     
     //MARK: - Properties
     var apiService = APIService()
-    var emojiData : EmojiDatasetModel?
+//    var emojiData : EmojiDatasetModel?
     var emoji = ""
     var showSingleDetail = false
     var dataset = "SmileysDataset"
@@ -24,24 +24,24 @@ class EmojiDetailViewController: UIViewController {
         super.viewDidLoad()
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
-        getEmojis()
+        /*getEmojis*/()
     }
     
     //MARK: - Extra Methods
     
-    func getEmojis() {
-        if let path = Bundle.main.path(forResource: dataset, ofType: "json") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path))
-                let decoder = JSONDecoder()
-                let emojiData = try decoder.decode(EmojiDatasetModel.self, from: data)
-                self.emojiData = emojiData
-            } catch {
-                print("Error loading and parsing JSON: \(error)")
-            }
-        }
-        self.collectionView.reloadData()
-    }
+//    func getEmojis() {
+//        if let path = Bundle.main.path(forResource: dataset, ofType: "json") {
+//            do {
+//                let data = try Data(contentsOf: URL(fileURLWithPath: path))
+//                let decoder = JSONDecoder()
+//                let emojiData = try decoder.decode(EmojiDatasetModel.self, from: data)
+//                self.emojiData = emojiData
+//            } catch {
+//                print("Error loading and parsing JSON: \(error)")
+//            }
+//        }
+//        self.collectionView.reloadData()
+//    }
 }
 
 //MARK: - Extensions
@@ -51,22 +51,22 @@ extension EmojiDetailViewController: UICollectionViewDataSource, UICollectionVie
         if showSingleDetail {
             return 1
         } else {
-            return  self.emojiData?.emojis.count ?? 0
+            return  1//self.emojiData?.emojis.count ?? 0
         }
         
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiDetailCollectionViewCell", for: indexPath) as! EmojiDetailCollectionViewCell
-        if showSingleDetail {
-            for each in emojiData?.emojis ?? [] {
-                if self.emoji == each.emoji {
-                    cell.configureData(meaning: each.meaning, usage: each.usage.first?.context ?? "", example: each.usage.first?.example ?? "", title: each.name, emoji: each.emoji)
-                }
-            }
-        } else {
-            cell.configureData(meaning: self.emojiData?.emojis[indexPath.item].meaning ?? "", usage: self.emojiData?.emojis[indexPath.item].usage.first?.context ?? "", example: self.emojiData?.emojis[indexPath.item].usage.first?.example ?? "", title: self.emojiData?.emojis[indexPath.item].name ?? "", emoji: self.emojiData?.emojis[indexPath.item].emoji ?? "")
-        }
+//        if showSingleDetail {
+//            for each in emojiData?.emojis ?? [] {
+//                if self.emoji == each.emoji {
+//                    cell.configureData(meaning: each.meaning, usage: each.usage.first?.context ?? "", example: each.usage.first?.example ?? "", title: each.name, emoji: each.emoji)
+//                }
+//            }
+//        } else {
+//            cell.configureData(meaning: self.emojiData?.emojis[indexPath.item].meaning ?? "", usage: self.emojiData?.emojis[indexPath.item].usage.first?.context ?? "", example: self.emojiData?.emojis[indexPath.item].usage.first?.example ?? "", title: self.emojiData?.emojis[indexPath.item].name ?? "", emoji: self.emojiData?.emojis[indexPath.item].emoji ?? "")
+//        }
         
         return cell
     }

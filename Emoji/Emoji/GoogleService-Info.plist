@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyDdSsu-XLKdzI1Wl03x5ncX3V0twua_3LI</string>
+	<string>AIzaSyCSn7fP3THYsKrVzOqIowQqua0-Cnyhc1k</string>
 	<key>GCM_SENDER_ID</key>
-	<string>784061432699</string>
+	<string>848837843803</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>KritiAgarwal.Emoji-Meaning</string>
 	<key>PROJECT_ID</key>
-	<string>emoji-70190</string>
+	<string>emoji-app-136bf</string>
 	<key>STORAGE_BUCKET</key>
-	<string>emoji-70190.appspot.com</string>
+	<string>emoji-app-136bf.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:784061432699:ios:ed1a9c1d4a3af91d98f3de</string>
+	<string>1:848837843803:ios:9b001521db2e3fb17f187e</string>
 </dict>
 </plist>
