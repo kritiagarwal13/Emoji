@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C5122E58-FDDE-4B55-AC2C-D777ABF403E9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "454C7424-9396-4FA2-BDFE-A601CC65CBA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Emoji Meaning/Controller/EmojiDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getEmojis()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "454C7424-9396-4FA2-BDFE-A601CC65CBA7 - 3e85947435171785"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Meaning.EmojiDetailViewController.getEmojis() -&gt; ()"
+                  moduleName = "Emoji Meaning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kritiagarwal/Documents/GitHub/Emoji/Emoji%20Meaning/Emoji%20Meaning/Controller/EmojiDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2156">
+               </Location>
+               <Location
+                  uuid = "454C7424-9396-4FA2-BDFE-A601CC65CBA7 - 3e85947435171785"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Meaning.EmojiDetailViewController.getEmojis() -&gt; ()"
+                  moduleName = "Emoji Meaning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kritiagarwal/Documents/GitHub/Emoji/Emoji%20Meaning/Emoji%20Meaning/Controller/EmojiDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FE85D9F-CCB2-446F-AA7C-43F1A88DA90F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Emoji Meaning/Controller/EmojiDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getEmojis()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01F57125-D204-4008-BFCC-AA9140EBC2B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Emoji Meaning/Controller/EmojiDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getEmojis()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "01F57125-D204-4008-BFCC-AA9140EBC2B4 - 3e85947435171656"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Meaning.EmojiDetailViewController.getEmojis() -&gt; ()"
+                  moduleName = "Emoji Meaning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kritiagarwal/Documents/GitHub/Emoji/Emoji%20Meaning/Emoji%20Meaning/Controller/EmojiDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "01F57125-D204-4008-BFCC-AA9140EBC2B4 - 3e85947435171656"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Meaning.EmojiDetailViewController.getEmojis() -&gt; ()"
+                  moduleName = "Emoji Meaning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kritiagarwal/Documents/GitHub/Emoji/Emoji%20Meaning/Emoji%20Meaning/Controller/EmojiDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "616">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
