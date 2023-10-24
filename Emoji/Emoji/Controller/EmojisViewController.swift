@@ -15,8 +15,6 @@ class EmojisViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     //MARK: - Properties
-//    var emojiData: [EmojiDataModel]?
-    var apiService = APIService()
     var emojiData = [EmojiInfo]()
     
     //MARK: - Life Cycle Methods
@@ -81,6 +79,7 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "EmojiDetailViewController") as! EmojiDetailViewController
         vc.emoji = self.emojiData[indexPath.row].emoji 
+        vc.emojiData = self.emojiData[indexPath.row]
         vc.showSingleDetail = true
         self.navigationController?.pushViewController(vc, animated: true)
     }

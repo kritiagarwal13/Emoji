@@ -15,7 +15,6 @@ class CategoriesViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     //MARK: - Properties
-    var apiService = APIService()
     var emojiCategoryData : [EmojiCategory]?
     
     //MARK: - Life Cycle Methods
@@ -85,6 +84,8 @@ extension CategoriesViewController: UICollectionViewDataSource, UICollectionView
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "EmojiDetailViewController") as! EmojiDetailViewController
         vc.showSingleDetail = false
+        vc.emoji = ""
+        vc.emojiDataset = self.emojiCategoryData?[indexPath.item]
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
