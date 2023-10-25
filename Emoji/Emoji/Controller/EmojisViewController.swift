@@ -27,9 +27,18 @@ class EmojisViewController: UIViewController {
         
         // API Call
         getEmojis()
+        
+        // Create a search button
+        let searchButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(searchButtonTapped))
+        navigationItem.rightBarButtonItem = searchButton
     }
     
     //MARK: - Extra Methods
+    @objc func searchButtonTapped() {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "SearchViewController") as! SearchViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
     func getEmojis() {
         let reference = Database.database().reference()
@@ -67,6 +76,7 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiCollectionViewCell", for: indexPath) as! EmojiCollectionViewCell
         cell.configCellData(titleString: self.emojiData[indexPath.row].emoji, fontHeight: CGFloat(100))
+        cell.addShadow()
         return cell
     }
     

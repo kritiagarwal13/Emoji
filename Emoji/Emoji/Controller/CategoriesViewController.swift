@@ -20,13 +20,17 @@ class CategoriesViewController: UIViewController {
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // API Call
         getCategoryData()
-       
+        
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         self.collectionView.collectionViewLayout = UICollectionViewFlowLayout()
+        
+        // Create a search button
+        let searchButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(searchButtonTapped))
+        navigationItem.rightBarButtonItem = searchButton
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -35,6 +39,11 @@ class CategoriesViewController: UIViewController {
     }
     
     //MARK: - Extra Methods
+    @objc func searchButtonTapped() {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "SearchViewController") as! SearchViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
     func getCategoryData() {
         
