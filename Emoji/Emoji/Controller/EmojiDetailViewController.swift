@@ -45,9 +45,11 @@ extension EmojiDetailViewController: UICollectionViewDataSource, UICollectionVie
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiDetailCollectionViewCell", for: indexPath) as! EmojiDetailCollectionViewCell
         if showSingleDetail {
-            cell.configureData(meaning: emojiData?.meaning ?? "", usage: emojiData?.usage.first?.context ?? "", example: emojiData?.usage.first?.example ?? "", title: emojiData?.name ?? "", emoji: emojiData?.emoji ?? "")
+            cell.configureData(emojiData: self.emojiData)
+            cell.addShadow()
         } else {
-            cell.configureData(meaning: emojiDataset?.emojisList[indexPath.item].meaning ?? "", usage: emojiDataset?.emojisList[indexPath.item].usage.first?.context ?? "", example: emojiDataset?.emojisList[indexPath.item].usage.first?.example ?? "", title: emojiDataset?.emojisList[indexPath.item].name ?? "", emoji: emojiDataset?.emojisList[indexPath.item].emoji ?? "")
+            cell.configureData(emojiData: self.emojiDataset?.emojisList[indexPath.row])
+            cell.addShadow()
         }
         
         return cell
