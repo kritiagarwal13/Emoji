@@ -40,21 +40,25 @@ class SearchViewController: UIViewController {
                 do {
                     let jsonData = try JSONSerialization.data(withJSONObject: data)
                     let decodedData = try JSONDecoder().decode([EmojiCategory].self, from: jsonData)
-                    print(decodedData.count)
-                    for each in decodedData {
-                        self.emojiData.append(contentsOf: each.emojisList)
-                    }
-                    for each in self.emojiData {
-                        if each.emoji == searchEmojiText {
-                            self.emoji = each
-                        }
-                    }
-                } catch {
+                    self.searchedEmoji(eData: decodedData, searchEmoji: searchEmojiText)
+                    } catch {
                     print("Error decoding data: \(error)")
                 }
             }
         }
     }
+    
+    func searchedEmoji(eData: [EmojiCategory]?, searchEmoji: String) {
+        for each in eData ?? [] {
+            self.emojiData.append(contentsOf: each.emojiList)
+        }
+        for each in self.emojiData {
+            if each.emoji == searchEmoji {
+                self.emoji = each
+            }
+        }
+    }
+    
 }
 
     //MARK: - Extensions

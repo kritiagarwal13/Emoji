@@ -56,7 +56,6 @@ class CategoriesViewController: UIViewController {
                 do {
                     let jsonData = try JSONSerialization.data(withJSONObject: data)
                     let decodedData = try JSONDecoder().decode([EmojiCategory].self, from: jsonData)
-                    print(decodedData.count)
                     self.emojiCategoryData = decodedData
                     DispatchQueue.main.async {
                         self.collectionView.reloadData()

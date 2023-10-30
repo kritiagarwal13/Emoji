@@ -67,7 +67,7 @@ struct EmojiInfo: Codable {
 
 struct EmojiCategory: Codable {
     let smiley: String
-    let emojisList: [EmojiInfo]
+    let emojiList: [EmojiInfo]
 }
 
 struct EmojisData: Codable {

@@ -37,7 +37,7 @@ extension EmojiDetailViewController: UICollectionViewDataSource, UICollectionVie
         if showSingleDetail {
             return 1
         } else {
-            return self.emojiDataset?.emojisList.count ?? 0
+            return self.emojiDataset?.emojiList.count ?? 0
         }
         
     }
@@ -48,7 +48,7 @@ extension EmojiDetailViewController: UICollectionViewDataSource, UICollectionVie
             cell.configureData(emojiData: self.emojiData)
             cell.addShadow()
         } else {
-            cell.configureData(emojiData: self.emojiDataset?.emojisList[indexPath.row])
+            cell.configureData(emojiData: self.emojiDataset?.emojiList[indexPath.row])
             cell.addShadow()
         }
         

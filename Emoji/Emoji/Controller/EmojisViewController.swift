@@ -16,6 +16,7 @@ class EmojisViewController: UIViewController {
     
     //MARK: - Properties
     var emojiData = [EmojiInfo]()
+    var allEmojis = [EmojiCategory]()
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -50,17 +51,20 @@ class EmojisViewController: UIViewController {
                 do {
                     let jsonData = try JSONSerialization.data(withJSONObject: data)
                     let decodedData = try JSONDecoder().decode([EmojiCategory].self, from: jsonData)
-                    print(decodedData.count)
-                    for each in decodedData {
-                        self.emojiData.append(contentsOf: each.emojisList)
-                    }
-                    DispatchQueue.main.async {
-                        self.collectionView.reloadData()
-                    }
+                    self.structureData(allEmojis: decodedData)
                     } catch {
                     print("Error decoding data: \(error)")
                 }
             }
+        }
+    }
+    
+    func structureData(allEmojis: [EmojiCategory]?) {
+        for each in allEmojis ?? [] {
+            self.emojiData.append(contentsOf: each.emojiList)
+        }
+        DispatchQueue.main.async {
+            self.collectionView.reloadData()
         }
     }
 
