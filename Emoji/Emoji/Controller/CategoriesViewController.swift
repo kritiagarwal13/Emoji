@@ -33,11 +33,6 @@ class CategoriesViewController: UIViewController {
         navigationItem.rightBarButtonItem = searchButton
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
-//        self.getCategoryData()
-    }
-    
     //MARK: - Extra Methods
     @objc func searchButtonTapped() {
         let sb = UIStoryboard(name: "Main", bundle: nil)

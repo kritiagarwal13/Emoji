@@ -44,14 +44,12 @@ extension EmojiDetailViewController: UICollectionViewDataSource, UICollectionVie
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiDetailCollectionViewCell", for: indexPath) as! EmojiDetailCollectionViewCell
+        cell.addShadow()
         if showSingleDetail {
             cell.configureData(emojiData: self.emojiData)
-            cell.addShadow()
         } else {
             cell.configureData(emojiData: self.emojiDataset?.emojiList[indexPath.row])
-            cell.addShadow()
         }
-        
         return cell
     }
     
