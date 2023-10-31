@@ -68,18 +68,31 @@ class EmojiDetailCollectionViewCell: UICollectionViewCell {
 extension EmojiDetailCollectionViewCell: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        if self.emojiDisplayData?.usage.count ?? 0 > 1 {
+            return 5
+        } else {
+            return 3
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "EmojiDisplayDataTableViewCell", for: indexPath) as! EmojiDisplayDataTableViewCell
+        
+        if self.emojiDisplayData?.usage.count ?? 0 > 1 {
+            if indexPath.row == 3 {
+                cell.configureData(heading: "Usage", value: "Context - " +  (self.emojiDisplayData?.usage.last?.context ?? ""))
+            } else if indexPath.row == 4 {
+                cell.configureData(heading: "Example", value: self.emojiDisplayData?.usage.last?.example ?? "")
+            }
+        }
         if indexPath.row == 0 {
             cell.configureData(heading: "Meaning", value: self.emojiDisplayData?.meaning ?? "")
         } else if indexPath.row == 1 {
-            cell.configureData(heading: "Usage Context", value: self.emojiDisplayData?.usage.first?.context ?? "")
-        } else {
-            cell.configureData(heading: "Usage Example", value: self.emojiDisplayData?.usage.first?.example ?? "")
+            cell.configureData(heading: "Usage", value: "Context - " + (self.emojiDisplayData?.usage.first?.context ?? ""))
+        } else if indexPath.row == 2 {
+            cell.configureData(heading: "Example", value: self.emojiDisplayData?.usage.first?.example ?? "")
         }
+        
         return cell
     }
     

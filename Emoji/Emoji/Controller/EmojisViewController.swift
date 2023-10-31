@@ -131,9 +131,9 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiCollectionViewCell", for: indexPath) as! EmojiCollectionViewCell
         if self.didTapSearch {
-            cell.configCellData(titleString: self.emoji?.emoji ?? "", fontHeight: CGFloat(100))
+            cell.configCellData(emojiVal: self.emoji, fontHeight: CGFloat(100))
         } else {
-            cell.configCellData(titleString: self.emojiData[indexPath.row].emoji, fontHeight: CGFloat(100))
+            cell.configCellData(emojiVal: self.emojiData[indexPath.row], fontHeight: CGFloat(100))
         }
         
         cell.addShadow()
@@ -141,8 +141,8 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width =  self.collectionView.frame.width/2 - 5
-        return CGSize(width: width, height: width)
+        let width =  self.collectionView.frame.width - 10
+        return CGSize(width: width, height: 150)
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
