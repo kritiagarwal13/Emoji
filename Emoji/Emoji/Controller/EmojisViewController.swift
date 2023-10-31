@@ -106,9 +106,6 @@ extension EmojisViewController: UISearchBarDelegate {
             self.didTapSearch = false
             self.emoji = nil
             self.emojiData = []
-            DispatchQueue.main.async {
-                searchBar.resignFirstResponder()
-            }
             self.getEmojis()
         } else {
             self.didTapSearch = true
@@ -157,12 +154,6 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
         }
         vc.showSingleDetail = true
         self.navigationController?.pushViewController(vc, animated: true)
-    }
-    
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        DispatchQueue.main.async {
-            self.searchBar.resignFirstResponder()
-        }
     }
     
 }
