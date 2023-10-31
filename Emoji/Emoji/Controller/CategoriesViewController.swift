@@ -27,19 +27,10 @@ class CategoriesViewController: UIViewController {
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         self.collectionView.collectionViewLayout = UICollectionViewFlowLayout()
-        
-        // Create a search button
-        let searchButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(searchButtonTapped))
-        navigationItem.rightBarButtonItem = searchButton
     }
     
     //MARK: - Extra Methods
-    @objc func searchButtonTapped() {
-        let sb = UIStoryboard(name: "Main", bundle: nil)
-        let vc = sb.instantiateViewController(withIdentifier: "SearchViewController") as! SearchViewController
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
-    
+   
     func getCategoryData() {
         
         let reference = Database.database().reference()
