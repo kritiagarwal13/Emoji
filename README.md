@@ -15,3 +15,14 @@ Also, being an iOS developer for long, I feel like I have fallen back on tech. I
 - Swift
   
 - Firebase
+
+**Screenshots:-**
+
+
+<img src="https://github.com/kritiagarwal13/Emoji/assets/25651879/26885461-e51f-4bc8-9b7f-409fae53681c" width="400" height="800">
+<img src="https://github.com/kritiagarwal13/Emoji/assets/25651879/32193eea-437d-45e9-966d-d10584711a0a" width="400" height="800">
+
+<img src="https://github.com/kritiagarwal13/Emoji/assets/25651879/0af3c717-2939-4566-868d-ad8a2ff5002a" width="400" height="800">
+<img src="https://github.com/kritiagarwal13/Emoji/assets/25651879/913860e5-ae2b-46d9-ab59-cb0557d1b4e4" width="400" height="800">
+
+
