@@ -267,7 +267,7 @@
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9f1-PD-jET">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="329" height="19.333333333333332"/>
                                                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                                                                <color key="textColor" red="0.1607843041" green="0.2823529541" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                                                <color key="textColor" red="0.2008931108" green="0.37263747419999999" blue="0.26361193999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1K-r1-iUZ">
@@ -332,7 +332,7 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apG-7Z-vcZ">
                                                             <rect key="frame" x="10" y="0.0" width="363" height="116"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
-                                                            <color key="textColor" red="0.18221895625241541" green="0.31544222605382793" blue="0.49614660125790222" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="textColor" red="0.2295887106" green="0.42586506260000001" blue="0.30126630599999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
@@ -399,6 +399,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.2295887106" green="0.42586506260000001" blue="0.30126630599999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="selectedImageTintColor" red="0.3979865722" green="0.73822696290000001" blue="0.5222379801" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <tabBarAppearance key="standardAppearance">
+                            <color key="shadowColor" red="0.2295887106" green="0.42586506260000001" blue="0.30126630599999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="selectionIndicatorTintColor" red="0.2295887106" green="0.42586506260000001" blue="0.30126630599999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </tabBarAppearance>
                     </tabBar>
                     <connections>
                         <segue destination="A5d-ZG-ogG" kind="relationship" relationship="viewControllers" id="N7y-XI-srZ"/>
@@ -422,7 +428,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dQ5-1o-BPF">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" red="0.1401474833737657" green="0.14046332505737921" blue="0.14528302652667269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.2008931108" green="0.37263747419999999" blue="0.26361193999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                         </textAttributes>
@@ -447,7 +453,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lDr-bR-Joo">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" red="0.14014748339999999" green="0.14046332510000001" blue="0.1452830265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.2008931108" green="0.37263747419999999" blue="0.26361193999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <navigationBarAppearance key="standardAppearance"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

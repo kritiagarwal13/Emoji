@@ -36,7 +36,7 @@ class EmojiDetailCollectionViewCell: UICollectionViewCell {
     func addShadow() {
         self.lblTitle.layer.cornerRadius = 8.0
         self.lblTitle.layer.masksToBounds = false
-        self.lblTitle.layer.shadowColor = UIColor.systemIndigo.cgColor
+        self.lblTitle.layer.shadowColor = UIColor.clear.cgColor
         self.lblTitle.layer.shadowOffset = CGSize(width: 0, height: 1)
         self.lblTitle.layer.shadowOpacity = 0.5
         self.lblTitle.layer.shadowRadius = 4.0
