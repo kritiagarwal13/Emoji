@@ -1,6 +1,6 @@
 # Emoji
 
-This is an application for Emoji meanings. It contains all the emojis and there meanings for better use. 
+This is an application for Emoji meanings. It contains all the emojis and their meanings for better use. 
 
 
 ## Thought behind the app
