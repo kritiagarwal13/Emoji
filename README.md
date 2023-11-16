@@ -14,7 +14,7 @@ Also, being an iOS developer for long, I feel like I have fallen back on tech. I
 **Tech Stack:-**
 - Swift
   
-- Firebase for Database
+- Firebase for Database via SPM
 
 **Screenshots:-**
 
