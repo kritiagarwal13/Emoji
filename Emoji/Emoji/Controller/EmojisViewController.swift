@@ -133,7 +133,7 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
             cell.configCellData(emojiVal: self.emojiData[indexPath.row], fontHeight: CGFloat(100))
         }
         
-        cell.addShadow()
+        cell.addCellShadow()
         return cell
     }
     

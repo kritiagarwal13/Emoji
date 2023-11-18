@@ -33,27 +33,9 @@ class EmojiDetailCollectionViewCell: UICollectionViewCell {
         super.init(coder: aDecoder)
     }
     
-    func addShadow() {
-        self.lblTitle.layer.cornerRadius = 8.0
-        self.lblTitle.layer.masksToBounds = false
-        self.lblTitle.layer.shadowColor = UIColor.clear.cgColor
-        self.lblTitle.layer.shadowOffset = CGSize(width: 0, height: 1)
-        self.lblTitle.layer.shadowOpacity = 0.5
-        self.lblTitle.layer.shadowRadius = 4.0
-        
-        self.emojiLbl.layer.cornerRadius = 8.0
-        self.emojiLbl.layer.masksToBounds = false
-        self.emojiLbl.layer.shadowColor = UIColor.darkGray.cgColor
-        self.emojiLbl.layer.shadowOffset = CGSize(width: 0, height: 2)
-        self.emojiLbl.layer.shadowOpacity = 0.5
-        self.emojiLbl.layer.shadowRadius = 4.0
-        
-        self.belowVw.layer.cornerRadius = 8.0
-        self.belowVw.layer.masksToBounds = false
-        self.belowVw.layer.shadowColor = UIColor.lightGray.cgColor
-        self.belowVw.layer.shadowOffset = CGSize(width: 0, height: 2)
-        self.belowVw.layer.shadowOpacity = 0.5
-        self.belowVw.layer.shadowRadius = 4.0
+    func addCellShadow() {
+        self.emojiLbl.addShadow()
+        self.belowVw.addShadow()
     }
     
     func configureData(emojiData: EmojiInfo?) {

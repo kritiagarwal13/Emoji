@@ -65,7 +65,7 @@ extension CategoriesViewController: UICollectionViewDataSource, UICollectionView
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoryCollectionViewCell", for: indexPath) as! CategoryCollectionViewCell
         cell.configCellData(titleString: self.emojiCategoryData?[indexPath.row].smiley ?? "", fontHeight: CGFloat(27))
-        cell.addShadow()
+        cell.bgView.addShadow()
         return cell
     }
     
