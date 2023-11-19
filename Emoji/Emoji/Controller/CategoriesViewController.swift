@@ -76,10 +76,9 @@ extension CategoriesViewController: UICollectionViewDataSource, UICollectionView
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let sb = UIStoryboard(name: "Main", bundle: nil)
-        let vc = sb.instantiateViewController(withIdentifier: "EmojiDetailViewController") as! EmojiDetailViewController
-        vc.showSingleDetail = false
-        vc.emoji = ""
-        vc.emojiDataset = self.emojiCategoryData?[indexPath.item]
+        let vc = sb.instantiateViewController(withIdentifier: "EmojisViewController") as! EmojisViewController
+//        vc.emoji = self.emojiCategoryData?[indexPath.row].smiley
+        vc.emojiData = self.emojiCategoryData?[indexPath.item].emojiList ?? []
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

@@ -17,7 +17,7 @@ class EmojisViewController: UIViewController {
     
     //MARK: - Properties
     var emojiData = [EmojiInfo]()
-    var allEmojis = [EmojiCategory]()
+//    var allEmojis = [EmojiCategory]()
     var emoji: EmojiInfo?
     var didTapSearch: Bool = false
     
