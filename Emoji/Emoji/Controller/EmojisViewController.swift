@@ -19,12 +19,15 @@ class EmojisViewController: UIViewController {
     var emojiData = [EmojiInfo]()
 //    var allEmojis = [EmojiCategory]()
     var emoji: EmojiInfo?
+    var vcTitle = "Emojis"
     var didTapSearch: Bool = false
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        self.title = vcTitle
+        
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         self.collectionView.collectionViewLayout = UICollectionViewFlowLayout()
@@ -153,7 +156,17 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
             vc.emojiData = self.emojiData[indexPath.row]
         }
         vc.showSingleDetail = true
-        self.navigationController?.pushViewController(vc, animated: true)
+        
+        let customDetent = UISheetPresentationController.Detent.custom(identifier: .init("myCustomDetent")) { [weak self] context in
+                guard let self = self else { return 0.0 }
+                return self.view.frame.height - 200.0
+            }
+            
+            if let sheet = vc.sheetPresentationController {
+                sheet.detents = [ customDetent ]
+            }
+
+            present(vc, animated: true)
     }
     
 }

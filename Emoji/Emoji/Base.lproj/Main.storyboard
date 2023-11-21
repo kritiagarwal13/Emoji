@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2FZ-Fx-1Ov">
-    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
@@ -244,10 +244,10 @@
                                                     <rect key="frame" x="5" y="5" width="383" height="736"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1YI-LM-XMM" customClass="CardView" customModule="Emoji" customModuleProvider="target">
-                                                            <rect key="frame" x="15" y="346" width="353" height="380"/>
+                                                            <rect key="frame" x="15" y="318.66666666666674" width="353" height="407.33333333333326"/>
                                                             <subviews>
                                                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="r6e-JA-O2w">
-                                                                    <rect key="frame" x="5" y="5" width="343" height="370"/>
+                                                                    <rect key="frame" x="5" y="5" width="343" height="397.33333333333331"/>
                                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <prototypes>
                                                                         <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EmojiDisplayDataTableViewCell" id="GpE-lt-Po6" customClass="EmojiDisplayDataTableViewCell" customModule="Emoji" customModuleProvider="target">
@@ -300,15 +300,14 @@
                                                                 <constraint firstAttribute="bottom" secondItem="r6e-JA-O2w" secondAttribute="bottom" constant="5" id="4Ck-7W-fOr"/>
                                                                 <constraint firstItem="r6e-JA-O2w" firstAttribute="leading" secondItem="1YI-LM-XMM" secondAttribute="leading" constant="5" id="Ft3-5W-WvF"/>
                                                                 <constraint firstItem="r6e-JA-O2w" firstAttribute="top" secondItem="1YI-LM-XMM" secondAttribute="top" constant="5" id="Pir-Ya-SJY"/>
-                                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="380" id="gYL-dc-5oL"/>
                                                                 <constraint firstAttribute="trailing" secondItem="r6e-JA-O2w" secondAttribute="trailing" constant="5" id="i5n-t6-ob4"/>
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JUK-AX-AmL">
-                                                            <rect key="frame" x="30" y="116" width="323" height="250"/>
+                                                            <rect key="frame" x="30" y="40" width="323" height="298.66666666666669"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYq-VZ-2ic">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="323" height="250"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="323" height="298.66666666666669"/>
                                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="250"/>
                                                                     <nil key="textColor"/>
@@ -319,13 +318,12 @@
                                                             <constraints>
                                                                 <constraint firstItem="LYq-VZ-2ic" firstAttribute="leading" secondItem="JUK-AX-AmL" secondAttribute="leading" id="9sT-uW-WgL"/>
                                                                 <constraint firstItem="LYq-VZ-2ic" firstAttribute="top" secondItem="JUK-AX-AmL" secondAttribute="top" id="IKi-T9-gnZ"/>
-                                                                <constraint firstAttribute="height" constant="250" id="Jl0-1x-BGD"/>
                                                                 <constraint firstAttribute="bottom" secondItem="LYq-VZ-2ic" secondAttribute="bottom" id="off-2A-JcV"/>
                                                                 <constraint firstAttribute="trailing" secondItem="LYq-VZ-2ic" secondAttribute="trailing" id="ziN-aE-gCf"/>
                                                             </constraints>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apG-7Z-vcZ">
-                                                            <rect key="frame" x="10" y="0.0" width="363" height="116"/>
+                                                            <rect key="frame" x="10" y="10" width="363" height="30"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                                             <color key="textColor" red="0.32156863810000003" green="0.59215688710000003" blue="0.41568624970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <nil key="highlightedColor"/>
@@ -342,7 +340,7 @@
                                                         <constraint firstItem="JUK-AX-AmL" firstAttribute="top" secondItem="apG-7Z-vcZ" secondAttribute="bottom" id="b4k-vF-WnZ"/>
                                                         <constraint firstAttribute="trailing" secondItem="1YI-LM-XMM" secondAttribute="trailing" constant="15" id="lqq-7K-vVA"/>
                                                         <constraint firstAttribute="trailing" secondItem="JUK-AX-AmL" secondAttribute="trailing" constant="30" id="mW4-rw-z9v"/>
-                                                        <constraint firstItem="apG-7Z-vcZ" firstAttribute="top" secondItem="aMc-EA-KXi" secondAttribute="top" id="mtN-KA-aLG"/>
+                                                        <constraint firstItem="apG-7Z-vcZ" firstAttribute="top" secondItem="aMc-EA-KXi" secondAttribute="top" constant="10" id="mtN-KA-aLG"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
