@@ -17,8 +17,12 @@ class CategoryCollectionViewCell: UICollectionViewCell {
         
     }
     
-    func configCellData(titleString: String, fontHeight: CGFloat) {
-        self.lblTitle.font = UIFont.boldSystemFont(ofSize: fontHeight)
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        self.bgView.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+    }
+    
+    func configCellData(titleString: String) {
         self.lblTitle.text = titleString
     }
 }
