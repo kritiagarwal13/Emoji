@@ -19,6 +19,7 @@ class CategoriesViewController: UIViewController {
     var emojiCategoryData : [EmojiCategory]?
     var selectedCategory: [EmojiInfo]?
     var selectedIndexPath : IndexPath?
+    let spinner = LoadingSpinner.shared
     
     //MARK: - Life Cycle Methods
     override func viewDidLoad() {
@@ -27,6 +28,7 @@ class CategoriesViewController: UIViewController {
         // UI
         collectionViewSetup()
         tableViewSetup()
+        setupUI()
         
         // API Call
         getCategoryData()
@@ -37,6 +39,10 @@ class CategoriesViewController: UIViewController {
     }
     
     //MARK: - Extra Methods
+    
+    func setupUI() {
+        spinner.addToView(self.view)
+    }
     
     func collectionViewSetup() {
         self.collectionView.delegate = self
@@ -62,7 +68,7 @@ class CategoriesViewController: UIViewController {
     }
     
     func getCategoryData() {
-        
+        self.spinner.startAnimating()
         let reference = Database.database().reference()
         let validPath = "emojis"
         let dataReference = reference.child(validPath)
@@ -78,6 +84,7 @@ class CategoriesViewController: UIViewController {
                         self.selectedCategory = self.emojiCategoryData?.first?.emojiList ?? []
                         self.tableView.reloadData()
                     }
+                    self.spinner.stopAnimating()
                 } catch {
                     print("Error decoding data: \(error)")
                 }
