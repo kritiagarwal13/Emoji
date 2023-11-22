@@ -18,6 +18,7 @@
 		D69C222F2B08F3910092CB2D /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69C222E2B08F3910092CB2D /* ViewExtension.swift */; };
 		D6A55D782B0D6DEA00A0AEDE /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A55D762B0D6DEA00A0AEDE /* EmojiTableViewCell.swift */; };
 		D6A55D792B0D6DEA00A0AEDE /* EmojiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A55D772B0D6DEA00A0AEDE /* EmojiTableViewCell.xib */; };
+		D6A55D7B2B0EC2FE00A0AEDE /* LodingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A55D7A2B0EC2FE00A0AEDE /* LodingSpinner.swift */; };
 		D6D372602AE1821600609EB0 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3725F2AE1821600609EB0 /* TabbarController.swift */; };
 		D6D372622AE182B700609EB0 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D372612AE182B700609EB0 /* CategoriesViewController.swift */; };
 		D6D372642AE182C700609EB0 /* EmojisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D372632AE182C700609EB0 /* EmojisViewController.swift */; };
@@ -68,6 +69,7 @@
 		D69C222E2B08F3910092CB2D /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		D6A55D762B0D6DEA00A0AEDE /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 		D6A55D772B0D6DEA00A0AEDE /* EmojiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmojiTableViewCell.xib; sourceTree = "<group>"; };
+		D6A55D7A2B0EC2FE00A0AEDE /* LodingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodingSpinner.swift; sourceTree = "<group>"; };
 		D6D3725F2AE1821600609EB0 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		D6D372612AE182B700609EB0 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		D6D372632AE182C700609EB0 /* EmojisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojisViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				D69C222B2B08EA7D0092CB2D /* CardView.swift */,
 				D69C222E2B08F3910092CB2D /* ViewExtension.swift */,
+				D6A55D7A2B0EC2FE00A0AEDE /* LodingSpinner.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				D69C222F2B08F3910092CB2D /* ViewExtension.swift in Sources */,
 				D6D372602AE1821600609EB0 /* TabbarController.swift in Sources */,
 				D60DF0EA2ACF23A0007EC803 /* SceneDelegate.swift in Sources */,
+				D6A55D7B2B0EC2FE00A0AEDE /* LodingSpinner.swift in Sources */,
 				D614183E2AD576E30001BFB1 /* CategoryCollectionViewCell.swift in Sources */,
 				D69C222C2B08EA7D0092CB2D /* CardView.swift in Sources */,
 				D61418392AD566180001BFB1 /* EmojiDataModel.swift in Sources */,
