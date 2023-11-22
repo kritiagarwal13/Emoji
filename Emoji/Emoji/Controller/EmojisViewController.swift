@@ -17,7 +17,7 @@ class EmojisViewController: UIViewController {
     
     //MARK: - Properties
     var emojiData = [EmojiInfo]()
-//    var allEmojis = [EmojiCategory]()
+    var searchedEmojis = [EmojiInfo]()
     var emoji: EmojiInfo?
     var vcTitle = "Emojis"
     var didTapSearch: Bool = false
@@ -61,12 +61,17 @@ class EmojisViewController: UIViewController {
     }
     
     func searchedEmoji(eData: [EmojiCategory]?, searchEmoji: String) {
-        for each in eData ?? [] {
-            self.emojiData.append(contentsOf: each.emojiList)
-        }
-        for each in self.emojiData {
-            if each.emoji == searchEmoji {
-                self.emoji = each
+        // Clear the previous search results
+        searchedEmojis.removeAll()
+        
+        // Flatten the emojiData array
+        let flatEmojiData = eData?.flatMap { $0.emojiList } ?? []
+        
+        for emoji in flatEmojiData {
+            // Perform a case-insensitive search for both emoji and name
+            if emoji.emoji.range(of: searchEmoji, options: .caseInsensitive) != nil ||
+                emoji.name.range(of: searchEmoji, options: .caseInsensitive) != nil {
+                searchedEmojis.append(emoji)
             }
         }
     }
@@ -109,6 +114,7 @@ extension EmojisViewController: UISearchBarDelegate {
             self.didTapSearch = false
             self.emoji = nil
             self.emojiData = []
+            self.searchedEmojis = []
             self.getEmojis()
         } else {
             self.didTapSearch = true
@@ -122,7 +128,7 @@ extension EmojisViewController: UISearchBarDelegate {
 extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if self.didTapSearch {
-            return 1
+            return self.searchedEmojis.count
         } else {
             return self.emojiData.count
         }
@@ -131,7 +137,7 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiCollectionViewCell", for: indexPath) as! EmojiCollectionViewCell
         if self.didTapSearch {
-            cell.configCellData(emojiVal: self.emoji, fontHeight: CGFloat(100))
+            cell.configCellData(emojiVal: self.searchedEmojis[indexPath.row], fontHeight: CGFloat(100))
         } else {
             cell.configCellData(emojiVal: self.emojiData[indexPath.row], fontHeight: CGFloat(100))
         }
@@ -149,8 +155,8 @@ extension EmojisViewController: UICollectionViewDataSource, UICollectionViewDele
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "EmojiDetailViewController") as! EmojiDetailViewController
         if self.didTapSearch {
-            vc.emoji = self.emoji?.emoji ?? ""
-            vc.emojiData = self.emoji
+            vc.emoji = self.searchedEmojis[indexPath.row].emoji 
+            vc.emojiData = self.searchedEmojis[indexPath.row]
         } else {
             vc.emoji = self.emojiData[indexPath.row].emoji
             vc.emojiData = self.emojiData[indexPath.row]
