@@ -219,7 +219,7 @@
                             <constraint firstItem="KHD-wl-WqC" firstAttribute="leading" secondItem="MIZ-A7-f7P" secondAttribute="leading" id="jdA-73-pmv"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Emoji Categories" largeTitleDisplayMode="always" id="Qwl-QI-l2X">
+                    <navigationItem key="navigationItem" title="Emojis" largeTitleDisplayMode="always" id="Qwl-QI-l2X">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="search" id="fLq-YO-wXx">
                             <color key="tintColor" red="0.32156863810000003" green="0.59215688710000003" blue="0.41568624970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
